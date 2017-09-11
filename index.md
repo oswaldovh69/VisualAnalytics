@@ -4,7 +4,7 @@ Características Calidad del Agua – SIVICAP 2015
 
 El Instituto Nacional de Salud de Colombia (INS), dando cumplimiento a la normatividad establecida en el Decreto 1575 de 2007, creó el Sistema de Información de la Vigilancia de la Calidad del Agua para Consumo Humano (SIVICAP) que monitorea parámetros fisicoquímicos y microbiológicos en los suministros de agua potable de los municipios de Colombia.
 
-En el sitio web de [Datos abiertos de Colombia](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Caracter-sticas-Calidad-del-Agua-SIVICAP/jjzc-8w82) el INS depositó las mediciones obtenidas para 1019 municipios colombianos de todos los departamentos y les asignó un puntaje consolidado en la escala del Índice del Riesgo de la Calidad del Agua para Consumo Humano (IRCA) en el que se consideran los rangos de la siguiente manera:
+En el sitio web de [Datos abiertos de Colombia](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Caracter-sticas-Calidad-del-Agua-SIVICAP/jjzc-8w82) el INS depositó las mediciones obtenidas para 1019 municipios colombianos de todos los departamentos y les asignó un puntaje consolidado en la escala del Índice del Riesgo de la Calidad del Agua para Consumo Humano (IRCA) en el que se consideran [los siguientes rangos](http://www.aguasyaguas.com.co/calidad_agua/index.php/es/home-es-es/10-contenido/10-irca-definicion-analisis-e-interpretacion):
 
 | Clasificación IRCA (%)       | Nivel de riesgo           | Consideraciones                                          |
 | ---------------------------- |:-------------------------:| --------------------------------------------------------:|
