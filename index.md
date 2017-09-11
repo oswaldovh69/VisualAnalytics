@@ -1,8 +1,18 @@
-## Welcome to GitHub Pages
+## ¿Cuáles son los municipios con peor y mejor calidad del agua en Colombia?
 
-You can use the [editor on GitHub](https://github.com/ayalausma/ayala-usma.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Características Calidad del Agua – SIVICAP 2015
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+El Instituto Nacional de Salud de Colombia (INS), dando cumplimiento a la normatividad establecida en el Decreto 1575 de 2007, creó el Sistema de Información de la Vigilancia de la Calidad del Agua para Consumo Humano (SIVICAP) que monitorea parámetros fisicoquímicos y microbiológicos en los suministros de agua potable de los municipios de Colombia.
+
+En el sitio web de [Datos abiertos de Colombia](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Caracter-sticas-Calidad-del-Agua-SIVICAP/jjzc-8w82) el INS depositó las mediciones obtenidas para 1019 municipios colombianos de todos los departamentos y les asignó un puntaje consolidado en la escala del Índice del Riesgo de la Calidad del Agua para Consumo Humano (IRCA) en el que se consideran los rangos de la siguiente manera:
+
+| Clasificación IRCA (%)       | Nivel de riesgo           | Consideraciones                                          |
+| ---------------------------- |:-------------------------:| --------------------------------------------------------:|
+| 70.1 - 100                   | Inviable sanitariamente   | Agua no apta para el consumo humano. Requiere vigilancia máxima, especial y detallada  |
+| 35.1 - 70                    | Alto                      | Agua no apta para el consumo humano. Requiere vigilancia especial.|
+| 14.1 - 35                    | Medio                     | Agua no apta para el consumo humano. Gestión directa del prestador.    |
+| 5.1 - 14                     | Bajo                      | Agua no apta para el consumo humano. Susceptible de mejoramiento|
+| 0 - 5                        | Sin riesgo                | Agua apta para el consumo humano. Continuar vigilancia|
 
 <style>
 
@@ -11,7 +21,7 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 }
 
 </style>
-<svg width="960" height="500"></svg>
+<svg width="800" height="500"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
