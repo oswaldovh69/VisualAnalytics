@@ -1,0 +1,1024 @@
+ano,departamento,municipio,numero_de_muestras,promedio_irca
+2015,Bolívar,Norosí,16,91.43
+2015,Nariño,Sapuyes,55,24.81
+2015,Norte de Santander,Chinácota,25,23.42
+2015,Norte de Santander,Bucarasica,9,29.39
+2015,Córdoba,Momil,6,3.35
+2015,Boyacá,Guayatá,26,45.69
+2015,Cundinamarca,Ubaque,20,24.29
+2015,Nariño,Yacuanquer,61,44.76
+2015,Cauca,Puracé,24,15.37
+2015,Boyacá,Boyacá,30,39.28
+2015,Santander,Pinchote,10,5.19
+2015,Casanare,Aguazul,61,2.02
+2015,Norte de Santander,El Zulia,28,19.77
+2015,Cauca,Corinto,35,3.53
+2015,Santander,San Benito,5,27.14
+2015,Antioquia,Yondó,24,2.2
+2015,Antioquia,Armenia,25,0
+2015,Cundinamarca,Facatativá,85,2.01
+2015,Boyacá,Villa De Leyva,68,15.74
+2015,Meta,Puerto Gaitán,26,23.04
+2015,Putumayo,Mocoa,53,65.7
+2015,Meta,Barranca De Upía,18,32.9
+2015,Cundinamarca,Tibirita,12,15.61
+2015,Huila,Garzón,193,41.24
+2015,Nariño,El Tambo,128,53.84
+2015,Boyacá,Corrales,19,1.73
+2015,Nariño,Buesaco,123,40.04
+2015,Nariño,Nariño,20,23.38
+2015,Cundinamarca,Quetame,11,3.19
+2015,Caldas,Salamina,101,56.65
+2015,Casanare,San Luis De Palenque,13,23.1
+2015,Nariño,Cuaspud,21,37.2
+2015,Antioquia,Caldas,35,0
+2015,Boyacá,Chiscas,23,36.17
+2015,Huila,Isnos,62,51.41
+2015,Nariño,Pasto,389,29.36
+2015,Sucre,Santiago De Tolú,72,22.91
+2015,Cesar,Curumaní,42,0.94
+2015,Santander,Santa Bárbara,11,14.6
+2015,Antioquia,Envigado,24,0
+2015,Huila,Tello,57,51.54
+2015,Bolívar,San Juan Nepomuceno,7,20.05
+2015,Antioquia,Gómez Plata,29,0.67
+2015,Magdalena,San Sebastián De Buenavista,14,34.99
+2015,Valle del Cauca,Roldanillo,75,10.55
+2015,Bolívar,María La Baja,10,55
+2015,Córdoba,Cotorra,6,26.88
+2015,Valle del Cauca,Obando,44,26.67
+2015,Atlántico,Manatí,16,0
+2015,Santander,Jordán,8,22.93
+2015,Antioquia,Cocorná,27,6.3
+2015,Sucre,Ovejas,47,8.59
+2015,Cundinamarca,Pacho,37,0.73
+2015,Cauca,Toribio,33,7.68
+2015,Santander,Betulia,10,8.05
+2015,Sucre,Corozal,50,0
+2015,Boyacá,Betéitiva,23,55.34
+2015,Boyacá,Saboyá,23,21.01
+2015,Sucre,Majagual,45,14.56
+2015,Santander,Contratación,11,23.41
+2015,Boyacá,Cómbita,39,5.77
+2015,Nariño,Ospina,51,51.49
+2015,Magdalena,Cerro San Antonio,13,14.15
+2015,Nariño,Leiva,61,62.87
+2015,Cundinamarca,El Colegio,36,2.78
+2015,Magdalena,Puebloviejo,20,34.95
+2015,Quindio,Calarca,61,2.57
+2015,Casanare,Recetor,15,55.42
+2015,Boyacá,Chivatá,22,2.47
+2015,Antioquia,Don Matías,27,0.65
+2015,Meta,Guamal,20,25.7
+2015,Guainía,Barranco Minas,7,29.46
+2015,Norte de Santander,Abrego,28,19.81
+2015,Huila,La Plata,172,51.19
+2015,Nariño,Mallama,66,52.55
+2015,Antioquia,Valparaíso,27,0
+2015,Valle del Cauca,Zarzal,67,2.55
+2015,Risaralda,Belén De Umbría,43,15.19
+2015,Norte de Santander,Villa Del Rosario,118,7.8
+2015,Antioquia,Segovia,51,4.82
+2015,Tolima,Honda,1,0
+2015,Santander,Florián,7,40.64
+2015,Córdoba,San Carlos,6,3.05
+2015,Antioquia,Yolombó,27,1.91
+2015,Risaralda,Balboa,60,14.52
+2015,Antioquia,Maceo,23,8.72
+2015,Tolima,Rovira,18,19.28
+2015,Cauca,Caldono,29,15.17
+2015,Antioquia,Santo Domingo,28,2.21
+2015,Atlántico,Galapa,30,0.25
+2015,Caldas,Belalcázar,117,70.81
+2015,Valle del Cauca,Ulloa,23,14.86
+2015,Antioquia,Apartadó,138,0
+2015,Tolima,Falan,7,10.66
+2015,Huila,Gigante,64,53.46
+2015,Nariño,San Andres De Tumaco,58,51.3
+2015,Santander,Mogotes,11,4.65
+2015,Cundinamarca,Venecia,13,8.15
+2015,Meta,Lejanías,16,70.59
+2015,Cauca,Inzá,39,12.57
+2015,Cundinamarca,Sutatausa,12,4.46
+2015,Huila,Timaná,56,47.69
+2015,Cundinamarca,Funza,64,1.13
+2015,Cundinamarca,Granada,14,6.17
+2015,Magdalena,San Zenón,17,68.52
+2015,Antioquia,San Andrés De Cuerquía,26,1.63
+2015,Santander,Barbosa,9,30.99
+2015,Antioquia,Sopetrán,20,0
+2015,Boyacá,Ventaquemada,30,27.3
+2015,Boyacá,Tununguá,14,36.06
+2015,Valle del Cauca,Ansermanuevo,44,25.81
+2015,Cundinamarca,San Juan De Río Seco,20,45.87
+2015,Meta,Fuente De Oro,19,38.21
+2015,Antioquia,Sonson,26,2.99
+2015,Antioquia,Barbosa,41,1.42
+2015,Bolívar,San Fernando,12,53.43
+2015,Córdoba,Puerto Escondido,7,38.24
+2015,Nariño,Funes,51,50.79
+2015,Santander,Páramo,5,6.88
+2015,Vichada,Cumaribo,49,55.95
+2015,Bolívar,Achí,11,24.76
+2015,Magdalena,Zona Bananera,50,63.36
+2015,Nariño,Santa Bárbara,10,14.04
+2015,Cauca,Balboa,23,7.45
+2015,Huila,Rivera,63,35.65
+2015,Córdoba,Purísima,6,3.05
+2015,Bolívar,Morales,16,59.93
+2015,Cesar,Valledupar,219,0.65
+2015,Cundinamarca,El Rosal,22,1.75
+2015,Meta,Uribe,17,15.27
+2015,Bolívar,Hatillo De Loba,17,65.25
+2015,Santander,Encino,7,17.51
+2015,Boyacá,Tópaga,19,26.53
+2015,Meta,San Juan De Arama,27,42.95
+2015,Boyacá,Tibasosa,33,17.21
+2015,Magdalena,El Banco,57,2.97
+2015,Antioquia,Zaragoza,6,22.51
+2015,Cauca,Almaguer,26,7.55
+2015,Antioquia,Yalí,26,0
+2015,Norte de Santander,Lourdes,18,26.78
+2015,Caldas,Riosucio,162,46.38
+2015,Cundinamarca,Cogua,41,17.89
+2015,Cauca,San Sebastián,28,85.43
+2015,Arauca,Arauca,63,0.31
+2015,Santander,Chipatá,6,0.2
+2015,Santander,Simacota,11,3.12
+2015,Cundinamarca,Villa De San Diego De Ubate,64,0.33
+2015,Bolívar,Margarita,11,69.43
+2015,Cundinamarca,Carmen De Carupa,6,1.22
+2015,Bolívar,Regidor,8,5.07
+2015,Putumayo,Santiago,6,25.89
+2015,Cundinamarca,Macheta,12,12.4
+2015,Atlántico,Soledad,141,0
+2015,Bolívar,Arroyohondo,5,28.18
+2015,Norte de Santander,La Playa,10,33.65
+2015,Cundinamarca,Soacha,109,1.11
+2015,Antioquia,Santafé De Antioquia,25,4
+2015,Cundinamarca,Fomeque,22,14.31
+2015,Huila,Teruel,56,47.28
+2015,Valle del Cauca,Trujillo,25,22.12
+2015,Casanare,La Salina,6,11.16
+2015,Nariño,El Tablón De Gómez,151,51.13
+2015,Cundinamarca,Vergara,10,5.33
+2015,Cauca,Santander De Quilichao,61,11.73
+2015,Casanare,Tauramena,34,9.89
+2015,Bolívar,Altos Del Rosario,13,40.97
+2015,Antioquia,Guadalupe,28,2.74
+2015,Cesar,Aguachica,68,5.28
+2015,Cundinamarca,Apulo,13,27.71
+2015,Caldas,Marmato,92,58.82
+2015,Quindio,Génova,18,0
+2015,Nariño,Cumbitara,52,47.32
+2015,Boyacá,Maripí,24,13.56
+2015,Caquetá,San José Del Fragua,28,0.86
+2015,Risaralda,Pereira,349,7.07
+2015,Boyacá,Jericó,16,29.59
+2015,Santander,Sucre,7,42.57
+2015,Norte de Santander,Bochalema,20,24.5
+2015,Risaralda,Guática,76,14.58
+2015,Antioquia,Medellín,1218,1.43
+2015,Huila,Pitalito,233,46.88
+2015,Cesar,Tamalameque,6,100
+2015,Antioquia,Hispania,27,0.72
+2015,Cesar,La Jagua De Ibirico,18,8.33
+2015,Nariño,Francisco Pizarro,11,61.32
+2015,Bolívar,Tiquisio,17,56.75
+2015,Boyacá,Busbanzá,16,4.51
+2015,Nariño,Barbacoas,33,72.38
+2015,Meta,Mesetas,24,79.83
+2015,Antioquia,Titiribí,52,5.29
+2015,Quindio,Pijao,18,0.98
+2015,Bolívar,Calamar,6,16.67
+2015,Sucre,Los Palmitos,21,10.73
+2015,Cundinamarca,Gachancipá,20,1.92
+2015,Cundinamarca,Sesquilé,12,2.88
+2015,Santander,Molagavita,11,18.84
+2015,Cauca,Timbío,35,1.7
+2015,Cundinamarca,Susa,9,5.57
+2015,Boyacá,Tibaná,25,34.39
+2015,Casanare,Hato Corozal,25,47.61
+2015,Boyacá,Sutatenza,14,29.98
+2015,Sucre,Caimito,18,13.17
+2015,La Guajira,Maicao,32,4.21
+2015,Meta,Restrepo,35,7.79
+2015,Huila,Guadalupe,64,50.74
+2015,Huila,Aipe,58,43.28
+2015,Casanare,Támara,14,56.25
+2015,Norte de Santander,Teorama,12,41.64
+2015,Archipiélago de San Andrés Providencia y Santa Catalina,San Andrés,101,0.61
+2015,Cesar,Pailitas,39,58.29
+2015,Huila,Palermo,69,22.51
+2015,Magdalena,Guamal,49,22.08
+2015,Boyacá,Paipa,64,1.84
+2015,Santander,San Vicente De Chucurí,43,21.75
+2015,Cundinamarca,Zipaquirá,90,0.62
+2015,Cundinamarca,Sasaima,24,12.08
+2015,Cauca,Suárez,30,7.43
+2015,Santander,Oiba,12,0.44
+2015,Caldas,Risaralda,90,63.45
+2015,Córdoba,Sahagún,35,6.43
+2015,Antioquia,Arboletes,26,0.14
+2015,Antioquia,Puerto Berrío,44,5.26
+2015,Córdoba,Buenavista,7,28.81
+2015,Putumayo,San Miguel,14,59.4
+2015,Bolívar,Soplaviento,3,58.33
+2015,Cundinamarca,Paime,11,6.35
+2015,Magdalena,Salamina,15,21.28
+2015,Meta,El Calvario,20,50.8
+2015,Antioquia,Vegachí,28,3.71
+2015,Bolívar,Córdoba,12,39.18
+2015,Antioquia,Carolina,29,1.46
+2015,Atlántico,Tubará,17,3.43
+2015,Putumayo,Puerto Guzmán,10,14.52
+2015,Caquetá,Solita,4,52
+2015,Cundinamarca,Útica,12,4.44
+2015,Córdoba,La Apartada,6,52.32
+2015,Norte de Santander,Cucutilla,13,37.98
+2015,Boyacá,Tuta,32,11.13
+2015,Magdalena,Ariguaní,56,57.85
+2015,Santander,Capitanejo,9,27.08
+2015,Atlántico,Campo De La Cruz,21,77.49
+2015,Cundinamarca,Anolaima,53,11.4
+2015,Santander,Palmas Del Socorro,20,8.72
+2015,Santander,Socorro,32,6.21
+2015,Casanare,Paz De Ariporo,24,3.82
+2015,Cesar,San Alberto,60,1.57
+2015,Valle del Cauca,Riofrío,32,31.42
+2015,Caldas,Neira,122,64.97
+2015,Antioquia,Campamento,28,0.28
+2015,Antioquia,Dabeiba,48,2.16
+2015,Atlántico,Juan De Acosta,26,0
+2015,Antioquia,Necoclí,31,4.14
+2015,Santander,Charalá,8,0
+2015,Magdalena,Tenerife,19,61.3
+2015,Cundinamarca,El Peñón,12,1.8
+2015,Magdalena,Concordia,24,45.74
+2015,Bolívar,Magangué,11,40.91
+2015,Sucre,Guaranda,28,67.63
+2015,Sucre,Tolú Viejo,20,55.83
+2015,Cundinamarca,Guayabetal,11,7.85
+2015,Bolívar,Talaigua Nuevo,8,60.85
+2015,Cundinamarca,Nilo,24,3.19
+2015,Meta,Acacías,87,14.35
+2015,Cauca,Popayán,250,1.06
+2015,Atlántico,Santo Tomás,18,0
+2015,Nariño,Potosí,72,56.93
+2015,Bolívar,Arjona,5,7.5
+2015,Boyacá,Sutamarchán,33,50.47
+2015,Cauca,Timbiquí,23,96.08
+2015,Boyacá,Jenesano,33,28.57
+2015,Arauca,Arauquita,25,3.87
+2015,Bolívar,Turbaco,8,20.4
+2015,Santander,Puerto Parra,11,44.55
+2015,Cauca,Argelia,29,1.98
+2015,Valle del Cauca,El Dovio,24,38.87
+2015,Boyacá,Gameza,16,29.9
+2015,Atlántico,Puerto Colombia,24,0
+2015,Santander,Cepitá,9,10.76
+2015,Antioquia,Abejorral,44,0.79
+2015,Antioquia,San Juan De Urabá,21,47.63
+2015,Boyacá,Arcabuco,33,34.39
+2015,Cundinamarca,Caparrapí,12,15.11
+2015,Magdalena,Santa Marta,297,5.04
+2015,Caquetá,Solano,15,0
+2015,Córdoba,Tierralta,34,10.58
+2015,Bolívar,El Carmen De Bolívar,8,0
+2015,Casanare,Sácama,10,21.07
+2015,Valle del Cauca,La Cumbre,63,14.37
+2015,Boyacá,Almeida,23,39.88
+2015,Santander,Palmar,10,1.7
+2015,Antioquia,Amagá,26,4.02
+2015,Antioquia,Guatape,26,7.44
+2015,Antioquia,Cisneros,88,88.4
+2015,Boyacá,Susacón,22,28.55
+2015,Boyacá,Garagoa,38,19.88
+2015,Sucre,San Luis De Sincé,48,0.02
+2015,Cundinamarca,Fosca,12,9.21
+2015,Valle del Cauca,Florida,100,10.05
+2015,Meta,Cabuyaro,22,19.94
+2015,Huila,Acevedo,63,51.99
+2015,Nariño,Arboleda,79,70.97
+2015,Cauca,Guachené,19,17.49
+2015,Cundinamarca,La Peña,12,24.76
+2015,Magdalena,El Retén,14,45.08
+2015,Caquetá,La Montañita,15,18.4
+2015,Boyacá,Socha,33,46.42
+2015,Bolívar,Montecristo,11,72.73
+2015,Cundinamarca,Suesca,38,22.98
+2015,Huila,San Agustín,64,38.28
+2015,Boyacá,Santa Sofía,37,58.13
+2015,Antioquia,Nechí,12,1.61
+2015,Norte de Santander,Arboledas,18,19.71
+2015,Putumayo,Leguízamo,9,9.79
+2015,Córdoba,Lorica,36,9.57
+2015,Boyacá,Santa Rosa De Viterbo,41,22.91
+2015,Antioquia,La Ceja,106,0.66
+2015,Bolívar,San Pablo,15,27.5
+2015,Boyacá,Pisba,15,29.81
+2015,Boyacá,Sáchica,53,43.91
+2015,Cundinamarca,Yacopí,10,15.35
+2015,Magdalena,Aracataca,4,68.24
+2015,Antioquia,Támesis,20,3.98
+2015,Córdoba,Puerto Libertador,14,27.23
+2015,Valle del Cauca,Alcalá,33,18.03
+2015,Nariño,Imués,64,43.74
+2015,Boyacá,Sativanorte,16,26.55
+2015,Caquetá,Florencia,39,2.31
+2015,Boyacá,El Cocuy,26,23.58
+2015,Nariño,San Lorenzo,173,60.25
+2015,Antioquia,La Pintada,52,12.32
+2015,Guainía,Inírida,315,16.37
+2015,Boyacá,Sativasur,16,13.06
+2015,Risaralda,Apía,58,13.72
+2015,Caquetá,Belén De Los Andaquíes,14,0
+2015,Valle del Cauca,Candelaria,208,10.75
+2015,Nariño,Contadero,73,55.12
+2015,Boyacá,Socotá,23,44.17
+2015,Santander,Cerrito,9,20.78
+2015,Antioquia,Itagui,89,1.47
+2015,Cesar,Pelaya,7,41.89
+2015,Cesar,Pueblo Bello,35,16.55
+2015,Caquetá,Valparaíso,15,10.93
+2015,Antioquia,Granada,25,2.61
+2015,Córdoba,Pueblo Nuevo,6,54.24
+2015,Sucre,San Benito Abad,64,0
+2015,Quindio,Córdoba,15,4.65
+2015,Huila,Hobo,56,47.99
+2015,Caldas,Anserma,197,58.3
+2015,Atlántico,Sabanalarga,56,24.22
+2015,Cauca,La Vega,30,79.86
+2015,Boyacá,La Victoria,16,4.57
+2015,Valle del Cauca,Cartago,84,7.07
+2015,Cundinamarca,Pulí,8,19.04
+2015,Cundinamarca,Simijaca,9,2.44
+2015,Santander,Barrancabermeja,140,2.33
+2015,Nariño,Gualmatán,46,35.65
+2015,La Guajira,Fonseca,23,36.9
+2015,Meta,El Dorado,20,28.75
+2015,Cauca,Buenos Aires,30,5.3
+2015,Cundinamarca,Guaduas,34,3.91
+2015,Cundinamarca,Puerto Salgar,16,4.88
+2015,Cundinamarca,Choachí,11,3.39
+2015,Cesar,González,10,75.52
+2015,Cundinamarca,Nimaima,10,0
+2015,Antioquia,Amalfi,58,1.12
+2015,Cauca,Bolívar,28,1.62
+2015,Huila,Campoalegre,57,41.5
+2015,Antioquia,Remedios,28,5.66
+2015,Cundinamarca,Bojacá,8,16.91
+2015,Huila,La Argentina,60,62.31
+2015,Nariño,Olaya Herrera,33,83.1
+2015,Valle del Cauca,Tuluá,184,16.19
+2015,Nariño,Linares,94,54.78
+2015,Quindio,La Tebaida,58,7.01
+2015,Cundinamarca,Lenguazaque,12,26.17
+2015,Nariño,Mosquera,5,8.36
+2015,Cundinamarca,San Cayetano,12,0.58
+2015,Cundinamarca,Vianí,11,8.33
+2015,Meta,San Juanito,18,51.32
+2015,Cauca,Piamonte,25,89.56
+2015,Nariño,Los Andes,72,61.74
+2015,Norte de Santander,Herrán,9,24.77
+2015,Atlántico,Malambo,39,18.16
+2015,Valle del Cauca,Restrepo,19,20.76
+2015,Santander,Enciso,9,17.01
+2015,Cesar,El Copey,35,0.05
+2015,Boyacá,La Capilla,29,56.22
+2015,Cesar,Manaure,19,12.35
+2015,Santander,Guapotá,1,0
+2015,Sucre,Buenavista,16,34.85
+2015,Santander,Landázuri,4,0
+2015,Nariño,Roberto Payán,9,43
+2015,Santander,La Belleza,8,17.35
+2015,Risaralda,Santa Rosa De Cabal,55,14.19
+2015,Antioquia,Marinilla,76,1.19
+2015,Risaralda,Marsella,60,17.45
+2015,Antioquia,Betulia,26,1.02
+2015,Antioquia,Angelópolis,26,0
+2015,Antioquia,Pueblorrico,26,1.45
+2015,Putumayo,Valle Del Guamuez,17,70.14
+2015,Caldas,Pácora,100,40.07
+2015,Atlántico,Luruaco,47,66.31
+2015,Nariño,Aldana,34,15.01
+2015,Santander,Charta,10,21.58
+2015,Antioquia,Peque,20,11.54
+2015,Antioquia,San Pedro De Uraba,27,0.78
+2015,Cundinamarca,Tenjo,28,3.74
+2015,La Guajira,Barrancas,23,37.91
+2015,Cesar,Río De Oro,39,2.8
+2015,Nariño,Taminango,56,36.08
+2015,Santander,Cimitarra,8,16.97
+2015,Cauca,Totoró,35,38.23
+2015,Sucre,Sampués,62,35.49
+2015,Nariño,Ipiales,223,62.42
+2015,Cundinamarca,Quebradanegra,22,8.1
+2015,Caquetá,San Vicente Del Caguán,29,7.79
+2015,Meta,San Martín,32,16.87
+2015,Santander,Zapatoca,7,2.71
+2015,Huila,Villavieja,65,28.78
+2015,La Guajira,Distracción,13,13.77
+2015,Antioquia,San Vicente,28,0
+2015,Bolívar,Turbaná,1,46.87
+2015,Boyacá,Iza,23,4.6
+2015,Antioquia,Sabaneta,2,0
+2015,Cundinamarca,Villeta,62,2.88
+2015,Antioquia,Urrao,26,4.4
+2015,Quindio,Montenegro,23,3.64
+2015,Boyacá,Cuítiva,13,9.92
+2015,Antioquia,Girardota,44,0
+2015,Tolima,Mariquita,36,14.09
+2015,Valle del Cauca,Sevilla,77,8.48
+2015,Norte de Santander,Cácota,10,34.42
+2015,Cundinamarca,Topaipí,12,12.73
+2015,Antioquia,Caicedo,21,4.76
+2015,Boyacá,Chivor,23,39.25
+2015,Córdoba,Ayapel,8,10.16
+2015,Cundinamarca,Tena,31,10.99
+2015,Cundinamarca,Jerusalén,12,7.67
+2015,Boyacá,Duitama,183,23.17
+2015,Santander,El Guacamayo,12,17.27
+2015,Arauca,Cravo Norte,16,16.35
+2015,Santander,Ocamonte,5,6.82
+2015,Risaralda,Santuario,47,13.46
+2015,Antioquia,La Unión,19,3.73
+2015,Santander,Güepsa,6,14.06
+2015,Antioquia,Tarazá,13,1.49
+2015,Cesar,La Gloria,7,58.24
+2015,Cundinamarca,Chipaque,24,5.7
+2015,Antioquia,Montebello,25,0.31
+2015,Bolívar,Clemencia,9,50.98
+2015,Putumayo,Colón,17,34.02
+2015,Santander,Santa Helena Del Opón,8,65.76
+2015,Santander,Floridablanca,20,1.88
+2015,Antioquia,El Carmen De Viboral,49,1.13
+2015,Bolívar,Santa Catalina,10,85.35
+2015,Valle del Cauca,Cali,895,3.72
+2015,Magdalena,Pedraza,12,32.7
+2015,Boyacá,Cubará,9,0
+2015,Arauca,Saravena,16,0
+2015,Cundinamarca,Junín,12,7.04
+2015,Meta,Castilla La Nueva,22,30.28
+2015,Caldas,Samaná,128,56.8
+2015,Antioquia,Rionegro,52,1.41
+2015,Cauca,Florencia,26,5.33
+2015,Cauca,Puerto Tejada,35,26.47
+2015,Sucre,Galeras,31,40.57
+2015,Risaralda,Pueblo Rico,56,30.51
+2015,Santander,La Paz,9,25.05
+2015,Córdoba,San Antero,30,6.06
+2015,Arauca,Fortul,16,0
+2015,Valle del Cauca,El Águila,32,38.1
+2015,Huila,Suaza,51,46.61
+2015,Bolívar,Zambrano,12,52.14
+2015,Santander,Los Santos,10,4.54
+2015,Nariño,Colón,97,56.15
+2015,Valle del Cauca,Versalles,32,47.3
+2015,Caquetá,Curillo,19,16.21
+2015,Boyacá,Guacamayas,23,5.8
+2015,Nariño,Santacruz,101,56.25
+2015,Cundinamarca,Cajicá,56,0.7
+2015,Norte de Santander,Cachirá,10,28.61
+2015,Arauca,Tame,16,3.63
+2015,Atlántico,Candelaria,17,1.14
+2015,Cundinamarca,Sibaté,77,24.39
+2015,Quindio,Circasia,29,3.91
+2015,Risaralda,Quinchía,51,16.42
+2015,Meta,El Castillo,26,84.04
+2015,Antioquia,San Rafael,34,18.81
+2015,Sucre,Coloso,25,0
+2015,Santander,Tona,12,16.25
+2015,Norte de Santander,Los Patios,77,8.39
+2015,Norte de Santander,La Esperanza,9,33.87
+2015,La Guajira,Urumita,9,14.78
+2015,Antioquia,San Carlos,26,0.1
+2015,Archipiélago de San Andrés Providencia y Santa Catalina,Providencia,3,51.31
+2015,Valle del Cauca,Yotoco,31,29.6
+2015,Antioquia,Sabanalarga,21,1.84
+2015,Cesar,Bosconia,46,46.02
+2015,Bolívar,Santa Rosa,10,15
+2015,Nariño,El Charco,8,38.74
+2015,Casanare,Villanueva,42,30.78
+2015,Huila,Tesalia,63,33.61
+2015,Cauca,Caloto,60,43.23
+2015,Huila,Palestina,59,45.56
+2015,La Guajira,El Molino,13,3.02
+2015,Santander,Guadalupe,12,10.35
+2015,Santander,Onzaga,8,12.59
+2015,Vaupés,Mitú,19,18.65
+2015,Santander,Lebrija,30,7.56
+2015,Caquetá,Albania,24,0.5
+2015,Tolima,Armero,12,0.76
+2015,Boyacá,San Luis De Gaceno,26,24.8
+2015,Cundinamarca,Subachoque,8,7.22
+2015,Valle del Cauca,Toro,23,31.64
+2015,Meta,Granada,26,40.48
+2015,Santander,Albania,7,32
+2015,Boyacá,Pauna,26,39.02
+2015,Boyacá,Briceño,21,41.96
+2015,Boyacá,Cerinza,30,15.71
+2015,Bolívar,Cicuco,12,48.67
+2015,Caldas,La Dorada,82,14.78
+2015,Meta,Puerto Concordia,11,7.3
+2015,Cundinamarca,San Bernardo,13,0.08
+2015,Norte de Santander,Labateca,7,36.3
+2015,Casanare,Nunchía,19,11.21
+2015,Norte de Santander,Ragonvalia,16,11
+2015,Nariño,Guaitarilla,109,42.1
+2015,Santander,Jesús María,7,18.59
+2015,Córdoba,San José de Uré,3,18.48
+2015,Sucre,Morroa,21,46.13
+2015,Antioquia,Frontino,52,1.78
+2015,Cundinamarca,Tocaima,31,1.06
+2015,Cesar,Gamarra,17,25
+2015,Cundinamarca,Cabrera,13,9.68
+2015,Antioquia,Caramanta,25,0.14
+2015,Caldas,Palestina,60,24.67
+2015,Valle del Cauca,Caicedonia,76,12.6
+2015,Casanare,Sabanalarga,25,46.52
+2015,Antioquia,Jardín,26,2.47
+2015,Córdoba,Montería,128,0.04
+2015,Nariño,Samaniego,240,68.03
+2015,Antioquia,Jericó,25,1.06
+2015,Magdalena,Plato,29,21.29
+2015,Nariño,Guachucal,143,44.51
+2015,La Guajira,San Juan Del Cesar,14,13.79
+2015,Norte de Santander,Gramalote,1,19.29
+2015,Meta,Villavicencio,189,24.69
+2015,Quindio,Quimbaya,25,10.01
+2015,Magdalena,El Piñon,38,14.42
+2015,Cundinamarca,Beltrán,23,27.8
+2015,Cundinamarca,La Mesa,49,18.78
+2015,Boyacá,Cucaita,27,38.06
+2015,Boyacá,Berbeo,23,53.12
+2015,Risaralda,Mistrató,49,17.84
+2015,Valle del Cauca,Buenaventura,132,7.72
+2015,Casanare,Chameza,16,30.46
+2015,Santander,Guavatá,11,9.52
+2015,Antioquia,Alejandría,28,0
+2015,Huila,Agrado,56,51.69
+2015,Putumayo,Puerto Asís,12,43.89
+2015,Boyacá,Tinjacá,12,31.48
+2015,Boyacá,Soracá,29,18.9
+2015,Casanare,Yopal,395,11.72
+2015,Antioquia,Olaya,47,3.08
+2015,Bolívar,El Guamo,14,18.75
+2015,Nariño,Chachagüí,108,49.65
+2015,Boyacá,San José De Pare,23,49.05
+2015,Antioquia,Santa Rosa De Osos,30,1.43
+2015,Boyacá,Turmequé,72,52.72
+2015,Antioquia,Cañasgordas,27,2.87
+2015,Sucre,Chalán,36,10.3
+2015,Antioquia,Entrerrios,29,7.7
+2015,La Guajira,Riohacha,84,4.22
+2015,Risaralda,Dosquebradas,229,14.62
+2015,Boyacá,Soatá,33,41.33
+2015,Boyacá,Boavita,26,40.38
+2015,Meta,Cubarral,22,76.26
+2015,Risaralda,La Virginia,48,14.16
+2015,Norte de Santander,El Tarra,17,31.93
+2015,Boyacá,Paz De Río,23,24.56
+2015,Boyacá,Ráquira,29,61.52
+2015,Tolima,Fresno,16,12.04
+2015,Risaralda,La Celia,41,11.98
+2015,Boyacá,Oicatá,22,7.7
+2015,Cundinamarca,La Calera,39,2.38
+2015,Antioquia,Salgar,51,2.78
+2015,Cundinamarca,Silvania,26,11.46
+2015,Cesar,Chiriguaná,12,43.1
+2015,Santander,San Andrés,8,12.66
+2015,Bolívar,Simití,10,32.35
+2015,Atlántico,Polonuevo,13,0
+2015,Antioquia,Belmira,29,0.27
+2015,Cauca,Piendamó,34,18.51
+2015,Bolívar,Mahates,19,20.72
+2015,Meta,Puerto López,44,48.91
+2015,Antioquia,Valdivia,27,2.75
+2015,Norte de Santander,Cúcuta,93,1.6
+2015,Boyacá,San Pablo De Borbur,21,30.47
+2015,Magdalena,Sitionuevo,49,94.61
+2015,Antioquia,Turbo,69,4.62
+2015,Cundinamarca,Cachipay,45,10.58
+2015,Boyacá,Miraflores,49,11.43
+2015,Vichada,La Primavera,25,14.49
+2015,Boyacá,Ramiriquí,40,18.81
+2015,Antioquia,Caracolí,28,3.74
+2015,Antioquia,Anorí,25,1.86
+2015,Nariño,Sandoná,132,6.44
+2015,Caquetá,Puerto Rico,12,7.5
+2015,Nariño,La Florida,90,25.06
+2015,Nariño,Ancuyá,76,54.73
+2015,Nariño,Consaca,105,53.37
+2015,Santander,Barichara,11,4.38
+2015,Boyacá,San Miguel De Sema,16,8.83
+2015,Córdoba,Moñitos,14,31.58
+2015,Magdalena,Santa Bárbara De Pinto,13,76.42
+2015,Valle del Cauca,Andalucía,27,12.73
+2015,Boyacá,Chiquinquirá,74,7.9
+2015,La Guajira,Uribia,26,5.12
+2015,Magdalena,Algarrobo,17,23.34
+2015,Córdoba,Chimá,7,7.91
+2015,Nariño,Belén,37,65.03
+2015,Sucre,San Marcos,65,1.27
+2015,Santander,Piedecuesta,144,0.62
+2015,Caquetá,Morelia,21,89.05
+2015,Santander,Curití,10,13.89
+2015,Santander,Macaravita,7,18.17
+2015,Córdoba,Cereté,30,4.46
+2015,Antioquia,Andes,26,4.8
+2015,Norte de Santander,Tibú,13,5.13
+2015,Santander,Girón,73,1.4
+2015,Boyacá,Pachavita,23,46.55
+2015,Valle del Cauca,Pradera,90,5.57
+2015,Norte de Santander,San Cayetano,11,23.08
+2015,Nariño,Pupiales,52,62.4
+2015,Valle del Cauca,Argelia,26,39.36
+2015,Santander,San Gil,72,2.69
+2015,Antioquia,Argelia,154,89.17
+2015,Córdoba,Valencia,12,12.36
+2015,Antioquia,La Estrella,21,4.6
+2015,Antioquia,Mutatá,48,1.47
+2015,Boyacá,Zetaquira,22,55.73
+2015,Valle del Cauca,Palmira,173,31.36
+2015,Cundinamarca,Madrid,47,0.8
+2015,Atlántico,Usiacurí,18,2.15
+2015,Santander,Vélez,8,26.71
+2015,Bolívar,Cantagallo,13,45.56
+2015,Córdoba,Chinú,36,3.6
+2015,Cundinamarca,Zipacón,24,36.65
+2015,Boyacá,San Mateo,23,33.8
+2015,Norte de Santander,Pamplonita,12,32.4
+2015,Bolívar,San Martín De Loba,8,26.56
+2015,Boyacá,Macanal,25,39.6
+2015,Santander,Puente Nacional,11,9.55
+2015,Santander,Matanza,5,3.53
+2015,Cauca,Jambaló,33,0
+2015,Cauca,Padilla,29,4.12
+2015,Santander,Confines,2,8.52
+2015,Nariño,Córdoba,65,58.96
+2015,Córdoba,Planeta Rica,15,2.44
+2015,Valle del Cauca,El Cairo,35,43.45
+2015,Antioquia,Peñol,23,1.15
+2015,Cundinamarca,Nemocón,17,4.68
+2015,Norte de Santander,Convención,22,35.11
+2015,Bolívar,Villanueva,13,44.89
+2015,Norte de Santander,Sardinata,19,28.37
+2015,Norte de Santander,Villa Caro,7,32.21
+2015,Sucre,San Onofre,51,7
+2015,Norte de Santander,Chitagá,14,34.39
+2015,Boyacá,Panqueba,23,45.45
+2015,Sucre,La Unión,21,10.82
+2015,Huila,Baraya,63,49.39
+2015,La Guajira,Albania,6,21.91
+2015,Valle del Cauca,Calima,24,37.06
+2015,Tolima,Ibagué,514,49.64
+2015,Antioquia,San Roque,29,2.96
+2015,Huila,Yaguará,63,40.57
+2015,Cundinamarca,La Vega,12,0
+2015,Cundinamarca,Bituima,10,5.53
+2015,Córdoba,Tuchin,3,0
+2015,Huila,Saladoblanco,56,52.35
+2015,Antioquia,Uramita,49,9.63
+2015,Santander,El Playón,11,50.4
+2015,Cundinamarca,Ubalá,11,12.38
+2015,Antioquia,San Francisco,23,5.59
+2015,Cundinamarca,Gutiérrez,12,18.6
+2015,Antioquia,Heliconia,30,0.88
+2015,Sucre,Coveñas,29,9.25
+2015,Valle del Cauca,Guacarí,33,16.84
+2015,Caquetá,El Doncello,21,0.1
+2015,Antioquia,Ebéjico,18,0
+2015,Nariño,Magüi,9,82.14
+2015,Cundinamarca,Guachetá,12,4.63
+2015,Boyacá,Rondón,14,45.26
+2015,Antioquia,Giraldo,22,1.21
+2015,Antioquia,Venecia,25,0.74
+2015,La Guajira,Manaure,20,6.9
+2015,Cauca,Mercaderes,32,5.63
+2015,Antioquia,San Luis,39,8.48
+2015,Santander,Sabana De Torres,46,8.26
+2015,Huila,Pital,63,56.59
+2015,Santander,Bucaramanga,196,2.68
+2015,Boyacá,Campohermoso,15,0.98
+2015,Boyacá,Santa María,19,33.55
+2015,Boyacá,Páez,22,44.39
+2015,Norte de Santander,Salazar,15,22.42
+2015,Boyacá,Coper,24,41
+2015,Cundinamarca,Agua De Dios,24,0.69
+2015,Cundinamarca,Une,10,4.91
+2015,Santander,Carcasí,8,8.88
+2015,Putumayo,Villagarzón,13,53.36
+2015,Atlántico,Ponedera,36,2.63
+2015,Boyacá,Sora,24,22.47
+2015,Cundinamarca,Medina,12,5.31
+2015,Huila,Neiva,150,22.76
+2015,Caldas,Victoria,65,64.83
+2015,Boyacá,Togüí,30,51.92
+2015,Antioquia,Cáceres,21,17.91
+2015,Córdoba,Montelíbano,36,9.35
+2015,Cesar,San Martín,13,13.48
+2015,Tolima,Casabianca,2,0
+2015,Nariño,La Cruz,102,50.27
+2015,Caldas,Manizales,127,43.92
+2015,Caldas,Supía,127,64.83
+2015,Santander,Concepción,9,24.62
+2015,Boyacá,Güicán,24,31.28
+2015,Santander,Valle De San José,6,14.37
+2015,Huila,Oporapa,57,61.03
+2015,Cundinamarca,Tabio,13,9.42
+2015,Boyacá,Viracachá,23,27.83
+2015,Caldas,Filadelfia,117,62.24
+2015,Atlántico,Piojó,17,0
+2015,Meta,La Macarena,14,22.65
+2015,Córdoba,Los Córdobas,6,10.98
+2015,Atlántico,Barranquilla,261,0
+2015,Caldas,Norcasia,53,55.71
+2015,Bolívar,Santa Rosa Del Sur,12,80.89
+2015,Boyacá,Buenavista,16,35.03
+2015,Bolívar,Barranco De Loba,11,35.74
+2015,Atlántico,Sabanagrande,18,0
+2015,Valle del Cauca,Dagua,75,26.91
+2015,Antioquia,San José De La Montaña,27,1.73
+2015,Cauca,Paez,35,1.32
+2015,Antioquia,Anza,22,0.88
+2015,Antioquia,Liborina,24,0
+2015,Boyacá,Gachantivá,22,37.39
+2015,Huila,Iquira,61,45.95
+2015,Norte de Santander,Puerto Santander,12,10.92
+2015,Boyacá,Sotaquirá,73,44.06
+2015,Valle del Cauca,San Pedro,23,17.87
+2015,Atlántico,Santa Lucía,16,45.34
+2015,Boyacá,Pesca,34,36.72
+2015,Sucre,El Roble,12,26.49
+2015,Huila,Santa María,35,45.67
+2015,Cauca,Morales,35,8.01
+2015,Huila,Nátaga,62,52.22
+2015,Caldas,Aranzazu,120,69.07
+2015,Magdalena,Nueva Granada,11,41.46
+2015,Cauca,Villa Rica,10,28.08
+2015,Cundinamarca,Quipile,11,4.86
+2015,Cundinamarca,Fusagasugá,204,0.69
+2015,Cundinamarca,Chaguaní,12,11.25
+2015,Norte de Santander,Pamplona,57,8.35
+2015,Quindio,Salento,27,6.67
+2015,Caldas,Pensilvania,111,58.2
+2015,Bolívar,San Estanislao,16,28.95
+2015,Antioquia,El Bagre,34,3.23
+2015,Boyacá,Chinavita,30,55.57
+2015,Norte de Santander,Mutiscua,9,22.3
+2015,Santander,Cabrera,11,7.03
+2015,Meta,Puerto Rico,14,6.69
+2015,Santander,El Peñón,7,18.14
+2015,Caldas,Chinchiná,151,22.63
+2015,Casanare,Trinidad,14,33.16
+2015,Cundinamarca,Gachala,12,0
+2015,Bolívar,San Jacinto Del Cauca,9,71.67
+2015,Boyacá,Monguí,26,55.58
+2015,Nariño,Albán,75,49.73
+2015,Boyacá,Umbita,22,43.38
+2015,Putumayo,San Francisco,10,59.18
+2015,Magdalena,Pivijay,36,23.07
+2015,Vichada,Puerto Carreño,43,10.02
+2015,Boyacá,Santana,32,45.57
+2015,Cundinamarca,Cucunubá,27,1.74
+2015,Valle del Cauca,La Victoria,35,15.31
+2015,Cesar,San Diego,1,0
+2015,Santander,Villanueva,7,2.68
+2015,Atlántico,Repelón,35,19.76
+2015,Antioquia,Puerto Nare,78,1.03
+2015,Córdoba,San Bernardo Del Viento,12,40.52
+2015,Cundinamarca,Pasca,12,19.28
+2015,Boyacá,Puerto Boyacá,86,10
+2015,Nariño,Cumbal,122,42.58
+2015,Bolívar,El Peñón,11,41.63
+2015,Santander,San Joaquín,7,4.95
+2015,Boyacá,Tunja,233,13.68
+2015,Boyacá,Somondoco,24,55.09
+2015,Atlántico,Baranoa,29,32.68
+2015,Antioquia,Caucasia,70,1.69
+2015,Cundinamarca,Paratebueno,12,17.66
+2015,Nariño,Iles,118,50.4
+2015,Boyacá,Otanche,23,37.8
+2015,Norte de Santander,Durania,17,24.17
+2015,Nariño,Ricaurte,69,61.11
+2015,Caquetá,Milán,22,40.64
+2015,Cauca,El Tambo,26,0
+2015,Norte de Santander,Toledo,18,33.88
+2015,Antioquia,Abriaquí,24,4.63
+2015,Nariño,La Tola,3,28.4
+2015,Tolima,Anzoátegui,22,17.09
+2015,Boyacá,Toca,33,45.02
+2015,Norte de Santander,San Calixto,13,40.48
+2015,Cauca,Patía,24,3.75
+2015,Boyacá,Covarachía,16,31.44
+2015,Santander,Aguada,9,9.87
+2015,La Guajira,Hato Nuevo,11,32.07
+2015,Bolívar,Río Viejo,8,51.92
+2015,Bolívar,San Cristóbal,13,32.27
+2015,Caldas,Marulanda,30,52.03
+2015,Huila,Tarqui,62,36.97
+2015,Cundinamarca,Mosquera,60,0.59
+2015,Córdoba,San Pelayo,13,49.59
+2015,Cauca,Cajibío,35,2.71
+2015,Bogotá DC,Bogotá DC,2546,7.35
+2015,Nariño,San Pedro De Cartago,74,57.83
+2015,Putumayo,Orito,3,78.65
+2015,Cundinamarca,Supatá,12,7.89
+2015,Bolívar,Pinillos,8,25.76
+2015,Cundinamarca,Chía,74,0.37
+2015,Boyacá,Pajarito,16,30.05
+2015,Magdalena,Fundación,57,23.99
+2015,Vichada,Santa Rosalía,54,9.01
+2015,Cundinamarca,Tibacuy,12,4.66
+2015,Boyacá,Nuevo Colón,29,18.87
+2015,Sucre,Sucre,15,16.95
+2015,Antioquia,Retiro,53,1.21
+2015,Caldas,Aguadas,170,57.81
+2015,Córdoba,Ciénaga De Oro,31,4.16
+2015,Cundinamarca,Guayabal De Siquima,12,8.33
+2015,Cesar,Chimichagua,3,0.52
+2015,Cundinamarca,La Palma,9,32.49
+2015,Santander,Málaga,15,3.98
+2015,Casanare,Monterrey,48,44.77
+2015,Valle del Cauca,Ginebra,37,37.05
+2015,Antioquia,Angostura,29,0.85
+2015,Atlántico,Suan,18,14.9
+2015,Cundinamarca,Gama,13,4.09
+2015,Boyacá,Paya,15,25.74
+2015,Magdalena,Remolino,18,54.01
+2015,Cundinamarca,Caqueza,11,3.13
+2015,Antioquia,Ciudad Bolívar,77,4.02
+2015,Cundinamarca,San Antonio Del Tequendama,17,1.18
+2015,Boyacá,Ciénega,30,48.95
+2015,Cundinamarca,Girardot,52,0.72
+2015,Cundinamarca,Nocaima,12,7.96
+2015,Nariño,Tangua,95,42.33
+2015,Tolima,Ortega,16,11.2
+2015,Casanare,Orocué,12,12.13
+2015,Santander,Vetas,4,43.15
+2015,Boyacá,Tutazá,16,4.19
+2015,Cundinamarca,Pandi,14,13.85
+2015,Cauca,Santa Rosa,25,1.75
+2015,Putumayo,Puerto Caicedo,13,26.76
+2015,Boyacá,Chíquiza,12,21.92
+2015,Córdoba,Canalete,7,55.93
+2015,Valle del Cauca,Yumbo,288,17.99
+2015,Cundinamarca,Guataquí,10,21.71
+2015,Santander,San Miguel,11,3.3
+2015,Magdalena,Sabanas De San Angel,20,2.82
+2015,Santander,California,8,4.4
+2015,Antioquia,Nariño,47,58.78
+2015,Boyacá,Floresta,18,13.28
+2015,Magdalena,Zapayán,11,88.84
+2015,Sucre,Palmito,17,43.66
+2015,Santander,Coromoro,3,27.53
+2015,Quindio,Filandia,24,0
+2015,Boyacá,Belén,33,34.21
+2015,Boyacá,Nobsa,44,4.47
+2015,Casanare,Pore,28,44.31
+2015,Cundinamarca,Anapoima,42,12.02
+2015,Cundinamarca,Viotá,10,8.65
+2015,Atlántico,Palmar De Varela,19,0
+2015,Boyacá,Mongua,28,44.67
+2015,Boyacá,Firavitoba,26,8.7
+2015,Cesar,Astrea,12,40.52
+2015,Santander,Rionegro,10,20.57
+2015,La Guajira,Dibulla,23,85.5
+2015,Boyacá,Labranzagrande,24,39.67
+2015,Norte de Santander,Santiago,6,4.4
+2015,Valle del Cauca,La Unión,72,11.8
+2015,Antioquia,Concordia,22,4.45
+2015,Valle del Cauca,Bugalagrande,55,19.4
+2015,Arauca,Puerto Rondón,17,1.14
+2015,Boyacá,San Eduardo,21,55.55
+2015,Cesar,Agustín Codazzi,58,5.94
+2015,Cauca,Rosas,30,8.82
+2015,Nariño,El Rosario,69,58.49
+2015,Santander,Hato,10,3.54
+2015,Bolívar,Cartagena,467,0.01
+2015,Meta,San Carlos De Guaroa,17,21.27
+2015,Antioquia,Carepa,43,0
+2015,Nariño,Providencia,59,63.83
+2015,Huila,Altamira,61,52.24
+2015,Boyacá,Tasco,28,5.35
+2015,Antioquia,Concepción,27,0.13
+2015,Antioquia,Toledo,24,11.02
+2015,Chocó,Cértegui,3,31.74
+2015,Cauca,Miranda,34,4.79
+2015,Tolima,Rioblanco,12,16.45
+2015,Sucre,Sincelejo,102,2.28
+2015,Antioquia,Guarne,26,1.73
+2015,Magdalena,Santa Ana,56,62.97
+2015,Nariño,La Llanada,34,46.43
+2015,Antioquia,Copacabana,51,0.76
+2015,Cauca,Sucre,19,0.21
+2015,Boyacá,Motavita,23,8.38
+2015,Valle del Cauca,Jamundí,122,7.72
+2015,Boyacá,Tenza,21,35.49
+2015,Nariño,San Bernardo,70,62.45
+2015,Cundinamarca,Sopó,42,0.04
+2015,Quindio,Armenia,131,0.36
+2015,Antioquia,El Santuario,72,2.11
+2015,Boyacá,Chita,19,9.38
+2015,Boyacá,Tipacoque,16,28.92
+2015,Bolívar,Mompós,9,24.35
+2015,Boyacá,La Uvita,22,34.94
+2015,Quindio,Buenavista,29,0.66
+2015,Nariño,La Unión,142,59.95
+2015,Boyacá,Aquitania,35,27.12
+2015,Boyacá,Tota,28,48.06
+2015,Cundinamarca,Ricaurte,12,0
+2015,Antioquia,Betania,29,3.16
+2015,Valle del Cauca,Vijes,48,44.37
+2015,Nariño,Túquerres,222,53.26
+2015,Santander,El Carmen De Chucurí,6,0.28
+2015,Tolima,Villarrica,14,87.05
+2015,Cundinamarca,Cota,46,10.44
+2015,Boyacá,Siachoque,30,30.83
+2015,Cundinamarca,Tocancipá,44,0.37
+2015,Bolívar,Arenal,14,59.09
+2015,Santander,Suratá,12,23.27
+2015,Boyacá,Quípama,25,8.67
+2015,Santander,Guaca,11,12.98
+2015,Santander,Bolívar,8,4.81
+2015,Cundinamarca,Gachetá,12,5.79
+2015,Huila,Algeciras,62,50.81
+2015,Santander,Chima,11,11.66
+2015,Caldas,San José,82,58.56
+2015,Huila,Paicol,63,50.84
+2015,Antioquia,San Pedro De Los Milagros,29,0.73
+2015,Santander,Gambita,10,16.69
+2015,Valle del Cauca,Guadalajara De Buga,118,32.44
+2015,Antioquia,Buriticá,21,0.92
+2015,La Guajira,La Jagua Del Pilar,12,31.74
+2015,Norte de Santander,Hacarí,9,25.95
+2015,Magdalena,Chibolo,21,61.87
+2015,Cesar,Becerril,7,29.91
+2015,Cundinamarca,Albán,24,7.03
+2015,Cundinamarca,Manta,12,24.17
+2015,Caldas,Marquetalia,120,67.6
+2015,Caldas,Manzanares,135,61.65
+2015,Meta,Cumaral,44,21.6
+2015,Antioquia,Puerto Triunfo,80,9.48
+2015,Nariño,Policarpa,65,67.53
+2015,Putumayo,Sibundoy,12,56.06
+2015,Caldas,Viterbo,60,51.13
+2015,Cundinamarca,Tausa,19,2.97
+2015,Magdalena,Ciénaga,116,3.6
+2015,Huila,Elías,61,53.34
+2015,Huila,Colombia,61,57.74
+2015,Cundinamarca,Chocontá,12,3.11
+2015,Boyacá,Sogamoso,129,15.7
+2015,Santander,Aratoca,9,31.93
+2015,Cundinamarca,Guasca,39,4.89
+2015,Cauca,Sotará,35,17.37
+2015,Cauca,Silvia,29,0
+2015,Santander,San José De Miranda,9,14.73
+2015,Cundinamarca,Guatavita,12,23.78
+2015,Antioquia,Chigorodó,49,0.04
+2015,Antioquia,Bello,129,0.85
+2015,Boyacá,Caldas,21,29.9
+2015,Boyacá,Guateque,37,27.9
+2015,Santander,Suaita,9,16.04
+2015,Boyacá,Muzo,18,32.76
+2015,Antioquia,Santa Bárbara,26,0
+2015,Cundinamarca,Nariño,12,29.07
+2015,Casanare,Maní,12,0
+2015,Meta,Puerto Lleras,20,14.52
+2015,Valle del Cauca,Bolívar,39,33.12
+2015,Cundinamarca,Fúquene,13,0
+2015,Cundinamarca,Villapinzón,12,0.31
+2015,Córdoba,San Andrés Sotavento,6,14.84
+2015,Antioquia,Yarumal,114,5.65
+2015,Meta,Vista Hermosa,25,43.22
+2015,Caldas,Villamaría,194,53.58
+2015,Antioquia,San Jerónimo,22,0
+2015,Valle del Cauca,El Cerrito,94,6.55
+2015,Norte de Santander,Ocaña,61,7.96
+2015,Cauca,La Sierra,28,11.77
+2015,Boyacá,Samacá,32,19.84
+2015,Sucre,San Pedro,30,0
+2015,Cundinamarca,Arbeláez,13,20.2
+2015,Norte de Santander,El Carmen,14,16.99
+2015,Santander,Puerto Wilches,20,41.69
+2015,Cesar,El Paso,9,50.46
+2015,Magdalena,Pijiño Del Carmen,13,36.1
+2015,Antioquia,Fredonia,26,0
+2015,Boyacá,Chitaraque,23,33.63
+2015,Nariño,San Pablo,99,58.05
+2015,Boyacá,Moniquirá,45,35.2
+2015,Cundinamarca,Villagómez,12,5.06
+2015,Antioquia,Ituango,40,26.94
+2015,Antioquia,Briceño,27,0.65
+2015,Santander,Galán,11,13.39
+2015,Nariño,Puerres,78,56.15
+2015,Boyacá,El Espino,23,36.37
+2015,Antioquia,Tarso,27,3.47
+2015,Nariño,El Peñol,39,48.28
+2015,Cesar,La Paz,60,8.14
+2015,La Guajira,Villanueva,20,8.32
+2015,Cundinamarca,San Francisco,17,3.8
+2015,Sucre,San Juan De Betulia,20,34.87
+2015,Caldas,La Merced,54,57.32
+2015,Norte de Santander,Silos,17,26.86
