@@ -23,7 +23,7 @@ En el sitio web de [Datos abiertos de Colombia](https://www.datos.gov.co/Salud-y
 }
 
 </style>
-<svg width="960" height="500"></svg>
+<svg width="832" height="434"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
