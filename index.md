@@ -1,6 +1,6 @@
 ## ¿Cuáles son los municipios con peor y mejor calidad del agua en Colombia?
 
-Características Calidad del Agua – SIVICAP 2015
+### Contexto: Características Calidad del Agua – SIVICAP 2015
 
 El Instituto Nacional de Salud de Colombia (INS), dando cumplimiento a la normatividad establecida en el Decreto 1575 de 2007, creó el Sistema de Información de la Vigilancia de la Calidad del Agua para Consumo Humano (SIVICAP) que monitorea parámetros fisicoquímicos y microbiológicos en los suministros de agua potable de los municipios de Colombia.
 
@@ -14,6 +14,8 @@ En el sitio web de [Datos abiertos de Colombia](https://www.datos.gov.co/Salud-y
 | 5.1 - 14                     | Bajo                      | Agua **NO** apta para el consumo humano. Susceptible de mejoramiento|
 | 0 - 5                        | Sin riesgo                | Agua **APTA** para el consumo humano. Continuar vigilancia|
 
+### Misión
+En este trabajo busco explorar los datos para entender cuáles son los departamentos y municipios que presentan la mejor y la peor calidad del agua en el país por medio de un gráfico de barras que represente el IRCA promedio de cada departamento.
 
 
 <style>
