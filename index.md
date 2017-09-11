@@ -14,6 +14,7 @@ En el sitio web de [Datos abiertos de Colombia](https://www.datos.gov.co/Salud-y
 | 5.1 - 14                     | Bajo                      | Agua no apta para el consumo humano. Susceptible de mejoramiento|
 | 0 - 5                        | Sin riesgo                | Agua apta para el consumo humano. Continuar vigilancia|
 
+
 <style>
 
 .axis .domain {
@@ -21,7 +22,7 @@ En el sitio web de [Datos abiertos de Colombia](https://www.datos.gov.co/Salud-y
 }
 
 </style>
-<svg width="800" height="500"></svg>
+<svg width="960" height="500"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
