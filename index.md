@@ -8,11 +8,12 @@ En el sitio web de [Datos abiertos de Colombia](https://www.datos.gov.co/Salud-y
 
 | Clasificación IRCA (%)       | Nivel de riesgo           | Consideraciones                                          |
 | ---------------------------- |:-------------------------:| --------------------------------------------------------:|
-| 70.1 - 100                   | Inviable sanitariamente   | Agua no apta para el consumo humano. Requiere vigilancia máxima, especial y detallada  |
-| 35.1 - 70                    | Alto                      | Agua no apta para el consumo humano. Requiere vigilancia especial.|
-| 14.1 - 35                    | Medio                     | Agua no apta para el consumo humano. Gestión directa del prestador.    |
-| 5.1 - 14                     | Bajo                      | Agua no apta para el consumo humano. Susceptible de mejoramiento|
-| 0 - 5                        | Sin riesgo                | Agua apta para el consumo humano. Continuar vigilancia|
+| 70.1 - 100                   | Inviable sanitariamente   | Agua **NO** apta para el consumo humano. Requiere vigilancia máxima, especial y detallada  |
+| 35.1 - 70                    | Alto                      | Agua **NO** apta para el consumo humano. Requiere vigilancia especial.|
+| 14.1 - 35                    | Medio                     | Agua **NO** apta para el consumo humano. Gestión directa del prestador.    |
+| 5.1 - 14                     | Bajo                      | Agua **NO** apta para el consumo humano. Susceptible de mejoramiento|
+| 0 - 5                        | Sin riesgo                | Agua **APTA** para el consumo humano. Continuar vigilancia|
+
 
 
 <style>
