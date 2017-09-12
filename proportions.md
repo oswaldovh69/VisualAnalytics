@@ -1,6 +1,6 @@
-#### Hallazgos (Insights)
+### Hallazgos (Insights)
 
-##### Proporción de municipios en las diferentes categorías del IRCA
+#### Proporción de municipios en las diferentes categorías del IRCA
 
 <style>
 body {
