@@ -1,4 +1,4 @@
-## ¿Cuáles son los municipios con peor y mejor calidad del agua en Colombia?
+## ¿Cuál es el panorama de la calidad de agua en Colombia por departamentos?
 
 ### Contexto: Características Calidad del Agua – SIVICAP 2015
 
