@@ -1,4 +1,4 @@
-## ¿Cuál es el panorama de la calidad de agua en Colombia por departamentos?
+## ¿Cuál es el panorama de la calidad de agua en los departamentos de Colombia?
 
 ### Contexto: Características Calidad del Agua – SIVICAP 2015
 
