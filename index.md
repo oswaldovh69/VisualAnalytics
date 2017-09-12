@@ -162,7 +162,7 @@ d3.csv("datasets/sivicap2015_viz1.csv", function(error, data) {
 
 ##### Proporción de municipios con mayor riesgo por departamento
 
-[OLA BB]({% VisualAnalytics/name-of-document.md %})
+[OLA BB](proportions.md)
 
 
 ### Hallazgos (Insights)
