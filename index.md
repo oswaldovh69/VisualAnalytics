@@ -19,7 +19,7 @@ En este trabajo busco explorar los datos para entender la distribución actual d
 
 #### Hallazgos (Insights)
 
-##### Departamentos ordenados por su riesgo mediano
+##### Departamentos ordenados por el riesgo mediano
 
 <style>
 body {
