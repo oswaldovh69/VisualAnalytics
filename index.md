@@ -163,14 +163,14 @@ d3.csv("datasets/sivicap2015_viz2.csv", function(d, i, columns) {
       
   //Creación del rectángulo del tooltip
   tooltip.append("rect")
-    .attr("width", 355)
+    .attr("width", 360)
     .attr("height", 22)
     .attr("fill", "white")
     .style("opacity", 0.4);
 
   //Justificación del texto en el rectángulo
   tooltip.append("text")
-    .attr("x", 1)
+    .attr("x", 2)
     .attr("dy", "1.2em")
     .style("text-anchor", "center")
     .attr("font-size", "12px")
