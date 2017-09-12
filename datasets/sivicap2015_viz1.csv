@@ -1,7 +1,7 @@
-"departamento","municipiosDepartamento","IRCA.promedio","municipioIRCAAlto","IRCAMasAlto","municipioIRCABajo","IRCAMasBajo"
+"departamento","municipiosDepartamento","IRCAPromedio","municipioIRCAAlto","IRCAMasAlto","municipioIRCABajo","IRCAMasBajo"
 "Antioquia",123,1.689285,"Argelia",89.17461,"Alejandría",0
 "Arauca",7,1.887804,"Cravo Norte",8.328117,"Saravena",0.444827
-"Archipiélago de San Andrés, Providencia y Santa Catalina",2,25.9640425,"Providencia",51.313333,"San Andrés",0.614752
+"San Andrés y Providencia",2,25.9640425,"Providencia",51.313333,"San Andrés",0.614752
 "Atlántico",23,0.921428,"Campo De La Cruz",77.764285,"Manatí",0
 "Bogotá, D.C.",1,7.350314,"Bogotá, D.C.",7.350314,"Bogotá, D.C.",7.350314
 "Bolívar",45,40.970769,"Norosí",91.3975,"El Carmen De Bolívar",0
