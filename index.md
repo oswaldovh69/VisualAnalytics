@@ -27,8 +27,8 @@ En este trabajo busco explorar los datos para entender cuáles son los departame
 </style>
 <svg width="832" height="434"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
-<script>
 
+<script>
 var svg = d3.select("svg"),
     margin = {top: 20, right: 20, bottom: 30, left: 40},
     width = +svg.attr("width") - margin.left - margin.right,
@@ -111,7 +111,6 @@ d3.csv("VisualAnalytics/datasets/barchart_data.csv", function(d, i, columns) {
       .attr("dy", "0.32em")
       .text(function(d) { return d; });
 });
-
 </script>
 
 ### Hallazgos (Insights)
