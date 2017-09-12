@@ -163,4 +163,8 @@ d3.csv("datasets/sivicap2015_viz2.csv", function(d, i, columns) {
 
 </script>
 
-Se puede observar que...
+* El departamento de Arauca encabeza la lista de los departamentos con mayor proporción de municipios cuyos suministros de agua de consumo no representan riesgo para los humanos.
+
+* Los departamentos con la mediana más baja del índice IRCA son, también, aquellos que presentan la mayor proporción de municipios sin riesgo.
+
+* Si existe alguna relación espacial de estos índices con cuencas hídricas clave o con iniciativas públicas o privadas de tratamiento de aguas, no es evidente a partir de estos datos y será necesario realizar otro tipo de visualización.
