@@ -61,7 +61,7 @@ var z = d3.scaleOrdinal()
     .range(["#bd0026","#f03b20","#fd8d3c","#fecc5c","#f1eef6"]);
 
 //Carga de los datos para la visualización. Son datos procesados derivados de los 
-d3.csv("viz2.csv", function(d, i, columns) {
+d3.csv("datasets/sivicap2015_viz2.csv", function(d, i, columns) {
   for (i = 1, t = 0; i < 6; ++i) t += d[columns[i]] = +d[columns[i]];
   d.total = t;
   return d;
