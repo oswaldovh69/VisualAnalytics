@@ -96,7 +96,7 @@ d3.csv("datasets/sivicap2015_viz1.csv", function(error, data) {
   
   var maximumIRCAValue = 100;
   
-		data.sort(function(a, b) { return a.IRCAPromedio - b.IRCAPromedio});
+   data.sort(function(a, b) { return a.IRCAPromedio - b.IRCAPromedio});
     x.domain(data.map(function(d) { return d.departamento; }));
     y.domain([0, maximumIRCAValue]).nice();
   
@@ -106,9 +106,9 @@ d3.csv("datasets/sivicap2015_viz1.csv", function(error, data) {
         .attr("transform", "translate(0," + height + ")")
         .call(d3.axisBottom(x))
         .selectAll("text")
-  				.attr("transform", "rotate(45)")
-      		.attr("text-anchor", "start")
-  				.attr("font-size", "13");
+	.attr("transform", "rotate(45)")
+      	.attr("text-anchor", "start")
+  	.attr("font-size", "13");
   
     //Definiciones del eje Y: Etiquetas, rótulo del eje y tamaño.
     g.append("g")
