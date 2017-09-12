@@ -2,7 +2,7 @@
 
 ### Contexto: Características Calidad del Agua – SIVICAP 2015
 
-El Instituto Nacional de Salud de Colombia (INS), dando cumplimiento a la normatividad establecida en el Decreto 1575 de 2007, creó el Sistema de Información de la Vigilancia de la Calidad del Agua para Consumo Humano (SIVICAP) que monitorea parámetros fisicoquímicos y microbiológicos en los suministros de agua potable de los municipios de Colombia.
+El Instituto Nacional de Salud de Colombia (INS), dando cumplimiento a la normatividad establecida en el Decreto 1575 de 2007, creó el Sistema de Información de la Vigilancia de la Calidad del Agua para Consumo Humano (SIVICAP) que monitorea parámetros fisicoquímicos y microbiológicos en los suministros de agua para consumo humano de los municipios de Colombia.
 
 En el sitio web de [Datos abiertos de Colombia](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Caracter-sticas-Calidad-del-Agua-SIVICAP/jjzc-8w82) el INS depositó las mediciones obtenidas para 1019 municipios colombianos de todos los departamentos y les asignó un puntaje consolidado en la escala del Índice del Riesgo de la Calidad del Agua para Consumo Humano (IRCA) en el que se consideran [los siguientes rangos](http://www.aguasyaguas.com.co/calidad_agua/index.php/es/home-es-es/10-contenido/10-irca-definicion-analisis-e-interpretacion):
 
@@ -163,6 +163,10 @@ d3.csv("datasets/sivicap2015_viz1.csv", function(error, data) {
   
   </script>
   
-  Al revisar los datos procesados...
+  * Al revisar los datos procesados observamos que el departamento del Atlántico es el que tiene el menor índice de riesgo mediano; por el contrario el departamento de Caldas se sitúa en último lugar en esta métrica de calidad del agua.
+  
+  * Otros punto importante es que solo cuatro departamentos: Atlántico, Antioquia, Arauca y Quindío tienen una mediana por debajo del límite de riesgo de consumo para agua.
+  
+  * Es interesante observar que solo algunas capitales departamentales aparecen en los departamentos como los lugares con el índice más bajo y, además, no todas las puntuaciones de las capitales que sí aparecen están por debajo del límite aceptable (por ejemplo, Bogotá y Pereira)
 
 [Siguiente](proportions.md)
