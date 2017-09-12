@@ -113,3 +113,5 @@ d3.csv("data.csv", function(d, i, columns) {
 });
 
 </script>
+
+### Hallazgos (Insights)
