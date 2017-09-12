@@ -1,4 +1,6 @@
-#### Hallazgos (Insights) - Proporción de municipios con mayor riesgo por departamento
+#### Hallazgos (Insights)
+
+##### Proporción de municipios en las diferentes categorías del IRCA
 
 <style>
 body {
@@ -160,3 +162,5 @@ d3.csv("datasets/sivicap2015_viz2.csv", function(d, i, columns) {
     .attr("font-weight", "bold");
 
 </script>
+
+Se puede observar que...
