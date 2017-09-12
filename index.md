@@ -17,9 +17,9 @@ En el sitio web de [Datos abiertos de Colombia](https://www.datos.gov.co/Salud-y
 ### Misión
 En este trabajo busco explorar los datos para entender la distribución actual de este índice de calidad del agua en los diferentes departamentos del país.
 
-#### Hallazgos (Insights)
+### Hallazgos (Insights)
 
-##### Departamentos ordenados por el riesgo mediano
+#### Departamentos ordenados por el riesgo mediano
 
 <style>
 body {
