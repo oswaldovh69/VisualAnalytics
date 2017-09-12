@@ -1,7 +1,7 @@
-"departamento","inviable.perc","alto.perc","medio.perc","bajo.perc","sinRiesgo.perc","inviable.freq","alto.freq","medio.freq","bajo.freq","sinRiesgo.freq"
+"departamento","inviablePerc","altoPerc","medioPerc","bajoPerc","sinRiesgoPerc","inviableFreq","altoFreq","medioFreq","bajoFreq","sinRiesgoFreq"
 "Antioquia",1.6,1.6,4.1,10.6,82.1,2,2,5,13,101
 "Arauca",0,0,0,14.3,85.7,0,0,0,1,6
-"Archipiélago de San Andrés, Providencia y Santa Catalina",0,50,0,0,50,0,1,0,0,1
+"San Andrés y Providencia",0,50,0,0,50,0,1,0,0,1
 "Atlántico",0,13,21.7,8.7,56.5,0,3,5,2,13
 "Bogotá, D.C.",0,0,0,100,0,0,0,0,1,0
 "Bolívar",6.7,51.1,33.3,2.2,6.7,3,23,15,1,3
