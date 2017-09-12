@@ -88,7 +88,7 @@ var y = d3.scaleLinear()
     
     
     //Carga de los datos para la visualización. Son datos procesados derivados de los originales.
-d3.csv("viz1.csv", function(error, data) {
+d3.csv("datasets/sivicap2015_viz1.csv", function(error, data) {
     if (error) throw error;
   
   
