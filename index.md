@@ -15,9 +15,12 @@ En el sitio web de [Datos abiertos de Colombia](https://www.datos.gov.co/Salud-y
 | 0 - 5                        | Sin riesgo                | Agua **APTA** para el consumo humano. Continuar vigilancia|
 
 ### Misión
-En este trabajo busco explorar los datos para entender cuáles son los departamentos y municipios que presentan la mejor y la peor calidad del agua en el país por medio de un gráfico de barras que represente el IRCA promedio de cada departamento.
+En este trabajo busco explorar los datos para entender la distribución actual de este índice de calidad del agua en los diferentes departamentos del país.
 
-#### Hallazgos (Insights) - Departamentos ordenados por su riesgo mediano
+#### Hallazgos (Insights)
+
+##### Departamentos ordenados por su riesgo mediano
+
 <style>
 body {
   font-family: 'Open Sans', sans-serif;
@@ -159,5 +162,7 @@ d3.csv("datasets/sivicap2015_viz1.csv", function(error, data) {
 
   
   </script>
+  
+  Al revisar los datos procesados...
 
 [Siguiente](proportions.md)
