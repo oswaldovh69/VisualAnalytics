@@ -18,12 +18,11 @@ En el sitio web de [Datos abiertos de Colombia](https://www.datos.gov.co/Salud-y
 En este trabajo busco explorar los datos para entender cuáles son los departamentos y municipios que presentan la mejor y la peor calidad del agua en el país por medio de un gráfico de barras que represente el IRCA promedio de cada departamento.
 
 ##### Departamentos ordenados por su riesgo mediano
-
 <style>
 body {
   font-family: 'Open Sans', sans-serif;
 }
-#main {
+#main2 {
   width: 1000px;
 }
 .axis .domain {
@@ -61,7 +60,7 @@ body {
   color: #081F2C;
   
 </style>
-<div id="main">
+<div id="main2">
 <svg width="1000" height="500"></svg>
 </div>
 <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -82,13 +81,14 @@ var x = d3.scaleBand()
     .rangeRound([0, width])
     .paddingInner(0.05)
     .align(0.1);
+
 // Selección de la escala del eje y
 var y = d3.scaleLinear()
     .rangeRound([height, 0]);
     
     
     //Carga de los datos para la visualización. Son datos procesados derivados de los originales.
-d3.csv("datasets/sivicap2015_viz1.csv", function(error, data) {
+d3.csv("viz1.csv", function(error, data) {
     if (error) throw error;
   
   
@@ -96,9 +96,10 @@ d3.csv("datasets/sivicap2015_viz1.csv", function(error, data) {
   
   var maximumIRCAValue = 100;
   
-   data.sort(function(a, b) { return a.IRCAPromedio - b.IRCAPromedio});
+		data.sort(function(a, b) { return a.IRCAPromedio - b.IRCAPromedio});
     x.domain(data.map(function(d) { return d.departamento; }));
     y.domain([0, maximumIRCAValue]).nice();
+
   
 	//Establecer el eje X  
       g.append("g")
@@ -106,9 +107,9 @@ d3.csv("datasets/sivicap2015_viz1.csv", function(error, data) {
         .attr("transform", "translate(0," + height + ")")
         .call(d3.axisBottom(x))
         .selectAll("text")
-	.attr("transform", "rotate(45)")
-      	.attr("text-anchor", "start")
-  	.attr("font-size", "13");
+  				.attr("transform", "rotate(45)")
+      		.attr("text-anchor", "start")
+  				.attr("font-size", "13");
   
     //Definiciones del eje Y: Etiquetas, rótulo del eje y tamaño.
     g.append("g")
@@ -149,14 +150,15 @@ d3.csv("datasets/sivicap2015_viz1.csv", function(error, data) {
     		    .on("mouseout", function(d, i) { tooltip.style("display", "none");d3.select(this).attr("fill", function() {
                 return "#8787A3";
             });})
+
    	
 });
+
   //Defino los tooltips
   var tooltip = d3.select("body").append("div").attr("class", "toolTip");
+
   
   </script>
-
-
 
 ##### Proporción de municipios con mayor riesgo por departamento
 
