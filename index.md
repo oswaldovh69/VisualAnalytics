@@ -163,6 +163,8 @@ d3.csv("datasets/sivicap2015_viz1.csv", function(error, data) {
   
   </script>
   
+  Los hallazgos más interesantes fueron los siguientes:
+  
   * Al revisar los datos procesados observamos que el departamento del Atlántico es el que tiene el menor índice de riesgo mediano; por el contrario el departamento de Caldas se sitúa en último lugar en esta métrica de calidad del agua.
   
   * Otros punto importante es que solo cuatro departamentos: Atlántico, Antioquia, Arauca y Quindío tienen una mediana por debajo del límite de riesgo de consumo para agua.
