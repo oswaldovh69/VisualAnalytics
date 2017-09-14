@@ -2,6 +2,8 @@
 
 #### Proporción de municipios en las diferentes categorías del IRCA
 
+Una pregunta adicional que surge es qué proporción de los municipios de cada departamento están cada una de las categorías de riesgo del agua ya mencionadas; esto debido a que la mediana nos da un indicio del estado general del departamento, pero esta información un poco más desglosada nos puede permitir tomar decisiones acerca de cuáles son los departamentos en donde es más urgente una acción orientada hacia las mejoras en el suministro de agua de consumo.
+
 <style>
 body {
   font-family: 'Open Sans', sans-serif;
@@ -162,6 +164,8 @@ d3.csv("datasets/sivicap2015_viz2.csv", function(d, i, columns) {
     .attr("font-weight", "bold");
 
 </script>
+
+Los hallazgos más interesantes fueron los siguientes:
 
 * El departamento de Arauca encabeza la lista de los departamentos con mayor proporción de municipios cuyos suministros de agua de consumo no representan riesgo para los humanos.
 
