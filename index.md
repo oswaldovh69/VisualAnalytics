@@ -4,7 +4,7 @@
 
 El Instituto Nacional de Salud de Colombia (INS), dando cumplimiento a la normatividad establecida en el Decreto 1575 de 2007, creó el Sistema de Información de la Vigilancia de la Calidad del Agua para Consumo Humano (SIVICAP) que monitorea parámetros fisicoquímicos y microbiológicos en los suministros de agua para consumo humano de los municipios de Colombia.
 
-En el sitio web de [Datos abiertos de Colombia](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Caracter-sticas-Calidad-del-Agua-SIVICAP/jjzc-8w82) el INS depositó las mediciones obtenidas para 1019 municipios colombianos de todos los departamentos y les asignó un puntaje consolidado en la escala del Índice del Riesgo de la Calidad del Agua para Consumo Humano (IRCA) en el que se consideran [los siguientes rangos](http://www.aguasyaguas.com.co/calidad_agua/index.php/es/home-es-es/10-contenido/10-irca-definicion-analisis-e-interpretacion):
+En el sitio web de [Datos abiertos de Colombia](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Caracter-sticas-Calidad-del-Agua-SIVICAP/jjzc-8w82) el INS depositó las mediciones de 47 variables obtenidas para 1019 municipios colombianos de todos los departamentos junto con un puntaje porcentual llamado el Índice del Riesgo de la Calidad del Agua para Consumo Humano (IRCA) en el que se consideran [los siguientes rangos](http://www.aguasyaguas.com.co/calidad_agua/index.php/es/home-es-es/10-contenido/10-irca-definicion-analisis-e-interpretacion):
 
 | Clasificación IRCA (%)       | Nivel de riesgo           | Consideraciones                                          |
 |:----------------------------:|:-------------------------:|:---------------------------------------------------------|
@@ -14,12 +14,12 @@ En el sitio web de [Datos abiertos de Colombia](https://www.datos.gov.co/Salud-y
 | 5.1 - 14                     | Bajo                      | Agua **NO** apta para el consumo humano. Susceptible de mejoramiento|
 | 0 - 5                        | Sin riesgo                | Agua **APTA** para el consumo humano. Continuar vigilancia|
 
-### Misión
-En este trabajo busco explorar los datos para entender la distribución actual de este índice de calidad del agua en los diferentes departamentos del país.
 
 ### Hallazgos (Insights)
 
 #### Departamentos ordenados por el riesgo mediano
+
+Al agrupar los datos por departamento y obtener la mediana de las distribuciones resultantes, podemos observar a grandes rasgos cómo es la calidad del agua en esta división territorial. También es de interés conocer cuáles son los municipios que contienen los valores extremos de la distribución para cada departamento y así identificar localidades clave en donde las poblaciones estén en alto o bajo riesgo sanitario por el consumo del agua.
 
 <style>
 body {
