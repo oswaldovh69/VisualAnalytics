@@ -16,13 +16,13 @@
     <script src="https://d3js.org/d3.v4.min.js"></script>
 
     <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+    <link href="project-agua.css" rel="stylesheet">
   </head>
 
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="https://ayala-usma.github.io/VisualAnalytics/">David Ayala-Usma's Home</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -30,27 +30,9 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Dropdown</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+            <a class="nav-link" href="https://github.com/ayala-usma/VisualAnalytics/tree/master/Proyecto1_AguaColombia">Project repo <span class="sr-only">(current)</span></a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
       </div>
     </nav>
 
@@ -150,7 +132,7 @@
             
             
             //Carga de los datos para la visualización. Son datos procesados derivados de los originales.
-        d3.csv("datasets/sivicap2015_viz1.csv", function(error, data) {
+        d3.csv("viz1.csv", function(error, data) {
             if (error) throw error;
           
           
@@ -288,7 +270,7 @@
             .range(["#bd0026","#f03b20","#fd8d3c","#fecc5c","#ffffb2"]);
 
         //Carga de los datos para la visualización. Son datos procesados derivados de los 
-        d3.csv("datasets/sivicap2015_viz2.csv", function(d, i, columns) {
+        d3.csv("viz2.csv", function(d, i, columns) {
           for (i = 1, t = 0; i < 6; ++i) t += d[columns[i]] = +d[columns[i]];
           d.total = t;
           return d;
