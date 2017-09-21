@@ -108,7 +108,13 @@
       <div id="visualization1">
         <svg id="viz1" width="1000" height="500"></svg>
          <small id="footnote"><a href="https://gist.github.com/ayala-usma/d2f3b89c84e4ed66e22d02affcdcab73">El código fuente de esta visualización puede consultarse acá.</a></small>     
-
+<!-- 
+  by:oswaldovh
+  Desde el punto de vista de la estructura del proyecto y de los roles de quienes intervienen en él, es conveniente
+  incluir el código JavaScript (Funcionalidad) en un archivo independiente del código HTML (Presentación), de tal
+  manera que se puede cambiar el comportamiento o funcionalidad de lo que sea dinámico (JS) sin necesidad de modificar nada que tenga 
+  que ver con el Front-End.
+-->
         <script>
                       //Dimensiones del objeto SVG y consideraciones de márgenes para el caso particular. 
           
@@ -389,8 +395,10 @@
 
     </div><!-- /.container -->
 
-
-
+<!-- 
+  by:oswaldovh
+  Ya que implementó Bootstrap, sería recomendable utilizar CCS3 ya que es el complemento perfecto para JS y HTML5
+-->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
