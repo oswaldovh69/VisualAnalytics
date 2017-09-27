@@ -90,7 +90,7 @@ function scatterplot(onBrush) {
         .style('text-anchor', 'end')
         .style('fill', '#000')
         .style('font-weight', 'bold')
-        .text('Variable 1 (Magnitud)')
+        .text('Pérdidas por tizón tardío (millones de pesos)')
 
     gy.append('text')
         .attr('transform', 'rotate(-90)')
@@ -99,7 +99,7 @@ function scatterplot(onBrush) {
         .style('text-anchor', 'end')
         .style('fill', '#000')
         .style('font-weight', 'bold')
-        .text('Variable 2 (Porcentaje)')
+        .text('Porcentaje de afectación (%)')
 
     svg.append('g')
         .attr('class', 'brush')
