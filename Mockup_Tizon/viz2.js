@@ -164,6 +164,6 @@ function choropleth(features) {
     return function update(data) {
         svg.selectAll('path')
             .data(data, function (d) { return d.name || d.properties.name })
-            .style('fill', function (d) { return d.filtered ? '#ddd' : color(d.obesity) })
+            .style('fill', function (d) { return d.filtered ? '#fff' : color(d.obesity) })
     }
 }
