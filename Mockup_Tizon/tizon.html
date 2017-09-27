@@ -22,7 +22,7 @@
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="https://ayala-usma.github.io/VisualAnalytics/">David Ayala-Usma's Home</a>
+      <a class="navbar-brand" href="https://ayala-usma.github.io/VisualAnalytics/">Home de Tizón Latino</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -30,7 +30,7 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="https://github.com/ayala-usma/VisualAnalytics/tree/master/Mockup_Tizon">Project repository <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="https://github.com/ayala-usma/VisualAnalytics/tree/master/Mockup_Tizon">Repositorio del proyecto <span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
@@ -39,20 +39,20 @@
     <div class="container">
 
       <div class="starter-template">
-        <h1>¿Cuál es el panorama de la calidad de agua en los departamentos de Colombia?</h1>
+        <h1>Problema grande No. 1 - Porcentaje de cultivos afectados por <italic>P. infestans</italic> en el país </h1>
       </div>
 
       <div class="analysis-text">
-        <h3>Contexto: Características Calidad del Agua – SIVICAP 2015</h3>
-        <p class="lead">El Instituto Nacional de Salud de Colombia (INS), dando cumplimiento a la normatividad establecida en el Decreto 1575 de 2007, creó el Sistema de Información de la Vigilancia de la Calidad del Agua para Consumo Humano (SIVICAP) que monitorea parámetros fisicoquímicos y microbiológicos en los suministros de agua para consumo humano de los municipios de Colombia.</p>
+        <h3>Contexto: Algún contexto</h3>
+        <p class="lead">Texto acá.</p>
 
-        <p class="lead">En el sitio web de <a href="https://www.datos.gov.co/Salud-y-Protecci-n-Social/Caracter-sticas-Calidad-del-Agua-SIVICAP/jjzc-8w82">Datos abiertos de Colombia</a> el INS depositó las mediciones de 47 variables de análisis elemental y microbiano obtenidas para 1019 municipios colombianos de todos los departamentos (excepto Amazonas y Guaviare) junto con un puntaje porcentual llamado el Índice del Riesgo de la Calidad del Agua para Consumo Humano (IRCA) en el que se consideran <a href="http://www.aguasyaguas.com.co/calidad_agua/index.php/es/home-es-es/10-contenido/10-irca-definicion-analisis-e-interpretacion">los siguientes rangos</a>:</p>
+        <p class="lead">Más carreta <a href="https://www.datos.gov.co/Salud-y-Protecci-n-Social/Caracter-sticas-Calidad-del-Agua-SIVICAP/jjzc-8w82">y links</a>:</p>
       </div>
 
       <table class="table table-hover">
         <thead>
           <tr>
-            <th>Clasificación IRCA (%)</th>
+            <th>Porcentaje de afectación (%)</th>
             <th>Categoría de riesgo</th>
             <th>Definición</th>
           </tr>
@@ -60,55 +60,52 @@
         <tbody>
           <tr>
             <td>70.1 - 100</td>
-            <td>Inviable sanitariamente</td>
-            <td class="uncentered">Agua <b>NO</b> apta para el consumo humano. Requiere vigilancia máxima, especial y detallada.</td>
+            <td>Devastado</td>
+            <td class="uncentered">Contenido 1</td>
           </tr>
           <tr>
             <td>35.1 - 70</td>
-            <td>Alto</td>
-            <td class="uncentered">Agua <b>NO</b> apta para el consumo humano. Requiere vigilancia especial.</td>
+            <td>Muy afectado</td>
+            <td class="uncentered">Contenido 2</td>
           </tr>
           <tr>
             <td>14.1 - 35</td>
-            <td>Medio</td>
-            <td class="uncentered">Agua <b>NO</b> apta para el consumo humano. Requiere gestión directa del prestador del servicio.</td>
+            <td>Medianamente afectado</td>
+            <td class="uncentered">Contenido 3</td>
           </tr>
           <tr>
             <td>5.1 - 14</td>
-            <td>Bajo</td>
-            <td class="uncentered">Agua <b>NO</b> apta para el consumo humano. Susceptible de mejora.</td>
+            <td>Poco afectado</td>
+            <td class="uncentered">Contenido 4</td>
           </tr>
           <tr>
             <td>0 - 5</td>
-            <td>Sin riesgo</td>
-            <td class="uncentered">Agua <b>APTA</b> para el consumo humano. Continuar vigilancia.</td>
+            <td>No afectado</td>
+            <td class="uncentered">Contenido 5</td>
           </tr>
         </tbody>
       </table>
 
       <div class="analysis-text">
-      <p class="lead">Para esta exploración de datos se seleccionaron únicamente las variables correspondientes al nombre del departamento, el nombre del municipio, el porcentaje IRCA promedio para el municipio y su clasificación de riesgo según la escala anterior. La agregación de los datos y su preprocesamiento se puede revisar en el <a href="datasets/sivicap2015_mining.R">siguiente script de R</a>.</p>
+      <p class="lead">Mucho más contenido.</p>
       </div>
 
       <div class="analysis-text">
-      <h3>Hallazgos - Mediana del IRCA por departamentos</h3>
-      <p class="lead">Al agrupar los datos por departamento y obtener la mediana de las distribuciones resultantes, podemos obtener una idea general de la calidad del agua en esta división territorial. Debido a la importancia que revisten ciertos centros urbanos dentro de los departamentos, como es el caso de las capitales, también es de interés conocer cuáles son los municipios que contienen los valores extremos de la distribución para cada departamento y así identificar localidades clave en donde las poblaciones estén en alto o bajo riesgo sanitario por el consumo del agua.</p>
+      <h3>Hallazgos - Prevalencia del patógeno en cultivos a nivel nacional</h3>
+      <p class="lead">Descripción de hallazgos de visualización</p>
 
       <ul>
-        <li>Solo cuatro departamentos: Atlántico, Antioquia, Arauca y Quindío tienen una mediana por debajo del límite de riesgo de consumo para agua.</li>
-        <li>El departamento del Atlántico es el que tiene el menor índice de riesgo mediano; por el contrario el departamento de Caldas se sitúa en último lugar en esta métrica de calidad del agua.</li>
-        <li>Solo algunas capitales departamentales aparecen en los departamentos como los lugares con el índice más bajo (por ejemplo, Armenia y Montería).</li>
-        <li>No todas las capitales que aparecen como municipio con el IRCA más bajo están por debajo del límite aceptable (por ejemplo, Bogotá y Pereira).</li>
-        <li>Bogotá no es el municipio con la mejor agua del país, como se cree en el imaginario popular, y en realidad podría mejorar su calidad de agua.</li>
+        <li>Perspectiva 1</li>
+        <li>Perspectiva 2</li>
+        <li>Perspectiva 3</li>
+        <li>Perspectiva 4</li>
+        <li>Perspectiva 5</li>
       </ul>
       </div>
       
-
-
       <div id="visualization1">
         <svg id="viz1" width="1000" height="500"></svg>
          <small id="footnote"><a href="https://gist.github.com/ayala-usma/d2f3b89c84e4ed66e22d02affcdcab73">El código fuente de esta visualización puede consultarse acá.</a></small>     
-
         <script src="viz1.js"></script>
      </div>
 
