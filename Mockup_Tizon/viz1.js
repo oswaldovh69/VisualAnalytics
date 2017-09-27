@@ -52,7 +52,7 @@
                 .attr("fill", "#000")
                 .attr("font-weight", "bold")
                 .attr("text-anchor", "start")
-                .text("Mediana del IRCA (%)")
+                .text("Porcentaje de afectación (%)")
                 .attr("font-size", 13)
                 .attr("text-anchor", "middle")
                 .attr("transform", "rotate(-90)")
@@ -74,7 +74,7 @@
                       .style("left", d3.event.pageX - 50 + "px")
                       .style("top", d3.event.pageY - 70 + "px")
                       .style("display", "inline-block")
-                      .html("Mediana del departamento: " + d3.format(".3")(d.IRCAPromedio) +"%" + "<br><span>" + "Municipio con mayor IRCA: " + (d.municipioIRCAAlto) + " (" + d3.format(".3")(d.IRCAMasAlto)+ "%)" +"</span>" + "<br><span>" + "Municipio con menor IRCA: " + (d.municipioIRCABajo) + " (" + d3.format(".3")(d.IRCAMasBajo)+ "%)"  +"</span>");
+                      .html("Afectación mediana: " + d3.format(".3")(d.IRCAPromedio) +"%" + "<br><span>" + "Región con mayor afectación: " + (d.municipioIRCAAlto) + " (" + d3.format(".3")(d.IRCAMasAlto)+ "%)" +"</span>" + "<br><span>" + "Región con menor afectación:: " + (d.municipioIRCABajo) + " (" + d3.format(".3")(d.IRCAMasBajo)+ "%)"  +"</span>");
                 
           })
                     .on("mouseout", function(d, i) { tooltip.style("display", "none");d3.select(this).attr("fill", function(d) {if (d.IRCAPromedio <= 5) {return "#ffffb2"} else if (d.IRCAPromedio <= 14) {return "#fecc5c"} else if (d.IRCAPromedio <= 35) {return "#fd8d3c"} else if (d.IRCAPromedio <= 70) {return "#f03b20"} else {return "#bd0026"}
@@ -103,7 +103,7 @@
               .attr("x", width + 39)
               .attr("y", 9.5)
               .attr("dy", "0.32em")
-              .text(function(d) { t = ""; if(d > riskRanks[1]){ t = "Sanitariamente inviable"} else if (d > riskRanks[2]){ t = "Riesgo alto"} else if (d > riskRanks[3]){ t = "Riesgo medio"} else if (d > riskRanks[4]){ t = "Riesgo bajo"} else {t = "Sin riesgo"}; return t });
+              .text(function(d) { t = ""; if(d > riskRanks[1]){ t = "Devastado"} else if (d > riskRanks[2]){ t = "Muy afectado"} else if (d > riskRanks[3]){ t = "Medianamente afectado"} else if (d > riskRanks[4]){ t = "Poco afectado"} else {t = "No afectado"}; return t });
         });
           //Defino los tooltips
           var tooltip = d3.select("body").append("div").attr("class", "toolTip");
