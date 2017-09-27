@@ -74,7 +74,7 @@
                       .style("left", d3.event.pageX - 50 + "px")
                       .style("top", d3.event.pageY - 70 + "px")
                       .style("display", "inline-block")
-                      .html("Afectación mediana: " + d3.format(".3")(d.IRCAPromedio) +"%" + "<br><span>" + "Región con mayor afectación: " + (d.municipioIRCAAlto) + " (" + d3.format(".3")(d.IRCAMasAlto)+ "%)" +"</span>" + "<br><span>" + "Región con menor afectación:: " + (d.municipioIRCABajo) + " (" + d3.format(".3")(d.IRCAMasBajo)+ "%)"  +"</span>");
+                      .html("Afectación mediana: " + d3.format(".3")(d.IRCAPromedio) +"%" + "<br><span>" + "Región con mayor afectación: " + (d.municipioIRCAAlto) + " (" + d3.format(".3")(d.IRCAMasAlto)+ "%)" +"</span>" + "<br><span>" + "Región con menor afectación: " + (d.municipioIRCABajo) + " (" + d3.format(".3")(d.IRCAMasBajo)+ "%)"  +"</span>");
                 
           })
                     .on("mouseout", function(d, i) { tooltip.style("display", "none");d3.select(this).attr("fill", function(d) {if (d.IRCAPromedio <= 5) {return "#ffffb2"} else if (d.IRCAPromedio <= 14) {return "#fecc5c"} else if (d.IRCAPromedio <= 35) {return "#fd8d3c"} else if (d.IRCAPromedio <= 70) {return "#f03b20"} else {return "#bd0026"}
