@@ -5,13 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <link rel="stylesheet" href="linechart.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://d3js.org/d3.v4.min.js"></script>
 
 </head>
@@ -26,42 +24,43 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="https://github.com/ayala-usma/VisualAnalytics/tree/master/Proyecto1_AguaColombia">Project repository <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="https://github.com/ayala-usma/VisualAnalytics/tree/master/Proyecto2_CultivosSucre">Project repository <span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
     </nav>
 
 <div class="jumbotron jumbotron-fluid text-center">
-  <h1>Cultivos en Sucre</h1>
-  <p>Resize this responsive page to see the effect!</p> 
+  	<h1>Economía agrícola del departamento de Sucre en 2011-2015 </h1>
 </div>
   
 
 <div class="container">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+ <div class="row">
+      <h3>Contexto agroecológico de Sucre</h3>
+ </div>
+ <div class="row">
+    <div class="col">
+      <p>El conjunto de datos actual es una serie de tiempo en la que se muestra la rentabilidad y la utilidad de los principales productos agropecuarios del departamento de Sucre en los años 2011 a 2015. En el campo agrícola se conoce a los monocultivos como cultivos "solos", mientras que a los cultivos intercalados con otras especies vegetales se les conoce como "asociados", <a href="http://www.fao.org/docrep/V5290S/v5290s35.htm"> lo cual evita varios de los efectos nocivos de la reducción de diversidad biológica en un área de producción</a>.</p>
+      <p>Dentro de las observaciones más importantes que se pueden recuperar para los datos examinados con la siguiente visualización están:</p>
+      <ul>
+      	<li>Los cultivos asociados, yuca y ñame criollo, presentaron un pico de productividad en el año 2012, pero desde ese entonces su utilidad ha decrecido.</li>
+      	<li>Los cultivos solos han mostrado el mayor crecimiento en utilidad, con el caso interesante de la yuca sola que generaba las mayores pérdidas en el 2011 y es el cultivo más rentable en el 2015.</li>
+      	<li>La palma africana es el cultivo que más pérdida neta le ha generado al departamento, generando más de 5.000 millones de pesos en pérdidas en el 2013 y sin una recuperación fuerte en los años siguientes.</li>
+      	<li>En promedio, el año 2012 fue el año con mayor utilidad para el sector agrícola del departamento.</li>
+      </ul>
     </div>
   </div>
 </div>
 
-<div class="linechart">
+<div class="container">
+	<div class="row">
+		<div class="col">
+		<div id="linechart"></div>
+		<script src="linechartSucre.js"></script>
+		</div>
+	</div>
 </div>
-
-<script src="linechartSucre.js"></script>
 
 </body>
 </html>

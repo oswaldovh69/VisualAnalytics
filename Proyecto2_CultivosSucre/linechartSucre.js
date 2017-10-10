@@ -1,5 +1,5 @@
 // Set the dimensions of the SVG canvas.
-var margin = {top: 20, right: 200, bottom: 50, left: 80},
+var margin = {top: 20, right: 210, bottom: 50, left: 80},
     width = 1024 - margin.left - margin.right,
     height = 600 - margin.top - margin.bottom;
 
@@ -13,7 +13,7 @@ var utilityLine = d3.line()
     .y(function(d) { return y(d.utilidad); });
     
 // Selects the linechart div in the DOM to append the SVG element.
-var linechart = d3.select(".linechart")
+var linechart = d3.select("#linechart")
     .append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
@@ -86,7 +86,7 @@ d3.csv("formatted_data.csv", function(error, data) {
         linechart.append("text")
             .attr("x", width + (legendSpace) )  // Legend placement
             .attr("y", height - (i*20))
-        		.attr("font-weight", "bold")
+        		//.attr("font-weight", "bold")
             .attr("id", 'legend'+d.key.replace(/\s+/g, ''))    // Assign identifiers to each text element in the plot
         		.style("fill", "#d5d6d2")
             .on("click", function(){

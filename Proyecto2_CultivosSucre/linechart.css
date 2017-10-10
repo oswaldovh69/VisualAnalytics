@@ -5,7 +5,8 @@ path {
 }
 
 .axis path,
-.axis line {
+.axis line 
+{
     fill: none;
     stroke: black;
     stroke-width: 2;
@@ -23,3 +24,7 @@ path {
     font-size: 17px;
     font-family: 'Oxygen';
   }
+
+text[id^="legend"] {
+ font-family: 'Oxygen', sans-serif; 
+}
