@@ -29,7 +29,36 @@ text[id^="legend"] {
  font-family: 'Oxygen', sans-serif; 
 }
 
-.jumbotron
+.nav-link
 {
-  background-image: "#441228";
+   font-family: 'Oxygen', sans-serif;
+   font-size: 14px;
+}
+
+.pagetitle
+{
+  padding-top: 70px;
+  color: white;
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+
+.span6
+{
+  float: none;
+  margin: 0 auto;
+}
+
+p, li{
+  font-family: 'Average', serif;
+  font-size: 18px;
+  text-align: justify;
+}
+
+#textbody, #figurecontainer
+{
+  padding-bottom: 40px;
 }

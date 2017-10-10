@@ -7,7 +7,7 @@
   
   <link rel="stylesheet" href="linechart.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Average|Oxygen:400,700" rel="stylesheet">
   
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -30,12 +30,17 @@
       </div>
     </nav>
 
-<div class="jumbotron jumbotron-fluid text-center">
-  	<h1>Economía agrícola del departamento de Sucre en 2011-2015 </h1>
+<div class="jumbotron jumbotron-fluid" style="background-color: #b3c2bf">
+	<div class="container" id="headertitle">
+		  	<h1 class="pagetitle">Economía agrícola del departamento de Sucre de 2011 a 2015 </h1>
+	</div>
 </div>
   
 
+<div class="container-fluid" id="textbody">
+
 <div class="container">
+
  <div class="row">
       <h3>Contexto agroecológico de Sucre</h3>
  </div>
@@ -49,13 +54,18 @@
       	<li>La palma africana es el cultivo que más pérdida neta le ha generado al departamento, generando más de 5.000 millones de pesos en pérdidas en el 2013 y sin una recuperación fuerte en los años siguientes.</li>
       	<li>En promedio, el año 2012 fue el año con mayor utilidad para el sector agrícola del departamento.</li>
       </ul>
+      <p>
+
+
+      </p>
     </div>
+  </div>
   </div>
 </div>
 
-<div class="container">
+<div class="container-fluid" id="figurecontainer">
 	<div class="row">
-		<div class="col">
+		<div class="span6 well">
 		<div id="linechart"></div>
 		<script src="linechartSucre.js"></script>
 		</div>

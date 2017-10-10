@@ -1,7 +1,7 @@
 // Set the dimensions of the SVG canvas.
-var margin = {top: 20, right: 210, bottom: 50, left: 80},
-    width = 1024 - margin.left - margin.right,
-    height = 600 - margin.top - margin.bottom;
+var margin = {top: 20, right: 250, bottom: 50, left: 80},
+    width = 1100 - margin.left - margin.right,
+    height = 650 - margin.top - margin.bottom;
 
 // Set the ranges of the scales to be shown.
 var x = d3.scaleLinear().range([0, width]),  
@@ -57,14 +57,14 @@ d3.csv("formatted_data.csv", function(error, data) {
 
         linechart.append("path")
             .attr("class", "line")
-            .style("stroke", "#d5d6d2")
+            .style("stroke", "#9C9C9C")
             .attr("id", 'tag'+d.key.replace(/\s+/g, '')) // Assign identifiers to each path element in the plot
             .attr("d", utilityLine(d.values))
         		.attr("opacity", 0.2)
         		.on("click", function(){
                 // Determine if current line is visible 
                 var active   = d.active ? false : true,
-                newColor = active ? color(d.key) : "#d5d6d2"; 
+                newColor = active ? color(d.key) : "#9C9C9C"; 
           			newOpacity = active ? 1 : 0.2;
 
           
@@ -88,11 +88,11 @@ d3.csv("formatted_data.csv", function(error, data) {
             .attr("y", height - (i*20))
         		//.attr("font-weight", "bold")
             .attr("id", 'legend'+d.key.replace(/\s+/g, ''))    // Assign identifiers to each text element in the plot
-        		.style("fill", "#d5d6d2")
+        		.style("fill", "#9C9C9C")
             .on("click", function(){
                 // Determine if current line is visible 
                 var active   = d.active ? false : true,
-                newColor = active ? color(d.key) : "#d5d6d2"; 
+                newColor = active ? color(d.key) : "#9C9C9C"; 
           			newOpacity = active ? 1 : 0.2;
           
                 // Hide or show the elements upon clicking the key on the right
