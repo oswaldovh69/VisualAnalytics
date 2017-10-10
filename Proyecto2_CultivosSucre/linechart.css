@@ -28,3 +28,8 @@ path {
 text[id^="legend"] {
  font-family: 'Oxygen', sans-serif; 
 }
+
+.jumbotron
+{
+  background-image: "#441228";
+}
