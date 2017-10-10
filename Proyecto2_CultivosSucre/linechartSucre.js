@@ -13,7 +13,7 @@ var utilityLine = d3.line()
     .y(function(d) { return y(d.utilidad); });
     
 // Selects the linechart div in the DOM to append the SVG element.
-var svg = d3.select(".linechart")
+var linechart = d3.select(".linechart")
     .append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
@@ -48,34 +48,34 @@ d3.csv("formatted_data.csv", function(error, data) {
         .key(function(d) {return d.cultivo;})
         .entries(data);
 
-    // Setting the color scale to be used for the line selections
+    // Setting the color scale to be used for the line click events
     var color = d3.scaleOrdinal(d3.schemeCategory20);
     var legendSpace = 20; // Arbitrary spacing for the legends
 
-    // Loop through each symbol / key
+    // Loop through each crop type / key as obtained in the nesting step
     dataNest.forEach(function(d,i) { 
 
-        svg.append("path")
+        linechart.append("path")
             .attr("class", "line")
-            .style("stroke", "#ddd")
-            .attr("id", 'tag'+d.key.replace(/\s+/g, '')) // assign an ID
+            .style("stroke", "#d5d6d2")
+            .attr("id", 'tag'+d.key.replace(/\s+/g, '')) // Assign identifiers to each path element in the plot
             .attr("d", utilityLine(d.values))
         		.attr("opacity", 0.2)
         		.on("click", function(){
                 // Determine if current line is visible 
                 var active   = d.active ? false : true,
-                newColor = active ? color(d.key) : "#ddd"; 
+                newColor = active ? color(d.key) : "#d5d6d2"; 
           			newOpacity = active ? 1 : 0.2;
 
           
-                // Hide or show the elements upon clicking the key on the right
+                // Hide or show the elements upon clicking the text legend on the right side of the plot
                 d3.select(this)
                     .transition().duration(300) 
                     .style("stroke", newColor)
                 		.style("opacity", newOpacity); 
           
         	  //Change the behaviour of the text
-								d3.select(".legend"+d.key.replace(/\s+/g, '')) 
+								d3.select("#legend"+d.key.replace(/\s+/g, '')) 
                   .style("fill", newColor); 
                 // Update whether or not the elements are active
                 d.active = active;
@@ -83,16 +83,16 @@ d3.csv("formatted_data.csv", function(error, data) {
       
 
         // Add the Legend
-        svg.append("text")
-            .attr("x", width + (legendSpace) )  // space legend
+        linechart.append("text")
+            .attr("x", width + (legendSpace) )  // Legend placement
             .attr("y", height - (i*20))
         		.attr("font-weight", "bold")
-            .attr("class", 'legend'+d.key.replace(/\s+/g, ''))    // style the legend
-        		.style("fill", "#ddd")
+            .attr("id", 'legend'+d.key.replace(/\s+/g, ''))    // Assign identifiers to each text element in the plot
+        		.style("fill", "#d5d6d2")
             .on("click", function(){
                 // Determine if current line is visible 
                 var active   = d.active ? false : true,
-                newColor = active ? color(d.key) : "#ddd"; 
+                newColor = active ? color(d.key) : "#d5d6d2"; 
           			newOpacity = active ? 1 : 0.2;
           
                 // Hide or show the elements upon clicking the key on the right
@@ -101,7 +101,7 @@ d3.csv("formatted_data.csv", function(error, data) {
                     .style("stroke", newColor)
                 		.style("opacity", newOpacity); 
           
-        	  //Change the behaviour of the text
+        	  //Change the color of the text
 								d3.select(this)
                 	.transition().duration(300)
                   .style("fill", newColor); 
@@ -112,17 +112,17 @@ d3.csv("formatted_data.csv", function(error, data) {
 
     });
 
-  
+    // Define the placement properties of the x/y axes.  
     var axisLabelProperties = {yOffset: -60, yHeight:-(height/1.5),  xLength: width/2, xOffset: height + margin.bottom};
   
   // Add the X Axis  
-  svg.append("g")
+  linechart.append("g")
       .attr("class", "axis")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x).ticks(uniqueYears).tickFormat(d3.format("d"))); 
 
 	//Add the X axis label
-  svg.append("text")
+  linechart.append("text")
     .text("Año")
   	.attr("class", "axisLabels")
   	.attr("x",axisLabelProperties.xLength)
@@ -130,12 +130,12 @@ d3.csv("formatted_data.csv", function(error, data) {
   
 
   // Add the Y Axis
-  svg.append("g")
+  linechart.append("g")
       .attr("class", "axis")
       .call(d3.axisLeft(y));
   
   //Add the Y Axis label
-  svg.append("text")
+  linechart.append("text")
   	.text("Utilidad (Millones de pesos)")
   	.attr("class", "axisLabels")
   	.attr("transform", "rotate(-90)")
@@ -143,7 +143,7 @@ d3.csv("formatted_data.csv", function(error, data) {
   	.attr("y", axisLabelProperties.yOffset);
   
   //Add the chart title
-  svg.append("text")
+  linechart.append("text")
   .text("Rentabilidad de los productos agrícolas de Sucre en el periodo 2011 - 2015")
   .attr("x", width/7)
   .attr("y", 0)
