@@ -84,6 +84,7 @@ d3.csv("formatted_data.csv", function(error, data) {
 
         // Add the Legend
         linechart.append("text")
+	    .attr("class", "legendText")
             .attr("x", width + (legendSpace) )  // Legend placement
             .attr("y", height - (i*20))
         		//.attr("font-weight", "bold")
