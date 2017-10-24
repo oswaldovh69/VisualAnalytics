@@ -14,13 +14,13 @@ var color = d3.scaleOrdinal(d3.schemeDark2),
     proteinType = ["Cell signaling","Immunity", "Metabolism", "Molecular traffic", "Structural", "Transcription factor", "Unknown"];
 
 //Central node in the simulation
-var selectedNodes = ["Foxp2"];
+var selectedNodesMouse = ["Foxp2"];
 
 //Percentile 98 of interactions to be drawn
-var percentile = 0.523949682712555;
+var percentileMouse = 0.523949682712555;
 
 // create an svg to draw in
-var svg = d3.select("#mouse_network")
+var svgMouse = d3.select("#mouse_network")
     .append("svg")
     .attr("width", width)
     .attr("height", height)
@@ -30,49 +30,48 @@ var svg = d3.select("#mouse_network")
 width = width - margin.left - margin.right;
 height = height - margin.top - margin.bottom;
 
-var simulation = d3.forceSimulation()
+var simulationMouse = d3.forceSimulation()
     // pull nodes together based on the links between them
     .force("link", d3.forceLink().id(function(d) {
         return d.name;
     })
     .strength(0.025))
     // push nodes apart to space them out
-    .force("charge", d3.forceManyBody().strength(-2000))
+    .force("charge", d3.forceManyBody().strength(-1000))
     // add some collision detection so they don't overlap
     .force("collide", d3.forceCollide().radius(30))
     // and draw them around the centre of the space
     .force("center", d3.forceCenter(width / 2, height / 2));
 
 // load the graph
-d3.json("datasets/mouse_foxp2.json", function(error, graph) {
+d3.json("datasets/mouse_foxp2.json", function(error, graphMouse) {
     // set the nodes
-    var nodes = graph.nodes;
+    var nodesMouse = graphMouse.nodes;
     // links between nodes
-    var links = graph.edges;
+    var linksMouse = graphMouse.edges;
     
     // add the curved links to our graphic
-    var link = svg.selectAll(".link")
-        .data(links)
+    var drawLinkMouse = svgMouse.selectAll(".link")
+        .data(linksMouse)
         .enter()
         .append("path")
         .attr("class", "link")
         .attr('stroke', function(d){
             return "#ddd";
         })
-  			.filter(function (d){if (d.weight > percentile){return this}});
+  			.filter(function (d){if (d.weight > percentileMouse){return this}});
 
     // add the nodes to the graphic
-    var node = svg.selectAll(".node")
-        .data(nodes)
+    var drawNodeMouse = svgMouse.selectAll(".node")
+        .data(nodesMouse)
         .enter().append("g")
 
     // a circle to represent the node
-    node.append("circle")
+    drawNodeMouse.append("circle")
         .attr("class", "node")
     		.attr("id", function (d){return d.name})
         .attr("r", 5)
-        .attr("fill", function(d) {
-            return color(proteinType.indexOf(d.type));})
+        .attr("fill", function(d) {return color(proteinType.indexOf(d.type));})
           .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
@@ -81,13 +80,13 @@ d3.json("datasets/mouse_foxp2.json", function(error, graph) {
         .on("mouseout", mouseOut);
 
     // hover text for the node
-    node.append("title")
+    drawNodeMouse.append("title")
         .text(function(d) {
             return "Protein: " + d.name + "\n" + "Molecular function: " + d.type;
         });
 
     // add a label to each node
-    node.append("text")
+    drawNodeMouse.append("text")
         .attr("dx", 8)
         .attr("dy", ".35em")
     		.attr("font-size", "12px")
@@ -100,19 +99,19 @@ d3.json("datasets/mouse_foxp2.json", function(error, graph) {
 
     // add the nodes to the simulation and
     // tell it what to do on each tick
-    simulation
-        .nodes(nodes)
+    simulationMouse
+        .nodes(nodesMouse)
         .on("tick", ticked);
 
     // add the links to the simulation
-    simulation
+    simulationMouse
         .force("link")
-        .links(links);
+        .links(linksMouse);
 
     // on each tick, update node and link positions
     function ticked() {
-        link.attr("d", positionLink);
-        node.attr("transform", positionNode);
+        drawLinkMouse.attr("d", positionLink);
+        drawNodeMouse.attr("transform", positionNode);
     }
 
     // links are drawn as curved paths between nodes,
@@ -140,7 +139,7 @@ d3.json("datasets/mouse_foxp2.json", function(error, graph) {
     function positionNode(d) {
     // keep the node within the boundaries of the svg      
 		
-      	if(selectedNodes.indexOf(d.name) > -1){
+      	if(selectedNodesMouse.indexOf(d.name) > -1){
       		d.fx = width / 2;
           d.fy = height / 2;
     		};        
@@ -161,20 +160,20 @@ d3.json("datasets/mouse_foxp2.json", function(error, graph) {
     }
 
     // build a dictionary of nodes that are linked
-    var linkedByIndex = {};
-    links.forEach(function(d) {
-        linkedByIndex[d.source.name + "," + d.target.name] = 1;
+    var linkedByIndexMouse = {};
+    linksMouse.forEach(function(d) {
+        linkedByIndexMouse[d.source.name + "," + d.target.name] = 1;
     });
 
     // check the dictionary to see if nodes are linked
     function isConnected(a, b) {
-        return linkedByIndex[a.name + "," + b.name] || linkedByIndex[b.name + "," + a.name] || a.name === b.name;
+        return linkedByIndexMouse[a.name + "," + b.name] || linkedByIndexMouse[b.name + "," + a.name] || a.name === b.name;
     }
   
   //Fits a linear width scale for the links on mouseover
   var min_width = 0.3,
       max_width = 5,  
-      scale_converter = 		d3.scaleLinear().domain([d3.min(graph.edges, function(d){return d.weight}),d3.max(graph.edges, function(d){return d.weight})]).range([min_width,max_width]);
+      scale_converterMouse = d3.scaleLinear().domain([d3.min(graphMouse.edges, function(d){return d.weight}),d3.max(graphMouse.edges, function(d){return d.weight})]).range([min_width,max_width]);
   
     // fade nodes on hover
     function mouseOver(opacity) {
@@ -182,36 +181,38 @@ d3.json("datasets/mouse_foxp2.json", function(error, graph) {
             // check all other nodes to see if they're connected
             // to this one. if so, keep the opacity at 1, otherwise
             // fade
-            node.style("stroke-opacity", function(o) { 
+            drawNodeMouse.style("stroke-opacity", function(o) { 
               thisOpacity = isConnected(d, o) ? 1 : opacity;
                 return thisOpacity;
             });
-            node.style("fill-opacity", function(o) {
+            drawNodeMouse.style("fill-opacity", function(o) {
                 thisOpacity = isConnected(d, o) ? 1 : opacity;
                 return thisOpacity;
             });
             // also style link accordingly
-            link.style("stroke-opacity", function(o) {
+            drawLinkMouse.style("stroke-opacity", function(o) {
                 return o.source === d || o.target === d ? 1 : opacity;
             });
-            link.style("stroke", function(o){
+            drawLinkMouse.style("stroke", function(o){
                 return o.source === d || o.target === d ? color(proteinType.indexOf(o.source.type)) : "#ddd";
             });
-            link.style("stroke-width", function(o){return scale_converter(o.weight)});          
+            drawLinkMouse.style("stroke-width", function(o){return scale_converterMouse(o.weight)});          
         };
+    }
+
+//Restore original colors and opacity after mouse out
+    function mouseOut() {
+        drawNodeMouse.style("stroke-opacity", 1);
+        drawNodeMouse.style("fill-opacity", 1);
+        drawLinkMouse.style("stroke-opacity", 1);
+        drawLinkMouse.style("stroke", "#ddd");
+      	drawLinkMouse.style("stroke-width", 1);
     }
   
 
-    function mouseOut() {
-        node.style("stroke-opacity", 1);
-        node.style("fill-opacity", 1);
-        link.style("stroke-opacity", 1);
-        link.style("stroke", "#ddd");
-      	link.style("stroke-width", 1);
-    }
-  
+//Drag actions
   function dragstarted(d) {
-  if (!d3.event.active) simulation.alphaTarget(0.5).restart();
+  if (!d3.event.active) simulationMouse.alphaTarget(0.5).restart();
   d.fx = d.x;
   d.fy = d.y;
 }
@@ -222,7 +223,7 @@ function dragged(d) {
 }
 
 function dragended(d) {
-  if (!d3.event.active) simulation.alphaTarget(0.01);
+  if (!d3.event.active) simulationMouse.alphaTarget(0.01);
   d.fx = null;
   d.fy = null;
 }
@@ -232,7 +233,7 @@ function dragended(d) {
 var legendRectSize = 18,
     legendSpacing = 4; //Legend square size
   
-var legend = svg.selectAll('.legend')
+var legendMouse = svgMouse.selectAll('.legend')
   .data(proteinType)
   .enter()
   .append('g')
@@ -240,17 +241,18 @@ var legend = svg.selectAll('.legend')
   .attr('transform', function(d, i) {
     var heightLegend = legendRectSize + legendSpacing;
     var offset = 600;
-    var horz = -2 * legendRectSize;
+    var horz = -legendRectSize;
     var vert = (i * heightLegend) + offset;
     return 'translate(' + horz + ',' + vert + ')';
   });
-legend.append('rect')
+
+legendMouse.append('rect')
   .attr('width', legendRectSize)
   .attr('height', legendRectSize)
   .style('fill', function(d,i){return color(i)})
   .style('stroke', function(d,i){return color(i)});
 
-  legend.append('text')
+  legendMouse.append('text')
   .attr('x', legendRectSize + legendSpacing)
   .attr('y', legendRectSize - legendSpacing)
   .attr ("font-size", "14px")
