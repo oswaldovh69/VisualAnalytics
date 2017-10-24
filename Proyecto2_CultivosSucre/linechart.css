@@ -67,3 +67,10 @@ p, li{
 {
     padding-top: 20px;
 }
+
+.legendText,
+.line
+{
+	cursor: pointer;
+}
+
