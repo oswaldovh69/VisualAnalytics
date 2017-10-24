@@ -1,0 +1,6534 @@
+{
+	 "nodes": [
+        {
+            "name": "GPHN", "type": "Metabolism"
+        },
+        {
+            "name": "OTX2", "type": "Transcription factor"
+        },
+        {
+            "name": "EDAR", "type": "Cell signaling"
+        },
+        {
+            "name": "OTUD7B", "type": "Metabolism"
+        },
+        {
+            "name": "CRYBA1", "type": "Structural"
+        },
+        {
+            "name": "PAPPA", "type": "Metabolism"
+        },
+        {
+            "name": "ACVR2A", "type": "Cell signaling"
+        },
+        {
+            "name": "SATB2", "type": "Transcription factor"
+        },
+        {
+            "name": "SHANK1", "type": "Cell signaling"
+        },
+        {
+            "name": "FRY", "type": "Cell signaling"
+        },
+        {
+            "name": "NFYC", "type": "Transcription factor"
+        },
+        {
+            "name": "SPINK1", "type": "Metabolism"
+        },
+        {
+            "name": "MEF2C", "type": "Transcription factor"
+        },
+        {
+            "name": "SOSTDC1", "type": "Cell signaling"
+        },
+        {
+            "name": "CADPS", "type": "Metabolism"
+        },
+        {
+            "name": "LIFR", "type": "Cell signaling"
+        },
+        {
+            "name": "RPS6KA5", "type": "Cell signaling"
+        },
+        {
+            "name": "CP", "type": "Metabolism"
+        },
+        {
+            "name": "BPIFA3", "type": "Metabolism"
+        },
+        {
+            "name": "EYA4", "type": "Transcription factor"
+        },
+        {
+            "name": "SOX15", "type": "Transcription factor"
+        },
+        {
+            "name": "FOXP2", "type": "Transcription factor"
+        },
+        {
+            "name": "KPNA5", "type": "Molecular traffic"
+        },
+        {
+            "name": "HOXA4", "type": "Transcription factor"
+        },
+        {
+            "name": "CSPP1", "type": "Molecular traffic"
+        },
+        {
+            "name": "SVEP1", "type": "Structural"
+        },
+        {
+            "name": "RGS1", "type": "Cell signaling"
+        },
+        {
+            "name": "PCDH9", "type": "Structural"
+        },
+        {
+            "name": "PCK1", "type": "Metabolism"
+        },
+        {
+            "name": "AVIL", "type": "Structural"
+        },
+        {
+            "name": "CCL18", "type": "Cell signaling"
+        },
+        {
+            "name": "TEX33", "type": "Unknown"
+        },
+        {
+            "name": "POU4F2", "type": "Transcription factor"
+        },
+        {
+            "name": "C6", "type": "Immunity"
+        },
+        {
+            "name": "AOX1", "type": "Metabolism"
+        },
+        {
+            "name": "GBA3", "type": "Metabolism"
+        },
+        {
+            "name": "IFNB1", "type": "Immunity"
+        },
+        {
+            "name": "HSPB7", "type": "Metabolism"
+        },
+        {
+            "name": "TCF4", "type": "Transcription factor"
+        },
+        {
+            "name": "GLYATL1", "type": "Metabolism"
+        },
+        {
+            "name": "HNF1A", "type": "Transcription factor"
+        },
+        {
+            "name": "ELF3", "type": "Transcription factor"
+        },
+        {
+            "name": "HAB1", "type": "Cell signaling"
+        },
+        {
+            "name": "KREMEN1", "type": "Cell signaling"
+        },
+        {
+            "name": "NDP", "type": "Cell signaling"
+        },
+        {
+            "name": "SNCAIP", "type": "Metabolism"
+        },
+        {
+            "name": "RBP4", "type": "Molecular traffic"
+        },
+        {
+            "name": "MMP8", "type": "Metabolism"
+        },
+        {
+            "name": "MMP10", "type": "Metabolism"
+        },
+        {
+            "name": "STAT4", "type": "Cell signaling"
+        },
+        {
+            "name": "TCF7L1", "type": "Transcription factor"
+        }
+    ],
+    "edges": [
+        {
+            "source": "GPHN",
+            "target": "OTX2",
+            "weight": 0.11077242913461612
+        },
+        {
+            "source": "GPHN",
+            "target": "EDAR",
+            "weight": 0.024854846522250933
+        },
+        {
+            "source": "GPHN",
+            "target": "OTUD7B",
+            "weight": 0.03229927444781331
+        },
+        {
+            "source": "GPHN",
+            "target": "CRYBA1",
+            "weight": 0.007984976471481435
+        },
+        {
+            "source": "GPHN",
+            "target": "PAPPA",
+            "weight": 0.11284980121400175
+        },
+        {
+            "source": "GPHN",
+            "target": "ACVR2A",
+            "weight": 0.08021592094565175
+        },
+        {
+            "source": "GPHN",
+            "target": "SATB2",
+            "weight": 0.03755614947084412
+        },
+        {
+            "source": "GPHN",
+            "target": "SHANK1",
+            "weight": 0.02106533892590437
+        },
+        {
+            "source": "GPHN",
+            "target": "FRY",
+            "weight": 0.05266337618352297
+        },
+        {
+            "source": "GPHN",
+            "target": "NFYC",
+            "weight": 0.07575223369446185
+        },
+        {
+            "source": "GPHN",
+            "target": "SPINK1",
+            "weight": 0.031666933782292704
+        },
+        {
+            "source": "GPHN",
+            "target": "MEF2C",
+            "weight": 0.17132207906479544
+        },
+        {
+            "source": "GPHN",
+            "target": "SOSTDC1",
+            "weight": 0.03601242600706767
+        },
+        {
+            "source": "GPHN",
+            "target": "CADPS",
+            "weight": 0.026532714548787587
+        },
+        {
+            "source": "GPHN",
+            "target": "LIFR",
+            "weight": 0.06695019207937648
+        },
+        {
+            "source": "GPHN",
+            "target": "RPS6KA5",
+            "weight": 0.06548144349693842
+        },
+        {
+            "source": "GPHN",
+            "target": "CP",
+            "weight": 0.038390009932454665
+        },
+        {
+            "source": "GPHN",
+            "target": "BPIFA3",
+            "weight": 0.03522588973915502
+        },
+        {
+            "source": "GPHN",
+            "target": "EYA4",
+            "weight": 0.023079148555073307
+        },
+        {
+            "source": "GPHN",
+            "target": "SOX15",
+            "weight": 0.10069958389286861
+        },
+        {
+            "source": "GPHN",
+            "target": "FOXP2",
+            "weight": 0.1571372850186795
+        },
+        {
+            "source": "GPHN",
+            "target": "KPNA5",
+            "weight": 0.06837588047978589
+        },
+        {
+            "source": "GPHN",
+            "target": "HOXA4",
+            "weight": 0.007841448831439345
+        },
+        {
+            "source": "GPHN",
+            "target": "CSPP1",
+            "weight": 0.08584210365362735
+        },
+        {
+            "source": "GPHN",
+            "target": "SVEP1",
+            "weight": 0.030547106618809
+        },
+        {
+            "source": "GPHN",
+            "target": "RGS1",
+            "weight": 0.02396616835678786
+        },
+        {
+            "source": "GPHN",
+            "target": "PCDH9",
+            "weight": 0.07963388157321354
+        },
+        {
+            "source": "GPHN",
+            "target": "PCK1",
+            "weight": 0.03070394938609016
+        },
+        {
+            "source": "GPHN",
+            "target": "AVIL",
+            "weight": 0.02120140788536694
+        },
+        {
+            "source": "GPHN",
+            "target": "CCL18",
+            "weight": 0.016672783959747268
+        },
+        {
+            "source": "GPHN",
+            "target": "TEX33",
+            "weight": 0.018196901048606964
+        },
+        {
+            "source": "GPHN",
+            "target": "POU4F2",
+            "weight": 0.015661111241423744
+        },
+        {
+            "source": "GPHN",
+            "target": "C6",
+            "weight": 0.010227190079174593
+        },
+        {
+            "source": "GPHN",
+            "target": "AOX1",
+            "weight": 0.024245844047238434
+        },
+        {
+            "source": "GPHN",
+            "target": "GBA3",
+            "weight": 0.02022228146284201
+        },
+        {
+            "source": "GPHN",
+            "target": "IFNB1",
+            "weight": 0.007052620229536025
+        },
+        {
+            "source": "GPHN",
+            "target": "HSPB7",
+            "weight": 0.028074132535468362
+        },
+        {
+            "source": "GPHN",
+            "target": "TCF4",
+            "weight": 0.21352794840025108
+        },
+        {
+            "source": "GPHN",
+            "target": "GLYATL1",
+            "weight": 0.05315126162094572
+        },
+        {
+            "source": "GPHN",
+            "target": "HNF1A",
+            "weight": 0.04484095567591678
+        },
+        {
+            "source": "GPHN",
+            "target": "ELF3",
+            "weight": 0.10698327938098845
+        },
+        {
+            "source": "GPHN",
+            "target": "HAB1",
+            "weight": 0.03862187318657875
+        },
+        {
+            "source": "GPHN",
+            "target": "KREMEN1",
+            "weight": 0.0758352083847842
+        },
+        {
+            "source": "GPHN",
+            "target": "NDP",
+            "weight": 0.04035186102841409
+        },
+        {
+            "source": "GPHN",
+            "target": "SNCAIP",
+            "weight": 0.02081235323973998
+        },
+        {
+            "source": "GPHN",
+            "target": "RBP4",
+            "weight": 0.04581169624367862
+        },
+        {
+            "source": "GPHN",
+            "target": "MMP8",
+            "weight": 0.01805747677901368
+        },
+        {
+            "source": "GPHN",
+            "target": "MMP10",
+            "weight": 0.046891286315061585
+        },
+        {
+            "source": "GPHN",
+            "target": "STAT4",
+            "weight": 0.03306681375292097
+        },
+        {
+            "source": "GPHN",
+            "target": "TCF7L1",
+            "weight": 0.018342942585458873
+        },
+        {
+            "source": "OTX2",
+            "target": "EDAR",
+            "weight": 0.07962555330553346
+        },
+        {
+            "source": "OTX2",
+            "target": "OTUD7B",
+            "weight": 0.06271437715355786
+        },
+        {
+            "source": "OTX2",
+            "target": "CRYBA1",
+            "weight": 0.03800547181337141
+        },
+        {
+            "source": "OTX2",
+            "target": "PAPPA",
+            "weight": 0.1370735002416227
+        },
+        {
+            "source": "OTX2",
+            "target": "ACVR2A",
+            "weight": 0.052804706270818035
+        },
+        {
+            "source": "OTX2",
+            "target": "SATB2",
+            "weight": 0.1452370549138417
+        },
+        {
+            "source": "OTX2",
+            "target": "SHANK1",
+            "weight": 0.07992900560530158
+        },
+        {
+            "source": "OTX2",
+            "target": "FRY",
+            "weight": 0.040669884318649215
+        },
+        {
+            "source": "OTX2",
+            "target": "NFYC",
+            "weight": 0.05868807108224775
+        },
+        {
+            "source": "OTX2",
+            "target": "SPINK1",
+            "weight": 0.05321732019424849
+        },
+        {
+            "source": "OTX2",
+            "target": "MEF2C",
+            "weight": 0.0717879105637337
+        },
+        {
+            "source": "OTX2",
+            "target": "SOSTDC1",
+            "weight": 0.05008557617625024
+        },
+        {
+            "source": "OTX2",
+            "target": "CADPS",
+            "weight": 0.13630617571153233
+        },
+        {
+            "source": "OTX2",
+            "target": "LIFR",
+            "weight": 0.08736398808753994
+        },
+        {
+            "source": "OTX2",
+            "target": "RPS6KA5",
+            "weight": 0.08508293597947278
+        },
+        {
+            "source": "OTX2",
+            "target": "CP",
+            "weight": 0.15554458274799676
+        },
+        {
+            "source": "OTX2",
+            "target": "BPIFA3",
+            "weight": 0.06268550987760618
+        },
+        {
+            "source": "OTX2",
+            "target": "EYA4",
+            "weight": 0.11409671427374275
+        },
+        {
+            "source": "OTX2",
+            "target": "SOX15",
+            "weight": 0.07393047125485942
+        },
+        {
+            "source": "OTX2",
+            "target": "FOXP2",
+            "weight": 0.17382985433075215
+        },
+        {
+            "source": "OTX2",
+            "target": "KPNA5",
+            "weight": 0.05383171676628064
+        },
+        {
+            "source": "OTX2",
+            "target": "HOXA4",
+            "weight": 0.07834261185203435
+        },
+        {
+            "source": "OTX2",
+            "target": "CSPP1",
+            "weight": 0.1221955329400264
+        },
+        {
+            "source": "OTX2",
+            "target": "SVEP1",
+            "weight": 0.03240697279961197
+        },
+        {
+            "source": "OTX2",
+            "target": "RGS1",
+            "weight": 0.06652978566965022
+        },
+        {
+            "source": "OTX2",
+            "target": "PCDH9",
+            "weight": 0.0765851271922279
+        },
+        {
+            "source": "OTX2",
+            "target": "PCK1",
+            "weight": 0.10762758958102685
+        },
+        {
+            "source": "OTX2",
+            "target": "AVIL",
+            "weight": 0.06380524032195
+        },
+        {
+            "source": "OTX2",
+            "target": "CCL18",
+            "weight": 0.06713280490362258
+        },
+        {
+            "source": "OTX2",
+            "target": "TEX33",
+            "weight": 0.05640257707175626
+        },
+        {
+            "source": "OTX2",
+            "target": "POU4F2",
+            "weight": 0.10872653827113486
+        },
+        {
+            "source": "OTX2",
+            "target": "C6",
+            "weight": 0.028395296222130696
+        },
+        {
+            "source": "OTX2",
+            "target": "AOX1",
+            "weight": 0.04587057999238379
+        },
+        {
+            "source": "OTX2",
+            "target": "GBA3",
+            "weight": 0.06707868089888007
+        },
+        {
+            "source": "OTX2",
+            "target": "IFNB1",
+            "weight": 0.048888368903721925
+        },
+        {
+            "source": "OTX2",
+            "target": "HSPB7",
+            "weight": 0.07300885627332371
+        },
+        {
+            "source": "OTX2",
+            "target": "TCF4",
+            "weight": 0.08128049004769783
+        },
+        {
+            "source": "OTX2",
+            "target": "GLYATL1",
+            "weight": 0.07252249871754303
+        },
+        {
+            "source": "OTX2",
+            "target": "HNF1A",
+            "weight": 0.06400478469486831
+        },
+        {
+            "source": "OTX2",
+            "target": "ELF3",
+            "weight": 0.11354893892783002
+        },
+        {
+            "source": "OTX2",
+            "target": "HAB1",
+            "weight": 0.0586896681038153
+        },
+        {
+            "source": "OTX2",
+            "target": "KREMEN1",
+            "weight": 0.09846543584146976
+        },
+        {
+            "source": "OTX2",
+            "target": "NDP",
+            "weight": 0.06844132735923142
+        },
+        {
+            "source": "OTX2",
+            "target": "SNCAIP",
+            "weight": 0.08795565444095206
+        },
+        {
+            "source": "OTX2",
+            "target": "RBP4",
+            "weight": 0.06858587123951487
+        },
+        {
+            "source": "OTX2",
+            "target": "MMP8",
+            "weight": 0.055520598132182734
+        },
+        {
+            "source": "OTX2",
+            "target": "MMP10",
+            "weight": 0.0834636789781176
+        },
+        {
+            "source": "OTX2",
+            "target": "STAT4",
+            "weight": 0.055201079007623076
+        },
+        {
+            "source": "OTX2",
+            "target": "TCF7L1",
+            "weight": 0.06793916201755844
+        },
+        {
+            "source": "EDAR",
+            "target": "OTUD7B",
+            "weight": 0.015580233959077643
+        },
+        {
+            "source": "EDAR",
+            "target": "CRYBA1",
+            "weight": 0.02381475186462643
+        },
+        {
+            "source": "EDAR",
+            "target": "PAPPA",
+            "weight": 0.09196513293695154
+        },
+        {
+            "source": "EDAR",
+            "target": "ACVR2A",
+            "weight": 0.07219769144130068
+        },
+        {
+            "source": "EDAR",
+            "target": "SATB2",
+            "weight": 0.0906806101771796
+        },
+        {
+            "source": "EDAR",
+            "target": "SHANK1",
+            "weight": 0.014356720467665722
+        },
+        {
+            "source": "EDAR",
+            "target": "FRY",
+            "weight": 0.022959832314622747
+        },
+        {
+            "source": "EDAR",
+            "target": "NFYC",
+            "weight": 0.009803531835610012
+        },
+        {
+            "source": "EDAR",
+            "target": "SPINK1",
+            "weight": 0.012894416560590757
+        },
+        {
+            "source": "EDAR",
+            "target": "MEF2C",
+            "weight": 0.0056681826056112885
+        },
+        {
+            "source": "EDAR",
+            "target": "SOSTDC1",
+            "weight": 0.01793506867001839
+        },
+        {
+            "source": "EDAR",
+            "target": "CADPS",
+            "weight": 0.027556968907068574
+        },
+        {
+            "source": "EDAR",
+            "target": "LIFR",
+            "weight": 0.025401689139967248
+        },
+        {
+            "source": "EDAR",
+            "target": "RPS6KA5",
+            "weight": 0.03541243755892342
+        },
+        {
+            "source": "EDAR",
+            "target": "CP",
+            "weight": 0.023256896013516378
+        },
+        {
+            "source": "EDAR",
+            "target": "BPIFA3",
+            "weight": 0.03371618656061236
+        },
+        {
+            "source": "EDAR",
+            "target": "EYA4",
+            "weight": 0.053579071887260514
+        },
+        {
+            "source": "EDAR",
+            "target": "SOX15",
+            "weight": 0.059275831832173526
+        },
+        {
+            "source": "EDAR",
+            "target": "FOXP2",
+            "weight": 0.12271281647715963
+        },
+        {
+            "source": "EDAR",
+            "target": "KPNA5",
+            "weight": 0.019142452053511422
+        },
+        {
+            "source": "EDAR",
+            "target": "HOXA4",
+            "weight": 0.03462403968649877
+        },
+        {
+            "source": "EDAR",
+            "target": "CSPP1",
+            "weight": 0.042240814087651846
+        },
+        {
+            "source": "EDAR",
+            "target": "SVEP1",
+            "weight": 0.0397778825675919
+        },
+        {
+            "source": "EDAR",
+            "target": "RGS1",
+            "weight": 0.027463249921610124
+        },
+        {
+            "source": "EDAR",
+            "target": "PCDH9",
+            "weight": 0.05979243560447869
+        },
+        {
+            "source": "EDAR",
+            "target": "PCK1",
+            "weight": 0.014478666706831367
+        },
+        {
+            "source": "EDAR",
+            "target": "AVIL",
+            "weight": 0.041491705724279355
+        },
+        {
+            "source": "EDAR",
+            "target": "CCL18",
+            "weight": 0.01314839965300194
+        },
+        {
+            "source": "EDAR",
+            "target": "TEX33",
+            "weight": 0.026296983832556374
+        },
+        {
+            "source": "EDAR",
+            "target": "POU4F2",
+            "weight": 0.06193481498849646
+        },
+        {
+            "source": "EDAR",
+            "target": "C6",
+            "weight": 0.012840587255817508
+        },
+        {
+            "source": "EDAR",
+            "target": "AOX1",
+            "weight": 0.03742214455696198
+        },
+        {
+            "source": "EDAR",
+            "target": "GBA3",
+            "weight": 0.05816765932654905
+        },
+        {
+            "source": "EDAR",
+            "target": "IFNB1",
+            "weight": 0.010902104206433985
+        },
+        {
+            "source": "EDAR",
+            "target": "HSPB7",
+            "weight": 0.03308237975198845
+        },
+        {
+            "source": "EDAR",
+            "target": "TCF4",
+            "weight": 0.024435944050171063
+        },
+        {
+            "source": "EDAR",
+            "target": "GLYATL1",
+            "weight": 0.11109899837469484
+        },
+        {
+            "source": "EDAR",
+            "target": "HNF1A",
+            "weight": 0.05042429355203991
+        },
+        {
+            "source": "EDAR",
+            "target": "ELF3",
+            "weight": 0.10727831007895193
+        },
+        {
+            "source": "EDAR",
+            "target": "HAB1",
+            "weight": 0.05170764125593927
+        },
+        {
+            "source": "EDAR",
+            "target": "KREMEN1",
+            "weight": 0.045725588751652675
+        },
+        {
+            "source": "EDAR",
+            "target": "NDP",
+            "weight": 0.02674824649550325
+        },
+        {
+            "source": "EDAR",
+            "target": "SNCAIP",
+            "weight": 0.017727845033289225
+        },
+        {
+            "source": "EDAR",
+            "target": "RBP4",
+            "weight": 0.05031997194066829
+        },
+        {
+            "source": "EDAR",
+            "target": "MMP8",
+            "weight": 0.019997682835599953
+        },
+        {
+            "source": "EDAR",
+            "target": "MMP10",
+            "weight": 0.01931827208748577
+        },
+        {
+            "source": "EDAR",
+            "target": "STAT4",
+            "weight": 0.03283306935823287
+        },
+        {
+            "source": "EDAR",
+            "target": "TCF7L1",
+            "weight": 0.028693009174075596
+        },
+        {
+            "source": "OTUD7B",
+            "target": "CRYBA1",
+            "weight": 0.008534538928043085
+        },
+        {
+            "source": "OTUD7B",
+            "target": "PAPPA",
+            "weight": 0.0647137263691134
+        },
+        {
+            "source": "OTUD7B",
+            "target": "ACVR2A",
+            "weight": 0.05390311401595162
+        },
+        {
+            "source": "OTUD7B",
+            "target": "SATB2",
+            "weight": 0.04090643253650735
+        },
+        {
+            "source": "OTUD7B",
+            "target": "SHANK1",
+            "weight": 0.02890203795028029
+        },
+        {
+            "source": "OTUD7B",
+            "target": "FRY",
+            "weight": 0.08337623320641295
+        },
+        {
+            "source": "OTUD7B",
+            "target": "NFYC",
+            "weight": 0.021015407691899676
+        },
+        {
+            "source": "OTUD7B",
+            "target": "SPINK1",
+            "weight": 0.02272118563902304
+        },
+        {
+            "source": "OTUD7B",
+            "target": "MEF2C",
+            "weight": 0.03765754857979905
+        },
+        {
+            "source": "OTUD7B",
+            "target": "SOSTDC1",
+            "weight": 0.017051556685169188
+        },
+        {
+            "source": "OTUD7B",
+            "target": "CADPS",
+            "weight": 0.060374351766827344
+        },
+        {
+            "source": "OTUD7B",
+            "target": "LIFR",
+            "weight": 0.044188670361928396
+        },
+        {
+            "source": "OTUD7B",
+            "target": "RPS6KA5",
+            "weight": 0.0765305114474524
+        },
+        {
+            "source": "OTUD7B",
+            "target": "CP",
+            "weight": 0.04139288864787393
+        },
+        {
+            "source": "OTUD7B",
+            "target": "BPIFA3",
+            "weight": 0.08898868551471785
+        },
+        {
+            "source": "OTUD7B",
+            "target": "EYA4",
+            "weight": 0.061654603996871817
+        },
+        {
+            "source": "OTUD7B",
+            "target": "SOX15",
+            "weight": 0.025635110541033845
+        },
+        {
+            "source": "OTUD7B",
+            "target": "FOXP2",
+            "weight": 0.13657808347888248
+        },
+        {
+            "source": "OTUD7B",
+            "target": "KPNA5",
+            "weight": 0.016190426698802305
+        },
+        {
+            "source": "OTUD7B",
+            "target": "HOXA4",
+            "weight": 0.02028451281581779
+        },
+        {
+            "source": "OTUD7B",
+            "target": "CSPP1",
+            "weight": 0.09764752315803756
+        },
+        {
+            "source": "OTUD7B",
+            "target": "SVEP1",
+            "weight": 0.04597423261676194
+        },
+        {
+            "source": "OTUD7B",
+            "target": "RGS1",
+            "weight": 0.04460184730185654
+        },
+        {
+            "source": "OTUD7B",
+            "target": "PCDH9",
+            "weight": 0.13419878439354938
+        },
+        {
+            "source": "OTUD7B",
+            "target": "PCK1",
+            "weight": 0.012479094967048672
+        },
+        {
+            "source": "OTUD7B",
+            "target": "AVIL",
+            "weight": 0.07300920521134792
+        },
+        {
+            "source": "OTUD7B",
+            "target": "CCL18",
+            "weight": 0.0873836613337678
+        },
+        {
+            "source": "OTUD7B",
+            "target": "TEX33",
+            "weight": 0.03719174503769763
+        },
+        {
+            "source": "OTUD7B",
+            "target": "POU4F2",
+            "weight": 0.024118504143127144
+        },
+        {
+            "source": "OTUD7B",
+            "target": "C6",
+            "weight": 0.016694192415876833
+        },
+        {
+            "source": "OTUD7B",
+            "target": "AOX1",
+            "weight": 0.022427354694293786
+        },
+        {
+            "source": "OTUD7B",
+            "target": "GBA3",
+            "weight": 0.04797818292349069
+        },
+        {
+            "source": "OTUD7B",
+            "target": "IFNB1",
+            "weight": 0.03903869148871829
+        },
+        {
+            "source": "OTUD7B",
+            "target": "HSPB7",
+            "weight": 0.04807778083008889
+        },
+        {
+            "source": "OTUD7B",
+            "target": "TCF4",
+            "weight": 0.015849171315017348
+        },
+        {
+            "source": "OTUD7B",
+            "target": "GLYATL1",
+            "weight": 0.10953116843798023
+        },
+        {
+            "source": "OTUD7B",
+            "target": "HNF1A",
+            "weight": 0.021994997402952958
+        },
+        {
+            "source": "OTUD7B",
+            "target": "ELF3",
+            "weight": 0.11372796813354073
+        },
+        {
+            "source": "OTUD7B",
+            "target": "HAB1",
+            "weight": 0.06594391653019849
+        },
+        {
+            "source": "OTUD7B",
+            "target": "KREMEN1",
+            "weight": 0.12206989234763604
+        },
+        {
+            "source": "OTUD7B",
+            "target": "NDP",
+            "weight": 0.07114800698435565
+        },
+        {
+            "source": "OTUD7B",
+            "target": "SNCAIP",
+            "weight": 0.009775149080143881
+        },
+        {
+            "source": "OTUD7B",
+            "target": "RBP4",
+            "weight": 0.029878085804041915
+        },
+        {
+            "source": "OTUD7B",
+            "target": "MMP8",
+            "weight": 0.03228044850225751
+        },
+        {
+            "source": "OTUD7B",
+            "target": "MMP10",
+            "weight": 0.018713693251531962
+        },
+        {
+            "source": "OTUD7B",
+            "target": "STAT4",
+            "weight": 0.04887239637018136
+        },
+        {
+            "source": "OTUD7B",
+            "target": "TCF7L1",
+            "weight": 0.026235727434280178
+        },
+        {
+            "source": "CRYBA1",
+            "target": "PAPPA",
+            "weight": 0.012809876472374474
+        },
+        {
+            "source": "CRYBA1",
+            "target": "ACVR2A",
+            "weight": 0.003372321171360626
+        },
+        {
+            "source": "CRYBA1",
+            "target": "SATB2",
+            "weight": 0.018603620181819165
+        },
+        {
+            "source": "CRYBA1",
+            "target": "SHANK1",
+            "weight": 0.019767677767113852
+        },
+        {
+            "source": "CRYBA1",
+            "target": "FRY",
+            "weight": 0.005354478122852786
+        },
+        {
+            "source": "CRYBA1",
+            "target": "NFYC",
+            "weight": 0.006700143053900101
+        },
+        {
+            "source": "CRYBA1",
+            "target": "SPINK1",
+            "weight": 0.007447074140860704
+        },
+        {
+            "source": "CRYBA1",
+            "target": "MEF2C",
+            "weight": 0.0055434021838529175
+        },
+        {
+            "source": "CRYBA1",
+            "target": "SOSTDC1",
+            "weight": 0.001961029657547575
+        },
+        {
+            "source": "CRYBA1",
+            "target": "CADPS",
+            "weight": 0.009333611779132223
+        },
+        {
+            "source": "CRYBA1",
+            "target": "LIFR",
+            "weight": 0.008662430132598712
+        },
+        {
+            "source": "CRYBA1",
+            "target": "RPS6KA5",
+            "weight": 0.0050443803474609535
+        },
+        {
+            "source": "CRYBA1",
+            "target": "CP",
+            "weight": 0.00987688728089146
+        },
+        {
+            "source": "CRYBA1",
+            "target": "BPIFA3",
+            "weight": 0.033369540411000306
+        },
+        {
+            "source": "CRYBA1",
+            "target": "EYA4",
+            "weight": 0.010903582588436695
+        },
+        {
+            "source": "CRYBA1",
+            "target": "SOX15",
+            "weight": 0.012304448904900183
+        },
+        {
+            "source": "CRYBA1",
+            "target": "FOXP2",
+            "weight": 0.11742449664248605
+        },
+        {
+            "source": "CRYBA1",
+            "target": "KPNA5",
+            "weight": 0.00874761496139885
+        },
+        {
+            "source": "CRYBA1",
+            "target": "HOXA4",
+            "weight": 0.013373551921681173
+        },
+        {
+            "source": "CRYBA1",
+            "target": "CSPP1",
+            "weight": 0.03356664462600012
+        },
+        {
+            "source": "CRYBA1",
+            "target": "SVEP1",
+            "weight": 0.010180293154413792
+        },
+        {
+            "source": "CRYBA1",
+            "target": "RGS1",
+            "weight": 0.03975136596525303
+        },
+        {
+            "source": "CRYBA1",
+            "target": "PCDH9",
+            "weight": 0.030070231583449715
+        },
+        {
+            "source": "CRYBA1",
+            "target": "PCK1",
+            "weight": 0.008131128898952037
+        },
+        {
+            "source": "CRYBA1",
+            "target": "AVIL",
+            "weight": 0.023254580820433086
+        },
+        {
+            "source": "CRYBA1",
+            "target": "CCL18",
+            "weight": 0.012223389255129438
+        },
+        {
+            "source": "CRYBA1",
+            "target": "TEX33",
+            "weight": 0.012137281452434676
+        },
+        {
+            "source": "CRYBA1",
+            "target": "POU4F2",
+            "weight": 0.013838139977482792
+        },
+        {
+            "source": "CRYBA1",
+            "target": "C6",
+            "weight": 0.011190911991262318
+        },
+        {
+            "source": "CRYBA1",
+            "target": "AOX1",
+            "weight": 0.011872759959781522
+        },
+        {
+            "source": "CRYBA1",
+            "target": "GBA3",
+            "weight": 0.012685609476500067
+        },
+        {
+            "source": "CRYBA1",
+            "target": "IFNB1",
+            "weight": 0.007687071429978219
+        },
+        {
+            "source": "CRYBA1",
+            "target": "HSPB7",
+            "weight": 0.010769253948705983
+        },
+        {
+            "source": "CRYBA1",
+            "target": "TCF4",
+            "weight": 0.02497699367221944
+        },
+        {
+            "source": "CRYBA1",
+            "target": "GLYATL1",
+            "weight": 0.033164466830213145
+        },
+        {
+            "source": "CRYBA1",
+            "target": "HNF1A",
+            "weight": 0.02665267462471001
+        },
+        {
+            "source": "CRYBA1",
+            "target": "ELF3",
+            "weight": 0.01411602249502538
+        },
+        {
+            "source": "CRYBA1",
+            "target": "HAB1",
+            "weight": 0.02007226526414298
+        },
+        {
+            "source": "CRYBA1",
+            "target": "KREMEN1",
+            "weight": 0.03822082537782748
+        },
+        {
+            "source": "CRYBA1",
+            "target": "NDP",
+            "weight": 0.007888084179812677
+        },
+        {
+            "source": "CRYBA1",
+            "target": "SNCAIP",
+            "weight": 0.011728238371890387
+        },
+        {
+            "source": "CRYBA1",
+            "target": "RBP4",
+            "weight": 0.037904085674619656
+        },
+        {
+            "source": "CRYBA1",
+            "target": "MMP8",
+            "weight": 0.00977232012835499
+        },
+        {
+            "source": "CRYBA1",
+            "target": "MMP10",
+            "weight": 0.0043098276525383155
+        },
+        {
+            "source": "CRYBA1",
+            "target": "STAT4",
+            "weight": 0.005675326368872869
+        },
+        {
+            "source": "CRYBA1",
+            "target": "TCF7L1",
+            "weight": 0.013624094110816928
+        },
+        {
+            "source": "PAPPA",
+            "target": "ACVR2A",
+            "weight": 0.09182067528758305
+        },
+        {
+            "source": "PAPPA",
+            "target": "SATB2",
+            "weight": 0.19354045150293822
+        },
+        {
+            "source": "PAPPA",
+            "target": "SHANK1",
+            "weight": 0.025025542027688082
+        },
+        {
+            "source": "PAPPA",
+            "target": "FRY",
+            "weight": 0.02264719718799369
+        },
+        {
+            "source": "PAPPA",
+            "target": "NFYC",
+            "weight": 0.01903700618550024
+        },
+        {
+            "source": "PAPPA",
+            "target": "SPINK1",
+            "weight": 0.04247551417808496
+        },
+        {
+            "source": "PAPPA",
+            "target": "MEF2C",
+            "weight": 0.022510444323083603
+        },
+        {
+            "source": "PAPPA",
+            "target": "SOSTDC1",
+            "weight": 0.050979737861496836
+        },
+        {
+            "source": "PAPPA",
+            "target": "CADPS",
+            "weight": 0.09406072573087952
+        },
+        {
+            "source": "PAPPA",
+            "target": "LIFR",
+            "weight": 0.11818825824350357
+        },
+        {
+            "source": "PAPPA",
+            "target": "RPS6KA5",
+            "weight": 0.0476490781517643
+        },
+        {
+            "source": "PAPPA",
+            "target": "CP",
+            "weight": 0.040618758205960545
+        },
+        {
+            "source": "PAPPA",
+            "target": "BPIFA3",
+            "weight": 0.04334061788485952
+        },
+        {
+            "source": "PAPPA",
+            "target": "EYA4",
+            "weight": 0.0906716163882856
+        },
+        {
+            "source": "PAPPA",
+            "target": "SOX15",
+            "weight": 0.04326022479007548
+        },
+        {
+            "source": "PAPPA",
+            "target": "FOXP2",
+            "weight": 0.15547793746016755
+        },
+        {
+            "source": "PAPPA",
+            "target": "KPNA5",
+            "weight": 0.038229945640821446
+        },
+        {
+            "source": "PAPPA",
+            "target": "HOXA4",
+            "weight": 0.12327699080299122
+        },
+        {
+            "source": "PAPPA",
+            "target": "CSPP1",
+            "weight": 0.09456793654721263
+        },
+        {
+            "source": "PAPPA",
+            "target": "SVEP1",
+            "weight": 0.09520589327311538
+        },
+        {
+            "source": "PAPPA",
+            "target": "RGS1",
+            "weight": 0.1001956325447005
+        },
+        {
+            "source": "PAPPA",
+            "target": "PCDH9",
+            "weight": 0.3926129794254082
+        },
+        {
+            "source": "PAPPA",
+            "target": "PCK1",
+            "weight": 0.03470580888423368
+        },
+        {
+            "source": "PAPPA",
+            "target": "AVIL",
+            "weight": 0.09304685153117956
+        },
+        {
+            "source": "PAPPA",
+            "target": "CCL18",
+            "weight": 0.038369059022964704
+        },
+        {
+            "source": "PAPPA",
+            "target": "TEX33",
+            "weight": 0.04560020524658144
+        },
+        {
+            "source": "PAPPA",
+            "target": "POU4F2",
+            "weight": 0.05725767583343057
+        },
+        {
+            "source": "PAPPA",
+            "target": "C6",
+            "weight": 0.05497512756319522
+        },
+        {
+            "source": "PAPPA",
+            "target": "AOX1",
+            "weight": 0.11402853177728502
+        },
+        {
+            "source": "PAPPA",
+            "target": "GBA3",
+            "weight": 0.06932955518216849
+        },
+        {
+            "source": "PAPPA",
+            "target": "IFNB1",
+            "weight": 0.018582485418410902
+        },
+        {
+            "source": "PAPPA",
+            "target": "HSPB7",
+            "weight": 0.1021011606009984
+        },
+        {
+            "source": "PAPPA",
+            "target": "TCF4",
+            "weight": 0.18074332883874408
+        },
+        {
+            "source": "PAPPA",
+            "target": "GLYATL1",
+            "weight": 0.06857970309545215
+        },
+        {
+            "source": "PAPPA",
+            "target": "HNF1A",
+            "weight": 0.05628649996050694
+        },
+        {
+            "source": "PAPPA",
+            "target": "ELF3",
+            "weight": 0.12393563873375321
+        },
+        {
+            "source": "PAPPA",
+            "target": "HAB1",
+            "weight": 0.061700976131071165
+        },
+        {
+            "source": "PAPPA",
+            "target": "KREMEN1",
+            "weight": 0.0680574669179215
+        },
+        {
+            "source": "PAPPA",
+            "target": "NDP",
+            "weight": 0.04022041682569075
+        },
+        {
+            "source": "PAPPA",
+            "target": "SNCAIP",
+            "weight": 0.060190126616786445
+        },
+        {
+            "source": "PAPPA",
+            "target": "RBP4",
+            "weight": 0.07230853731312473
+        },
+        {
+            "source": "PAPPA",
+            "target": "MMP8",
+            "weight": 0.042223084232177445
+        },
+        {
+            "source": "PAPPA",
+            "target": "MMP10",
+            "weight": 0.06851729288709592
+        },
+        {
+            "source": "PAPPA",
+            "target": "STAT4",
+            "weight": 0.1422949914858385
+        },
+        {
+            "source": "PAPPA",
+            "target": "TCF7L1",
+            "weight": 0.10162510889090295
+        },
+        {
+            "source": "ACVR2A",
+            "target": "SATB2",
+            "weight": 0.13083122237111805
+        },
+        {
+            "source": "ACVR2A",
+            "target": "SHANK1",
+            "weight": 0.02154204237306416
+        },
+        {
+            "source": "ACVR2A",
+            "target": "FRY",
+            "weight": 0.09270317919329324
+        },
+        {
+            "source": "ACVR2A",
+            "target": "NFYC",
+            "weight": 0.02781655427063283
+        },
+        {
+            "source": "ACVR2A",
+            "target": "SPINK1",
+            "weight": 0.02458632724505754
+        },
+        {
+            "source": "ACVR2A",
+            "target": "MEF2C",
+            "weight": 0.0735147159239503
+        },
+        {
+            "source": "ACVR2A",
+            "target": "SOSTDC1",
+            "weight": 0.020757393849571783
+        },
+        {
+            "source": "ACVR2A",
+            "target": "CADPS",
+            "weight": 0.10428634476495792
+        },
+        {
+            "source": "ACVR2A",
+            "target": "LIFR",
+            "weight": 0.10802208411781851
+        },
+        {
+            "source": "ACVR2A",
+            "target": "RPS6KA5",
+            "weight": 0.05911905536960065
+        },
+        {
+            "source": "ACVR2A",
+            "target": "CP",
+            "weight": 0.026240652439872034
+        },
+        {
+            "source": "ACVR2A",
+            "target": "BPIFA3",
+            "weight": 0.04438436208240729
+        },
+        {
+            "source": "ACVR2A",
+            "target": "EYA4",
+            "weight": 0.05975352443094243
+        },
+        {
+            "source": "ACVR2A",
+            "target": "SOX15",
+            "weight": 0.05951318162457497
+        },
+        {
+            "source": "ACVR2A",
+            "target": "FOXP2",
+            "weight": 0.14565850877214367
+        },
+        {
+            "source": "ACVR2A",
+            "target": "KPNA5",
+            "weight": 0.04304310385256455
+        },
+        {
+            "source": "ACVR2A",
+            "target": "HOXA4",
+            "weight": 0.022330196903272106
+        },
+        {
+            "source": "ACVR2A",
+            "target": "CSPP1",
+            "weight": 0.11258661458461346
+        },
+        {
+            "source": "ACVR2A",
+            "target": "SVEP1",
+            "weight": 0.056573174697336436
+        },
+        {
+            "source": "ACVR2A",
+            "target": "RGS1",
+            "weight": 0.06842062476214653
+        },
+        {
+            "source": "ACVR2A",
+            "target": "PCDH9",
+            "weight": 0.11644435873066063
+        },
+        {
+            "source": "ACVR2A",
+            "target": "PCK1",
+            "weight": 0.016057629597217907
+        },
+        {
+            "source": "ACVR2A",
+            "target": "AVIL",
+            "weight": 0.03184467090099191
+        },
+        {
+            "source": "ACVR2A",
+            "target": "CCL18",
+            "weight": 0.012993161340504437
+        },
+        {
+            "source": "ACVR2A",
+            "target": "TEX33",
+            "weight": 0.036939203911166264
+        },
+        {
+            "source": "ACVR2A",
+            "target": "POU4F2",
+            "weight": 0.01759649777329543
+        },
+        {
+            "source": "ACVR2A",
+            "target": "C6",
+            "weight": 0.04055083807399844
+        },
+        {
+            "source": "ACVR2A",
+            "target": "AOX1",
+            "weight": 0.08133881499470848
+        },
+        {
+            "source": "ACVR2A",
+            "target": "GBA3",
+            "weight": 0.03927847565456984
+        },
+        {
+            "source": "ACVR2A",
+            "target": "IFNB1",
+            "weight": 0.01334474759727546
+        },
+        {
+            "source": "ACVR2A",
+            "target": "HSPB7",
+            "weight": 0.06512870694271006
+        },
+        {
+            "source": "ACVR2A",
+            "target": "TCF4",
+            "weight": 0.04402548694788024
+        },
+        {
+            "source": "ACVR2A",
+            "target": "GLYATL1",
+            "weight": 0.05512171386120255
+        },
+        {
+            "source": "ACVR2A",
+            "target": "HNF1A",
+            "weight": 0.0498668868054769
+        },
+        {
+            "source": "ACVR2A",
+            "target": "ELF3",
+            "weight": 0.056769516984213626
+        },
+        {
+            "source": "ACVR2A",
+            "target": "HAB1",
+            "weight": 0.035052802561318444
+        },
+        {
+            "source": "ACVR2A",
+            "target": "KREMEN1",
+            "weight": 0.06447915499576384
+        },
+        {
+            "source": "ACVR2A",
+            "target": "NDP",
+            "weight": 0.01647147602361986
+        },
+        {
+            "source": "ACVR2A",
+            "target": "SNCAIP",
+            "weight": 0.033042268703387515
+        },
+        {
+            "source": "ACVR2A",
+            "target": "RBP4",
+            "weight": 0.054137933921771804
+        },
+        {
+            "source": "ACVR2A",
+            "target": "MMP8",
+            "weight": 0.025466160879944733
+        },
+        {
+            "source": "ACVR2A",
+            "target": "MMP10",
+            "weight": 0.01979346588345341
+        },
+        {
+            "source": "ACVR2A",
+            "target": "STAT4",
+            "weight": 0.08255205217189465
+        },
+        {
+            "source": "ACVR2A",
+            "target": "TCF7L1",
+            "weight": 0.06025476031577999
+        },
+        {
+            "source": "SATB2",
+            "target": "SHANK1",
+            "weight": 0.03027337538727985
+        },
+        {
+            "source": "SATB2",
+            "target": "FRY",
+            "weight": 0.05227483748854401
+        },
+        {
+            "source": "SATB2",
+            "target": "NFYC",
+            "weight": 0.031412169541178286
+        },
+        {
+            "source": "SATB2",
+            "target": "SPINK1",
+            "weight": 0.015090373488271813
+        },
+        {
+            "source": "SATB2",
+            "target": "MEF2C",
+            "weight": 0.06312464551541976
+        },
+        {
+            "source": "SATB2",
+            "target": "SOSTDC1",
+            "weight": 0.039005709727915054
+        },
+        {
+            "source": "SATB2",
+            "target": "CADPS",
+            "weight": 0.0637750331638056
+        },
+        {
+            "source": "SATB2",
+            "target": "LIFR",
+            "weight": 0.027865158073596432
+        },
+        {
+            "source": "SATB2",
+            "target": "RPS6KA5",
+            "weight": 0.05579578011642491
+        },
+        {
+            "source": "SATB2",
+            "target": "CP",
+            "weight": 0.02238231454267609
+        },
+        {
+            "source": "SATB2",
+            "target": "BPIFA3",
+            "weight": 0.040271684596988176
+        },
+        {
+            "source": "SATB2",
+            "target": "EYA4",
+            "weight": 0.04838042644254401
+        },
+        {
+            "source": "SATB2",
+            "target": "SOX15",
+            "weight": 0.06896442918152447
+        },
+        {
+            "source": "SATB2",
+            "target": "FOXP2",
+            "weight": 0.16837290892436413
+        },
+        {
+            "source": "SATB2",
+            "target": "KPNA5",
+            "weight": 0.046001151674203385
+        },
+        {
+            "source": "SATB2",
+            "target": "HOXA4",
+            "weight": 0.07290588790642388
+        },
+        {
+            "source": "SATB2",
+            "target": "CSPP1",
+            "weight": 0.06247628630654506
+        },
+        {
+            "source": "SATB2",
+            "target": "SVEP1",
+            "weight": 0.031030105146134263
+        },
+        {
+            "source": "SATB2",
+            "target": "RGS1",
+            "weight": 0.074623763006785
+        },
+        {
+            "source": "SATB2",
+            "target": "PCDH9",
+            "weight": 0.20724010606945734
+        },
+        {
+            "source": "SATB2",
+            "target": "PCK1",
+            "weight": 0.03951713817458373
+        },
+        {
+            "source": "SATB2",
+            "target": "AVIL",
+            "weight": 0.032681089349541524
+        },
+        {
+            "source": "SATB2",
+            "target": "CCL18",
+            "weight": 0.026425372929833647
+        },
+        {
+            "source": "SATB2",
+            "target": "TEX33",
+            "weight": 0.034707098862123344
+        },
+        {
+            "source": "SATB2",
+            "target": "POU4F2",
+            "weight": 0.04280127573620321
+        },
+        {
+            "source": "SATB2",
+            "target": "C6",
+            "weight": 0.025430343294032102
+        },
+        {
+            "source": "SATB2",
+            "target": "AOX1",
+            "weight": 0.025760706713335677
+        },
+        {
+            "source": "SATB2",
+            "target": "GBA3",
+            "weight": 0.05774850719254427
+        },
+        {
+            "source": "SATB2",
+            "target": "IFNB1",
+            "weight": 0.01566927277225194
+        },
+        {
+            "source": "SATB2",
+            "target": "HSPB7",
+            "weight": 0.05479700605815864
+        },
+        {
+            "source": "SATB2",
+            "target": "TCF4",
+            "weight": 0.06065962071049102
+        },
+        {
+            "source": "SATB2",
+            "target": "GLYATL1",
+            "weight": 0.07730929624132776
+        },
+        {
+            "source": "SATB2",
+            "target": "HNF1A",
+            "weight": 0.025099194761607838
+        },
+        {
+            "source": "SATB2",
+            "target": "ELF3",
+            "weight": 0.0707458593021874
+        },
+        {
+            "source": "SATB2",
+            "target": "HAB1",
+            "weight": 0.018286117934528095
+        },
+        {
+            "source": "SATB2",
+            "target": "KREMEN1",
+            "weight": 0.07312575771929265
+        },
+        {
+            "source": "SATB2",
+            "target": "NDP",
+            "weight": 0.01475136988817136
+        },
+        {
+            "source": "SATB2",
+            "target": "SNCAIP",
+            "weight": 0.04430484818733612
+        },
+        {
+            "source": "SATB2",
+            "target": "RBP4",
+            "weight": 0.10978920885903126
+        },
+        {
+            "source": "SATB2",
+            "target": "MMP8",
+            "weight": 0.02016162650279007
+        },
+        {
+            "source": "SATB2",
+            "target": "MMP10",
+            "weight": 0.02379852280495138
+        },
+        {
+            "source": "SATB2",
+            "target": "STAT4",
+            "weight": 0.08192676023730366
+        },
+        {
+            "source": "SATB2",
+            "target": "TCF7L1",
+            "weight": 0.0379433782702598
+        },
+        {
+            "source": "SHANK1",
+            "target": "FRY",
+            "weight": 0.019147723904743418
+        },
+        {
+            "source": "SHANK1",
+            "target": "NFYC",
+            "weight": 0.009317981368283379
+        },
+        {
+            "source": "SHANK1",
+            "target": "SPINK1",
+            "weight": 0.01613799334960514
+        },
+        {
+            "source": "SHANK1",
+            "target": "MEF2C",
+            "weight": 0.008728832428805193
+        },
+        {
+            "source": "SHANK1",
+            "target": "SOSTDC1",
+            "weight": 0.01103380914505427
+        },
+        {
+            "source": "SHANK1",
+            "target": "CADPS",
+            "weight": 0.03447916988458511
+        },
+        {
+            "source": "SHANK1",
+            "target": "LIFR",
+            "weight": 0.01994332335839129
+        },
+        {
+            "source": "SHANK1",
+            "target": "RPS6KA5",
+            "weight": 0.0156477915730053
+        },
+        {
+            "source": "SHANK1",
+            "target": "CP",
+            "weight": 0.02125634177703778
+        },
+        {
+            "source": "SHANK1",
+            "target": "BPIFA3",
+            "weight": 0.06461254133326565
+        },
+        {
+            "source": "SHANK1",
+            "target": "EYA4",
+            "weight": 0.031792071744541975
+        },
+        {
+            "source": "SHANK1",
+            "target": "SOX15",
+            "weight": 0.06845961438102346
+        },
+        {
+            "source": "SHANK1",
+            "target": "FOXP2",
+            "weight": 0.10604848111647198
+        },
+        {
+            "source": "SHANK1",
+            "target": "KPNA5",
+            "weight": 0.010695203545209017
+        },
+        {
+            "source": "SHANK1",
+            "target": "HOXA4",
+            "weight": 0.01032959328598507
+        },
+        {
+            "source": "SHANK1",
+            "target": "CSPP1",
+            "weight": 0.02739474415252977
+        },
+        {
+            "source": "SHANK1",
+            "target": "SVEP1",
+            "weight": 0.01515312824794605
+        },
+        {
+            "source": "SHANK1",
+            "target": "RGS1",
+            "weight": 0.03646145132730381
+        },
+        {
+            "source": "SHANK1",
+            "target": "PCDH9",
+            "weight": 0.016681281920092172
+        },
+        {
+            "source": "SHANK1",
+            "target": "PCK1",
+            "weight": 0.011022105310990762
+        },
+        {
+            "source": "SHANK1",
+            "target": "AVIL",
+            "weight": 0.020905439241526297
+        },
+        {
+            "source": "SHANK1",
+            "target": "CCL18",
+            "weight": 0.06953302937264699
+        },
+        {
+            "source": "SHANK1",
+            "target": "TEX33",
+            "weight": 0.013592660407453652
+        },
+        {
+            "source": "SHANK1",
+            "target": "POU4F2",
+            "weight": 0.007067716227975642
+        },
+        {
+            "source": "SHANK1",
+            "target": "C6",
+            "weight": 0.014525372027448299
+        },
+        {
+            "source": "SHANK1",
+            "target": "AOX1",
+            "weight": 0.01390431783534567
+        },
+        {
+            "source": "SHANK1",
+            "target": "GBA3",
+            "weight": 0.042490287289699176
+        },
+        {
+            "source": "SHANK1",
+            "target": "IFNB1",
+            "weight": 0.021987718427955036
+        },
+        {
+            "source": "SHANK1",
+            "target": "HSPB7",
+            "weight": 0.04089629878873637
+        },
+        {
+            "source": "SHANK1",
+            "target": "TCF4",
+            "weight": 0.017622263346657573
+        },
+        {
+            "source": "SHANK1",
+            "target": "GLYATL1",
+            "weight": 0.023292570277625445
+        },
+        {
+            "source": "SHANK1",
+            "target": "HNF1A",
+            "weight": 0.05580733063312919
+        },
+        {
+            "source": "SHANK1",
+            "target": "ELF3",
+            "weight": 0.014109149219437943
+        },
+        {
+            "source": "SHANK1",
+            "target": "HAB1",
+            "weight": 0.0477734354438898
+        },
+        {
+            "source": "SHANK1",
+            "target": "KREMEN1",
+            "weight": 0.05720787454611676
+        },
+        {
+            "source": "SHANK1",
+            "target": "NDP",
+            "weight": 0.020238653792840632
+        },
+        {
+            "source": "SHANK1",
+            "target": "SNCAIP",
+            "weight": 0.009781169645579246
+        },
+        {
+            "source": "SHANK1",
+            "target": "RBP4",
+            "weight": 0.029539369215303538
+        },
+        {
+            "source": "SHANK1",
+            "target": "MMP8",
+            "weight": 0.03450650755688478
+        },
+        {
+            "source": "SHANK1",
+            "target": "MMP10",
+            "weight": 0.006876793663891367
+        },
+        {
+            "source": "SHANK1",
+            "target": "STAT4",
+            "weight": 0.023249612715318783
+        },
+        {
+            "source": "SHANK1",
+            "target": "TCF7L1",
+            "weight": 0.0038946387147918453
+        },
+        {
+            "source": "FRY",
+            "target": "NFYC",
+            "weight": 0.04328854204004619
+        },
+        {
+            "source": "FRY",
+            "target": "SPINK1",
+            "weight": 0.017752587530430523
+        },
+        {
+            "source": "FRY",
+            "target": "MEF2C",
+            "weight": 0.2473956215014785
+        },
+        {
+            "source": "FRY",
+            "target": "SOSTDC1",
+            "weight": 0.014992849962107755
+        },
+        {
+            "source": "FRY",
+            "target": "CADPS",
+            "weight": 0.052304147312261996
+        },
+        {
+            "source": "FRY",
+            "target": "LIFR",
+            "weight": 0.1346036303048727
+        },
+        {
+            "source": "FRY",
+            "target": "RPS6KA5",
+            "weight": 0.0853141738302872
+        },
+        {
+            "source": "FRY",
+            "target": "CP",
+            "weight": 0.04850177024895342
+        },
+        {
+            "source": "FRY",
+            "target": "BPIFA3",
+            "weight": 0.05744861234962536
+        },
+        {
+            "source": "FRY",
+            "target": "EYA4",
+            "weight": 0.015132940715064507
+        },
+        {
+            "source": "FRY",
+            "target": "SOX15",
+            "weight": 0.05732317247866383
+        },
+        {
+            "source": "FRY",
+            "target": "FOXP2",
+            "weight": 0.16371236480379178
+        },
+        {
+            "source": "FRY",
+            "target": "KPNA5",
+            "weight": 0.07278750816454276
+        },
+        {
+            "source": "FRY",
+            "target": "HOXA4",
+            "weight": 0.026997412629626332
+        },
+        {
+            "source": "FRY",
+            "target": "CSPP1",
+            "weight": 0.1761868519393776
+        },
+        {
+            "source": "FRY",
+            "target": "SVEP1",
+            "weight": 0.09568789931770023
+        },
+        {
+            "source": "FRY",
+            "target": "RGS1",
+            "weight": 0.12061725332623859
+        },
+        {
+            "source": "FRY",
+            "target": "PCDH9",
+            "weight": 0.23246124000586957
+        },
+        {
+            "source": "FRY",
+            "target": "PCK1",
+            "weight": 0.027061151288781737
+        },
+        {
+            "source": "FRY",
+            "target": "AVIL",
+            "weight": 0.14205440560908997
+        },
+        {
+            "source": "FRY",
+            "target": "CCL18",
+            "weight": 0.04768657767933787
+        },
+        {
+            "source": "FRY",
+            "target": "TEX33",
+            "weight": 0.022690836030150142
+        },
+        {
+            "source": "FRY",
+            "target": "POU4F2",
+            "weight": 0.007771717725356916
+        },
+        {
+            "source": "FRY",
+            "target": "C6",
+            "weight": 0.046413436809223656
+        },
+        {
+            "source": "FRY",
+            "target": "AOX1",
+            "weight": 0.16239817011295588
+        },
+        {
+            "source": "FRY",
+            "target": "GBA3",
+            "weight": 0.018752367801836554
+        },
+        {
+            "source": "FRY",
+            "target": "IFNB1",
+            "weight": 0.005311880379920837
+        },
+        {
+            "source": "FRY",
+            "target": "HSPB7",
+            "weight": 0.06994966845984797
+        },
+        {
+            "source": "FRY",
+            "target": "TCF4",
+            "weight": 0.33331458639393813
+        },
+        {
+            "source": "FRY",
+            "target": "GLYATL1",
+            "weight": 0.03554643407567427
+        },
+        {
+            "source": "FRY",
+            "target": "HNF1A",
+            "weight": 0.024029543749088635
+        },
+        {
+            "source": "FRY",
+            "target": "ELF3",
+            "weight": 0.0602099584791186
+        },
+        {
+            "source": "FRY",
+            "target": "HAB1",
+            "weight": 0.01798038340303
+        },
+        {
+            "source": "FRY",
+            "target": "KREMEN1",
+            "weight": 0.05522826704693626
+        },
+        {
+            "source": "FRY",
+            "target": "NDP",
+            "weight": 0.0388409923786126
+        },
+        {
+            "source": "FRY",
+            "target": "SNCAIP",
+            "weight": 0.03765879278258733
+        },
+        {
+            "source": "FRY",
+            "target": "RBP4",
+            "weight": 0.07232406817161037
+        },
+        {
+            "source": "FRY",
+            "target": "MMP8",
+            "weight": 0.01759661935821892
+        },
+        {
+            "source": "FRY",
+            "target": "MMP10",
+            "weight": 0.02319207996784082
+        },
+        {
+            "source": "FRY",
+            "target": "STAT4",
+            "weight": 0.02735701974976762
+        },
+        {
+            "source": "FRY",
+            "target": "TCF7L1",
+            "weight": 0.08915919673961002
+        },
+        {
+            "source": "NFYC",
+            "target": "SPINK1",
+            "weight": 0.027828142780270387
+        },
+        {
+            "source": "NFYC",
+            "target": "MEF2C",
+            "weight": 0.03289261055125621
+        },
+        {
+            "source": "NFYC",
+            "target": "SOSTDC1",
+            "weight": 0.026273792436842296
+        },
+        {
+            "source": "NFYC",
+            "target": "CADPS",
+            "weight": 0.009410971741670675
+        },
+        {
+            "source": "NFYC",
+            "target": "LIFR",
+            "weight": 0.017621070557446772
+        },
+        {
+            "source": "NFYC",
+            "target": "RPS6KA5",
+            "weight": 0.020016149790880587
+        },
+        {
+            "source": "NFYC",
+            "target": "CP",
+            "weight": 0.018202505310325506
+        },
+        {
+            "source": "NFYC",
+            "target": "BPIFA3",
+            "weight": 0.03584480792032084
+        },
+        {
+            "source": "NFYC",
+            "target": "EYA4",
+            "weight": 0.010655011686347065
+        },
+        {
+            "source": "NFYC",
+            "target": "SOX15",
+            "weight": 0.1155369797611095
+        },
+        {
+            "source": "NFYC",
+            "target": "FOXP2",
+            "weight": 0.19799383794973888
+        },
+        {
+            "source": "NFYC",
+            "target": "KPNA5",
+            "weight": 0.03038120564735872
+        },
+        {
+            "source": "NFYC",
+            "target": "HOXA4",
+            "weight": 0.11108381111377645
+        },
+        {
+            "source": "NFYC",
+            "target": "CSPP1",
+            "weight": 0.050389760292071394
+        },
+        {
+            "source": "NFYC",
+            "target": "SVEP1",
+            "weight": 0.03780433827848584
+        },
+        {
+            "source": "NFYC",
+            "target": "RGS1",
+            "weight": 0.012936258098930033
+        },
+        {
+            "source": "NFYC",
+            "target": "PCDH9",
+            "weight": 0.011856399805937282
+        },
+        {
+            "source": "NFYC",
+            "target": "PCK1",
+            "weight": 0.03064953010661417
+        },
+        {
+            "source": "NFYC",
+            "target": "AVIL",
+            "weight": 0.04458406373297701
+        },
+        {
+            "source": "NFYC",
+            "target": "CCL18",
+            "weight": 0.018769845109124283
+        },
+        {
+            "source": "NFYC",
+            "target": "TEX33",
+            "weight": 0.011795029903168601
+        },
+        {
+            "source": "NFYC",
+            "target": "POU4F2",
+            "weight": 0.013910379778896967
+        },
+        {
+            "source": "NFYC",
+            "target": "C6",
+            "weight": 0.00903840671382962
+        },
+        {
+            "source": "NFYC",
+            "target": "AOX1",
+            "weight": 0.012334715356484215
+        },
+        {
+            "source": "NFYC",
+            "target": "GBA3",
+            "weight": 0.06641642879253133
+        },
+        {
+            "source": "NFYC",
+            "target": "IFNB1",
+            "weight": 0.006023051028677098
+        },
+        {
+            "source": "NFYC",
+            "target": "HSPB7",
+            "weight": 0.020865966893638482
+        },
+        {
+            "source": "NFYC",
+            "target": "TCF4",
+            "weight": 0.06233935069689179
+        },
+        {
+            "source": "NFYC",
+            "target": "GLYATL1",
+            "weight": 0.0634575546912789
+        },
+        {
+            "source": "NFYC",
+            "target": "HNF1A",
+            "weight": 0.050969957169008574
+        },
+        {
+            "source": "NFYC",
+            "target": "ELF3",
+            "weight": 0.04250767556248368
+        },
+        {
+            "source": "NFYC",
+            "target": "HAB1",
+            "weight": 0.019432473950736457
+        },
+        {
+            "source": "NFYC",
+            "target": "KREMEN1",
+            "weight": 0.05750257068817507
+        },
+        {
+            "source": "NFYC",
+            "target": "NDP",
+            "weight": 0.005258115749255434
+        },
+        {
+            "source": "NFYC",
+            "target": "SNCAIP",
+            "weight": 0.030469811095500704
+        },
+        {
+            "source": "NFYC",
+            "target": "RBP4",
+            "weight": 0.03178400000912628
+        },
+        {
+            "source": "NFYC",
+            "target": "MMP8",
+            "weight": 0.014848383857796126
+        },
+        {
+            "source": "NFYC",
+            "target": "MMP10",
+            "weight": 0.043657269944543775
+        },
+        {
+            "source": "NFYC",
+            "target": "STAT4",
+            "weight": 0.04819978215894896
+        },
+        {
+            "source": "NFYC",
+            "target": "TCF7L1",
+            "weight": 0.06482152623895564
+        },
+        {
+            "source": "SPINK1",
+            "target": "MEF2C",
+            "weight": 0.005875630894437955
+        },
+        {
+            "source": "SPINK1",
+            "target": "SOSTDC1",
+            "weight": 0.004167959990916016
+        },
+        {
+            "source": "SPINK1",
+            "target": "CADPS",
+            "weight": 0.036204426201428955
+        },
+        {
+            "source": "SPINK1",
+            "target": "LIFR",
+            "weight": 0.048295361954530235
+        },
+        {
+            "source": "SPINK1",
+            "target": "RPS6KA5",
+            "weight": 0.00900331425764028
+        },
+        {
+            "source": "SPINK1",
+            "target": "CP",
+            "weight": 0.0632753770148488
+        },
+        {
+            "source": "SPINK1",
+            "target": "BPIFA3",
+            "weight": 0.03238119786905426
+        },
+        {
+            "source": "SPINK1",
+            "target": "EYA4",
+            "weight": 0.008925758600604036
+        },
+        {
+            "source": "SPINK1",
+            "target": "SOX15",
+            "weight": 0.022794685237975034
+        },
+        {
+            "source": "SPINK1",
+            "target": "FOXP2",
+            "weight": 0.11466427618477988
+        },
+        {
+            "source": "SPINK1",
+            "target": "KPNA5",
+            "weight": 0.020561040781537233
+        },
+        {
+            "source": "SPINK1",
+            "target": "HOXA4",
+            "weight": 0.011211451009813128
+        },
+        {
+            "source": "SPINK1",
+            "target": "CSPP1",
+            "weight": 0.07128717437516742
+        },
+        {
+            "source": "SPINK1",
+            "target": "SVEP1",
+            "weight": 0.013658274762339587
+        },
+        {
+            "source": "SPINK1",
+            "target": "RGS1",
+            "weight": 0.04860677926102897
+        },
+        {
+            "source": "SPINK1",
+            "target": "PCDH9",
+            "weight": 0.053156103305448794
+        },
+        {
+            "source": "SPINK1",
+            "target": "PCK1",
+            "weight": 0.026235626933327927
+        },
+        {
+            "source": "SPINK1",
+            "target": "AVIL",
+            "weight": 0.03727727763951162
+        },
+        {
+            "source": "SPINK1",
+            "target": "CCL18",
+            "weight": 0.01732887952560819
+        },
+        {
+            "source": "SPINK1",
+            "target": "TEX33",
+            "weight": 0.02996963906964071
+        },
+        {
+            "source": "SPINK1",
+            "target": "POU4F2",
+            "weight": 0.007331943941347669
+        },
+        {
+            "source": "SPINK1",
+            "target": "C6",
+            "weight": 0.01181673681224887
+        },
+        {
+            "source": "SPINK1",
+            "target": "AOX1",
+            "weight": 0.026967585890020983
+        },
+        {
+            "source": "SPINK1",
+            "target": "GBA3",
+            "weight": 0.02930030843556582
+        },
+        {
+            "source": "SPINK1",
+            "target": "IFNB1",
+            "weight": 0.0095709936641741
+        },
+        {
+            "source": "SPINK1",
+            "target": "HSPB7",
+            "weight": 0.032212834982438265
+        },
+        {
+            "source": "SPINK1",
+            "target": "TCF4",
+            "weight": 0.012397906317963173
+        },
+        {
+            "source": "SPINK1",
+            "target": "GLYATL1",
+            "weight": 0.04869457026049398
+        },
+        {
+            "source": "SPINK1",
+            "target": "HNF1A",
+            "weight": 0.02540983571852995
+        },
+        {
+            "source": "SPINK1",
+            "target": "ELF3",
+            "weight": 0.013626410784656269
+        },
+        {
+            "source": "SPINK1",
+            "target": "HAB1",
+            "weight": 0.023335974816972072
+        },
+        {
+            "source": "SPINK1",
+            "target": "KREMEN1",
+            "weight": 0.04471484671765596
+        },
+        {
+            "source": "SPINK1",
+            "target": "NDP",
+            "weight": 0.007785706642172097
+        },
+        {
+            "source": "SPINK1",
+            "target": "SNCAIP",
+            "weight": 0.021502814031761776
+        },
+        {
+            "source": "SPINK1",
+            "target": "RBP4",
+            "weight": 0.019268597419098157
+        },
+        {
+            "source": "SPINK1",
+            "target": "MMP8",
+            "weight": 0.014955176383681091
+        },
+        {
+            "source": "SPINK1",
+            "target": "MMP10",
+            "weight": 0.0319858207728928
+        },
+        {
+            "source": "SPINK1",
+            "target": "STAT4",
+            "weight": 0.01987640370685369
+        },
+        {
+            "source": "SPINK1",
+            "target": "TCF7L1",
+            "weight": 0.025157348616499445
+        },
+        {
+            "source": "MEF2C",
+            "target": "SOSTDC1",
+            "weight": 0.0295531579174397
+        },
+        {
+            "source": "MEF2C",
+            "target": "CADPS",
+            "weight": 0.016167431207064504
+        },
+        {
+            "source": "MEF2C",
+            "target": "LIFR",
+            "weight": 0.04329643700681224
+        },
+        {
+            "source": "MEF2C",
+            "target": "RPS6KA5",
+            "weight": 0.15379688276630693
+        },
+        {
+            "source": "MEF2C",
+            "target": "CP",
+            "weight": 0.04677964711620849
+        },
+        {
+            "source": "MEF2C",
+            "target": "BPIFA3",
+            "weight": 0.04362156043637611
+        },
+        {
+            "source": "MEF2C",
+            "target": "EYA4",
+            "weight": 0.011126424668780603
+        },
+        {
+            "source": "MEF2C",
+            "target": "SOX15",
+            "weight": 0.08082240677796106
+        },
+        {
+            "source": "MEF2C",
+            "target": "FOXP2",
+            "weight": 0.16196355510912025
+        },
+        {
+            "source": "MEF2C",
+            "target": "KPNA5",
+            "weight": 0.0727586587013524
+        },
+        {
+            "source": "MEF2C",
+            "target": "HOXA4",
+            "weight": 0.06068952840578846
+        },
+        {
+            "source": "MEF2C",
+            "target": "CSPP1",
+            "weight": 0.04703908895558721
+        },
+        {
+            "source": "MEF2C",
+            "target": "SVEP1",
+            "weight": 0.040708091274571465
+        },
+        {
+            "source": "MEF2C",
+            "target": "RGS1",
+            "weight": 0.09823282478624452
+        },
+        {
+            "source": "MEF2C",
+            "target": "PCDH9",
+            "weight": 0.3686659252294264
+        },
+        {
+            "source": "MEF2C",
+            "target": "PCK1",
+            "weight": 0.017377714902482348
+        },
+        {
+            "source": "MEF2C",
+            "target": "AVIL",
+            "weight": 0.00954822778929091
+        },
+        {
+            "source": "MEF2C",
+            "target": "CCL18",
+            "weight": 0.0388778270000044
+        },
+        {
+            "source": "MEF2C",
+            "target": "TEX33",
+            "weight": 0.010442031260873568
+        },
+        {
+            "source": "MEF2C",
+            "target": "POU4F2",
+            "weight": 0.015909348391616184
+        },
+        {
+            "source": "MEF2C",
+            "target": "C6",
+            "weight": 0.0268482937744693
+        },
+        {
+            "source": "MEF2C",
+            "target": "AOX1",
+            "weight": 0.04676396564745576
+        },
+        {
+            "source": "MEF2C",
+            "target": "GBA3",
+            "weight": 0.009453331506683631
+        },
+        {
+            "source": "MEF2C",
+            "target": "IFNB1",
+            "weight": 0.0026439894664914815
+        },
+        {
+            "source": "MEF2C",
+            "target": "HSPB7",
+            "weight": 0.03284160672834382
+        },
+        {
+            "source": "MEF2C",
+            "target": "TCF4",
+            "weight": 0.33424756037136616
+        },
+        {
+            "source": "MEF2C",
+            "target": "GLYATL1",
+            "weight": 0.050763226095977526
+        },
+        {
+            "source": "MEF2C",
+            "target": "HNF1A",
+            "weight": 0.034142850439793045
+        },
+        {
+            "source": "MEF2C",
+            "target": "ELF3",
+            "weight": 0.0657967649289132
+        },
+        {
+            "source": "MEF2C",
+            "target": "HAB1",
+            "weight": 0.00841257216877684
+        },
+        {
+            "source": "MEF2C",
+            "target": "KREMEN1",
+            "weight": 0.037985463020924724
+        },
+        {
+            "source": "MEF2C",
+            "target": "NDP",
+            "weight": 0.01924772564719018
+        },
+        {
+            "source": "MEF2C",
+            "target": "SNCAIP",
+            "weight": 0.04486014704619568
+        },
+        {
+            "source": "MEF2C",
+            "target": "RBP4",
+            "weight": 0.09382351796313415
+        },
+        {
+            "source": "MEF2C",
+            "target": "MMP8",
+            "weight": 0.019620799051122812
+        },
+        {
+            "source": "MEF2C",
+            "target": "MMP10",
+            "weight": 0.009000109085599065
+        },
+        {
+            "source": "MEF2C",
+            "target": "STAT4",
+            "weight": 0.24873282011867362
+        },
+        {
+            "source": "MEF2C",
+            "target": "TCF7L1",
+            "weight": 0.24253722729579666
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "CADPS",
+            "weight": 0.007527802669600865
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "LIFR",
+            "weight": 0.039293849720172865
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "RPS6KA5",
+            "weight": 0.01395235501615568
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "CP",
+            "weight": 0.02595142120909094
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "BPIFA3",
+            "weight": 0.020904809724702406
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "EYA4",
+            "weight": 0.01688956106589761
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "SOX15",
+            "weight": 0.029269988616550988
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "FOXP2",
+            "weight": 0.110655714224187
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "KPNA5",
+            "weight": 0.02485353193124643
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "HOXA4",
+            "weight": 0.028260399721961798
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "CSPP1",
+            "weight": 0.043246318185080554
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "SVEP1",
+            "weight": 0.04175623979504582
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "RGS1",
+            "weight": 0.02113400238404531
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "PCDH9",
+            "weight": 0.05839392851364354
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "PCK1",
+            "weight": 0.04022159030226524
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "AVIL",
+            "weight": 0.01727495689680891
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "CCL18",
+            "weight": 0.024083845891961494
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "TEX33",
+            "weight": 0.012113138333990687
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "POU4F2",
+            "weight": 0.00830901994334437
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "C6",
+            "weight": 0.010335556691981603
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "AOX1",
+            "weight": 0.08174932879242242
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "GBA3",
+            "weight": 0.03957780407017942
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "IFNB1",
+            "weight": 0.0032592252990950974
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "HSPB7",
+            "weight": 0.01760998223951794
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "TCF4",
+            "weight": 0.03450443049449624
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "GLYATL1",
+            "weight": 0.03132359242544052
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "HNF1A",
+            "weight": 0.021946350743959998
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "ELF3",
+            "weight": 0.04876687335328911
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "HAB1",
+            "weight": 0.026553524372433076
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "KREMEN1",
+            "weight": 0.04757891394435367
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "NDP",
+            "weight": 0.005456185797542932
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "SNCAIP",
+            "weight": 0.024309134754466465
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "RBP4",
+            "weight": 0.08885458006108203
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "MMP8",
+            "weight": 0.013650770562738333
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "MMP10",
+            "weight": 0.007225336289302689
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "STAT4",
+            "weight": 0.006127653944019201
+        },
+        {
+            "source": "SOSTDC1",
+            "target": "TCF7L1",
+            "weight": 0.04402410473262673
+        },
+        {
+            "source": "CADPS",
+            "target": "LIFR",
+            "weight": 0.042371308615652296
+        },
+        {
+            "source": "CADPS",
+            "target": "RPS6KA5",
+            "weight": 0.047483322581974505
+        },
+        {
+            "source": "CADPS",
+            "target": "CP",
+            "weight": 0.044953089093747345
+        },
+        {
+            "source": "CADPS",
+            "target": "BPIFA3",
+            "weight": 0.1366474519521601
+        },
+        {
+            "source": "CADPS",
+            "target": "EYA4",
+            "weight": 0.08874281725383787
+        },
+        {
+            "source": "CADPS",
+            "target": "SOX15",
+            "weight": 0.0466143017664459
+        },
+        {
+            "source": "CADPS",
+            "target": "FOXP2",
+            "weight": 0.151125858640166
+        },
+        {
+            "source": "CADPS",
+            "target": "KPNA5",
+            "weight": 0.03299771200588758
+        },
+        {
+            "source": "CADPS",
+            "target": "HOXA4",
+            "weight": 0.026059264085485544
+        },
+        {
+            "source": "CADPS",
+            "target": "CSPP1",
+            "weight": 0.08769909175847046
+        },
+        {
+            "source": "CADPS",
+            "target": "SVEP1",
+            "weight": 0.02557368288657708
+        },
+        {
+            "source": "CADPS",
+            "target": "RGS1",
+            "weight": 0.1037704988127682
+        },
+        {
+            "source": "CADPS",
+            "target": "PCDH9",
+            "weight": 0.056867186458313554
+        },
+        {
+            "source": "CADPS",
+            "target": "PCK1",
+            "weight": 0.020910842137021074
+        },
+        {
+            "source": "CADPS",
+            "target": "AVIL",
+            "weight": 0.028210119951122277
+        },
+        {
+            "source": "CADPS",
+            "target": "CCL18",
+            "weight": 0.025223039252392374
+        },
+        {
+            "source": "CADPS",
+            "target": "TEX33",
+            "weight": 0.0590983537923855
+        },
+        {
+            "source": "CADPS",
+            "target": "POU4F2",
+            "weight": 0.0459925335379713
+        },
+        {
+            "source": "CADPS",
+            "target": "C6",
+            "weight": 0.013070145579602527
+        },
+        {
+            "source": "CADPS",
+            "target": "AOX1",
+            "weight": 0.03365457061540233
+        },
+        {
+            "source": "CADPS",
+            "target": "GBA3",
+            "weight": 0.07078332700231858
+        },
+        {
+            "source": "CADPS",
+            "target": "IFNB1",
+            "weight": 0.01938322743240504
+        },
+        {
+            "source": "CADPS",
+            "target": "HSPB7",
+            "weight": 0.0388915578332227
+        },
+        {
+            "source": "CADPS",
+            "target": "TCF4",
+            "weight": 0.04266270887934133
+        },
+        {
+            "source": "CADPS",
+            "target": "GLYATL1",
+            "weight": 0.10275748754492307
+        },
+        {
+            "source": "CADPS",
+            "target": "HNF1A",
+            "weight": 0.03244093117982173
+        },
+        {
+            "source": "CADPS",
+            "target": "ELF3",
+            "weight": 0.03656018345420794
+        },
+        {
+            "source": "CADPS",
+            "target": "HAB1",
+            "weight": 0.02858284383044908
+        },
+        {
+            "source": "CADPS",
+            "target": "KREMEN1",
+            "weight": 0.17673303357727063
+        },
+        {
+            "source": "CADPS",
+            "target": "NDP",
+            "weight": 0.049194133201245695
+        },
+        {
+            "source": "CADPS",
+            "target": "SNCAIP",
+            "weight": 0.04032354316983367
+        },
+        {
+            "source": "CADPS",
+            "target": "RBP4",
+            "weight": 0.021977561542011116
+        },
+        {
+            "source": "CADPS",
+            "target": "MMP8",
+            "weight": 0.02624866472923338
+        },
+        {
+            "source": "CADPS",
+            "target": "MMP10",
+            "weight": 0.01965409713493775
+        },
+        {
+            "source": "CADPS",
+            "target": "STAT4",
+            "weight": 0.03436269348193123
+        },
+        {
+            "source": "CADPS",
+            "target": "TCF7L1",
+            "weight": 0.029387975385673046
+        },
+        {
+            "source": "LIFR",
+            "target": "RPS6KA5",
+            "weight": 0.1412237321615199
+        },
+        {
+            "source": "LIFR",
+            "target": "CP",
+            "weight": 0.0700184025041066
+        },
+        {
+            "source": "LIFR",
+            "target": "BPIFA3",
+            "weight": 0.060225802058480715
+        },
+        {
+            "source": "LIFR",
+            "target": "EYA4",
+            "weight": 0.05023684158289562
+        },
+        {
+            "source": "LIFR",
+            "target": "SOX15",
+            "weight": 0.06583624919612133
+        },
+        {
+            "source": "LIFR",
+            "target": "FOXP2",
+            "weight": 0.16262154807080703
+        },
+        {
+            "source": "LIFR",
+            "target": "KPNA5",
+            "weight": 0.09486409853125513
+        },
+        {
+            "source": "LIFR",
+            "target": "HOXA4",
+            "weight": 0.010711881107162145
+        },
+        {
+            "source": "LIFR",
+            "target": "CSPP1",
+            "weight": 0.16035580414020512
+        },
+        {
+            "source": "LIFR",
+            "target": "SVEP1",
+            "weight": 0.03961449000583221
+        },
+        {
+            "source": "LIFR",
+            "target": "RGS1",
+            "weight": 0.08472543055930454
+        },
+        {
+            "source": "LIFR",
+            "target": "PCDH9",
+            "weight": 0.2243272480399314
+        },
+        {
+            "source": "LIFR",
+            "target": "PCK1",
+            "weight": 0.0297879267546889
+        },
+        {
+            "source": "LIFR",
+            "target": "AVIL",
+            "weight": 0.0199401594431427
+        },
+        {
+            "source": "LIFR",
+            "target": "CCL18",
+            "weight": 0.02385126926685121
+        },
+        {
+            "source": "LIFR",
+            "target": "TEX33",
+            "weight": 0.03159080994709054
+        },
+        {
+            "source": "LIFR",
+            "target": "POU4F2",
+            "weight": 0.011902992386684543
+        },
+        {
+            "source": "LIFR",
+            "target": "C6",
+            "weight": 0.028133901561247194
+        },
+        {
+            "source": "LIFR",
+            "target": "AOX1",
+            "weight": 0.06273385669696405
+        },
+        {
+            "source": "LIFR",
+            "target": "GBA3",
+            "weight": 0.056985740457565014
+        },
+        {
+            "source": "LIFR",
+            "target": "IFNB1",
+            "weight": 0.008506622757325819
+        },
+        {
+            "source": "LIFR",
+            "target": "HSPB7",
+            "weight": 0.09740621658204984
+        },
+        {
+            "source": "LIFR",
+            "target": "TCF4",
+            "weight": 0.06167332416630923
+        },
+        {
+            "source": "LIFR",
+            "target": "GLYATL1",
+            "weight": 0.05856484479302108
+        },
+        {
+            "source": "LIFR",
+            "target": "HNF1A",
+            "weight": 0.07906397188322878
+        },
+        {
+            "source": "LIFR",
+            "target": "ELF3",
+            "weight": 0.08009660310761428
+        },
+        {
+            "source": "LIFR",
+            "target": "HAB1",
+            "weight": 0.020799109902548837
+        },
+        {
+            "source": "LIFR",
+            "target": "KREMEN1",
+            "weight": 0.06667352266514959
+        },
+        {
+            "source": "LIFR",
+            "target": "NDP",
+            "weight": 0.02129130443454518
+        },
+        {
+            "source": "LIFR",
+            "target": "SNCAIP",
+            "weight": 0.0425550214211382
+        },
+        {
+            "source": "LIFR",
+            "target": "RBP4",
+            "weight": 0.03267201208860916
+        },
+        {
+            "source": "LIFR",
+            "target": "MMP8",
+            "weight": 0.014987622203174508
+        },
+        {
+            "source": "LIFR",
+            "target": "MMP10",
+            "weight": 0.04042811129234791
+        },
+        {
+            "source": "LIFR",
+            "target": "STAT4",
+            "weight": 0.01596597215688915
+        },
+        {
+            "source": "LIFR",
+            "target": "TCF7L1",
+            "weight": 0.07037909491485445
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "CP",
+            "weight": 0.02888478524713072
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "BPIFA3",
+            "weight": 0.07206046146550954
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "EYA4",
+            "weight": 0.060177396442170274
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "SOX15",
+            "weight": 0.03289470387100757
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "FOXP2",
+            "weight": 0.1483075446844488
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "KPNA5",
+            "weight": 0.09209411921329401
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "HOXA4",
+            "weight": 0.007178173448088961
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "CSPP1",
+            "weight": 0.09826794347521757
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "SVEP1",
+            "weight": 0.06400565419146702
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "RGS1",
+            "weight": 0.10648444377131597
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "PCDH9",
+            "weight": 0.1837275775905449
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "PCK1",
+            "weight": 0.016608716500423042
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "AVIL",
+            "weight": 0.027726479537712803
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "CCL18",
+            "weight": 0.030174004682555162
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "TEX33",
+            "weight": 0.04519754606356822
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "POU4F2",
+            "weight": 0.02774838870071609
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "C6",
+            "weight": 0.007517958709549817
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "AOX1",
+            "weight": 0.044912283584068444
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "GBA3",
+            "weight": 0.028872692908751788
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "IFNB1",
+            "weight": 0.015982850175963768
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "HSPB7",
+            "weight": 0.047693808062738687
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "TCF4",
+            "weight": 0.12741756463936196
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "GLYATL1",
+            "weight": 0.07933898591166753
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "HNF1A",
+            "weight": 0.042433568638888156
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "ELF3",
+            "weight": 0.06604760920946876
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "HAB1",
+            "weight": 0.03075309271488643
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "KREMEN1",
+            "weight": 0.11526548047310285
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "NDP",
+            "weight": 0.018187826206656425
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "SNCAIP",
+            "weight": 0.04278233743942289
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "RBP4",
+            "weight": 0.03445100845871537
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "MMP8",
+            "weight": 0.010496490722059193
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "MMP10",
+            "weight": 0.020864476410727435
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "STAT4",
+            "weight": 0.020332392125222983
+        },
+        {
+            "source": "RPS6KA5",
+            "target": "TCF7L1",
+            "weight": 0.05634411267997918
+        },
+        {
+            "source": "CP",
+            "target": "BPIFA3",
+            "weight": 0.031654869364617734
+        },
+        {
+            "source": "CP",
+            "target": "EYA4",
+            "weight": 0.02820431649123499
+        },
+        {
+            "source": "CP",
+            "target": "SOX15",
+            "weight": 0.03775944894026171
+        },
+        {
+            "source": "CP",
+            "target": "FOXP2",
+            "weight": 0.15716359077283076
+        },
+        {
+            "source": "CP",
+            "target": "KPNA5",
+            "weight": 0.015758980543032517
+        },
+        {
+            "source": "CP",
+            "target": "HOXA4",
+            "weight": 0.01046449093117195
+        },
+        {
+            "source": "CP",
+            "target": "CSPP1",
+            "weight": 0.08989698564685367
+        },
+        {
+            "source": "CP",
+            "target": "SVEP1",
+            "weight": 0.058628802672921886
+        },
+        {
+            "source": "CP",
+            "target": "RGS1",
+            "weight": 0.11113946147704498
+        },
+        {
+            "source": "CP",
+            "target": "PCDH9",
+            "weight": 0.049897155510790644
+        },
+        {
+            "source": "CP",
+            "target": "PCK1",
+            "weight": 0.04455855435771694
+        },
+        {
+            "source": "CP",
+            "target": "AVIL",
+            "weight": 0.09279569729116913
+        },
+        {
+            "source": "CP",
+            "target": "CCL18",
+            "weight": 0.11804966942130042
+        },
+        {
+            "source": "CP",
+            "target": "TEX33",
+            "weight": 0.028045382845330827
+        },
+        {
+            "source": "CP",
+            "target": "POU4F2",
+            "weight": 0.013233440798941846
+        },
+        {
+            "source": "CP",
+            "target": "C6",
+            "weight": 0.0549969412168357
+        },
+        {
+            "source": "CP",
+            "target": "AOX1",
+            "weight": 0.21479967641737924
+        },
+        {
+            "source": "CP",
+            "target": "GBA3",
+            "weight": 0.03623088254923506
+        },
+        {
+            "source": "CP",
+            "target": "IFNB1",
+            "weight": 0.015993439039623213
+        },
+        {
+            "source": "CP",
+            "target": "HSPB7",
+            "weight": 0.06061134706070712
+        },
+        {
+            "source": "CP",
+            "target": "TCF4",
+            "weight": 0.09860280972798978
+        },
+        {
+            "source": "CP",
+            "target": "GLYATL1",
+            "weight": 0.06867790229198818
+        },
+        {
+            "source": "CP",
+            "target": "HNF1A",
+            "weight": 0.028151664576622628
+        },
+        {
+            "source": "CP",
+            "target": "ELF3",
+            "weight": 0.3307155202636562
+        },
+        {
+            "source": "CP",
+            "target": "HAB1",
+            "weight": 0.029706232218573703
+        },
+        {
+            "source": "CP",
+            "target": "KREMEN1",
+            "weight": 0.194493065129389
+        },
+        {
+            "source": "CP",
+            "target": "NDP",
+            "weight": 0.007387473280462438
+        },
+        {
+            "source": "CP",
+            "target": "SNCAIP",
+            "weight": 0.05326936853275628
+        },
+        {
+            "source": "CP",
+            "target": "RBP4",
+            "weight": 0.08632427890903098
+        },
+        {
+            "source": "CP",
+            "target": "MMP8",
+            "weight": 0.008767929344743181
+        },
+        {
+            "source": "CP",
+            "target": "MMP10",
+            "weight": 0.022732668660189383
+        },
+        {
+            "source": "CP",
+            "target": "STAT4",
+            "weight": 0.04023220600323745
+        },
+        {
+            "source": "CP",
+            "target": "TCF7L1",
+            "weight": 0.07249326315014877
+        },
+        {
+            "source": "BPIFA3",
+            "target": "EYA4",
+            "weight": 0.06220389486764921
+        },
+        {
+            "source": "BPIFA3",
+            "target": "SOX15",
+            "weight": 0.043896264839383664
+        },
+        {
+            "source": "BPIFA3",
+            "target": "FOXP2",
+            "weight": 0.13517757898810526
+        },
+        {
+            "source": "BPIFA3",
+            "target": "KPNA5",
+            "weight": 0.04529310762469047
+        },
+        {
+            "source": "BPIFA3",
+            "target": "HOXA4",
+            "weight": 0.022144381580239257
+        },
+        {
+            "source": "BPIFA3",
+            "target": "CSPP1",
+            "weight": 0.06410222065169198
+        },
+        {
+            "source": "BPIFA3",
+            "target": "SVEP1",
+            "weight": 0.1041273476454695
+        },
+        {
+            "source": "BPIFA3",
+            "target": "RGS1",
+            "weight": 0.03811336306671683
+        },
+        {
+            "source": "BPIFA3",
+            "target": "PCDH9",
+            "weight": 0.03962156347260951
+        },
+        {
+            "source": "BPIFA3",
+            "target": "PCK1",
+            "weight": 0.047662950170839304
+        },
+        {
+            "source": "BPIFA3",
+            "target": "AVIL",
+            "weight": 0.07131452994497438
+        },
+        {
+            "source": "BPIFA3",
+            "target": "CCL18",
+            "weight": 0.05597968365693939
+        },
+        {
+            "source": "BPIFA3",
+            "target": "TEX33",
+            "weight": 0.031178648012305712
+        },
+        {
+            "source": "BPIFA3",
+            "target": "POU4F2",
+            "weight": 0.023395945011099456
+        },
+        {
+            "source": "BPIFA3",
+            "target": "C6",
+            "weight": 0.022956834745839046
+        },
+        {
+            "source": "BPIFA3",
+            "target": "AOX1",
+            "weight": 0.04729557677940823
+        },
+        {
+            "source": "BPIFA3",
+            "target": "GBA3",
+            "weight": 0.07342173012651443
+        },
+        {
+            "source": "BPIFA3",
+            "target": "IFNB1",
+            "weight": 0.0188045089400753
+        },
+        {
+            "source": "BPIFA3",
+            "target": "HSPB7",
+            "weight": 0.08357545501234742
+        },
+        {
+            "source": "BPIFA3",
+            "target": "TCF4",
+            "weight": 0.027541412664489163
+        },
+        {
+            "source": "BPIFA3",
+            "target": "GLYATL1",
+            "weight": 0.03361004553316654
+        },
+        {
+            "source": "BPIFA3",
+            "target": "HNF1A",
+            "weight": 0.06415480958451389
+        },
+        {
+            "source": "BPIFA3",
+            "target": "ELF3",
+            "weight": 0.04558327173181554
+        },
+        {
+            "source": "BPIFA3",
+            "target": "HAB1",
+            "weight": 0.06067287093088117
+        },
+        {
+            "source": "BPIFA3",
+            "target": "KREMEN1",
+            "weight": 0.04152168375544856
+        },
+        {
+            "source": "BPIFA3",
+            "target": "NDP",
+            "weight": 0.052717948942575
+        },
+        {
+            "source": "BPIFA3",
+            "target": "SNCAIP",
+            "weight": 0.04137095805872625
+        },
+        {
+            "source": "BPIFA3",
+            "target": "RBP4",
+            "weight": 0.03942608978361201
+        },
+        {
+            "source": "BPIFA3",
+            "target": "MMP8",
+            "weight": 0.06735980467891692
+        },
+        {
+            "source": "BPIFA3",
+            "target": "MMP10",
+            "weight": 0.026231853850454793
+        },
+        {
+            "source": "BPIFA3",
+            "target": "STAT4",
+            "weight": 0.03252719684517408
+        },
+        {
+            "source": "BPIFA3",
+            "target": "TCF7L1",
+            "weight": 0.024396987568285566
+        },
+        {
+            "source": "EYA4",
+            "target": "SOX15",
+            "weight": 0.01331904961576927
+        },
+        {
+            "source": "EYA4",
+            "target": "FOXP2",
+            "weight": 0.15791806921482937
+        },
+        {
+            "source": "EYA4",
+            "target": "KPNA5",
+            "weight": 0.0228991346273236
+        },
+        {
+            "source": "EYA4",
+            "target": "HOXA4",
+            "weight": 0.05566582721514375
+        },
+        {
+            "source": "EYA4",
+            "target": "CSPP1",
+            "weight": 0.05811937972638653
+        },
+        {
+            "source": "EYA4",
+            "target": "SVEP1",
+            "weight": 0.026223447774031402
+        },
+        {
+            "source": "EYA4",
+            "target": "RGS1",
+            "weight": 0.03643070667553427
+        },
+        {
+            "source": "EYA4",
+            "target": "PCDH9",
+            "weight": 0.25587223178551866
+        },
+        {
+            "source": "EYA4",
+            "target": "PCK1",
+            "weight": 0.052022309977491854
+        },
+        {
+            "source": "EYA4",
+            "target": "AVIL",
+            "weight": 0.02402671465187497
+        },
+        {
+            "source": "EYA4",
+            "target": "CCL18",
+            "weight": 0.0392700576833275
+        },
+        {
+            "source": "EYA4",
+            "target": "TEX33",
+            "weight": 0.025625902422913956
+        },
+        {
+            "source": "EYA4",
+            "target": "POU4F2",
+            "weight": 0.008871548416027143
+        },
+        {
+            "source": "EYA4",
+            "target": "C6",
+            "weight": 0.04839949110611487
+        },
+        {
+            "source": "EYA4",
+            "target": "AOX1",
+            "weight": 0.02367207559976193
+        },
+        {
+            "source": "EYA4",
+            "target": "GBA3",
+            "weight": 0.014926138410141064
+        },
+        {
+            "source": "EYA4",
+            "target": "IFNB1",
+            "weight": 0.020387316239126093
+        },
+        {
+            "source": "EYA4",
+            "target": "HSPB7",
+            "weight": 0.062056126078756206
+        },
+        {
+            "source": "EYA4",
+            "target": "TCF4",
+            "weight": 0.04070176295348765
+        },
+        {
+            "source": "EYA4",
+            "target": "GLYATL1",
+            "weight": 0.09974730135600991
+        },
+        {
+            "source": "EYA4",
+            "target": "HNF1A",
+            "weight": 0.09521011740256297
+        },
+        {
+            "source": "EYA4",
+            "target": "ELF3",
+            "weight": 0.036756161763052256
+        },
+        {
+            "source": "EYA4",
+            "target": "HAB1",
+            "weight": 0.03503149890363694
+        },
+        {
+            "source": "EYA4",
+            "target": "KREMEN1",
+            "weight": 0.046044715728036055
+        },
+        {
+            "source": "EYA4",
+            "target": "NDP",
+            "weight": 0.01179486038629781
+        },
+        {
+            "source": "EYA4",
+            "target": "SNCAIP",
+            "weight": 0.04195770589873039
+        },
+        {
+            "source": "EYA4",
+            "target": "RBP4",
+            "weight": 0.0628190456473087
+        },
+        {
+            "source": "EYA4",
+            "target": "MMP8",
+            "weight": 0.050835681353008436
+        },
+        {
+            "source": "EYA4",
+            "target": "MMP10",
+            "weight": 0.016890942733744585
+        },
+        {
+            "source": "EYA4",
+            "target": "STAT4",
+            "weight": 0.01443479885196673
+        },
+        {
+            "source": "EYA4",
+            "target": "TCF7L1",
+            "weight": 0.025678100513871708
+        },
+        {
+            "source": "SOX15",
+            "target": "FOXP2",
+            "weight": 0.17221338195413102
+        },
+        {
+            "source": "SOX15",
+            "target": "KPNA5",
+            "weight": 0.06688456768517617
+        },
+        {
+            "source": "SOX15",
+            "target": "HOXA4",
+            "weight": 0.18179637077473543
+        },
+        {
+            "source": "SOX15",
+            "target": "CSPP1",
+            "weight": 0.05152955075877555
+        },
+        {
+            "source": "SOX15",
+            "target": "SVEP1",
+            "weight": 0.05594150380216514
+        },
+        {
+            "source": "SOX15",
+            "target": "RGS1",
+            "weight": 0.03982904503298623
+        },
+        {
+            "source": "SOX15",
+            "target": "PCDH9",
+            "weight": 0.045580014876202994
+        },
+        {
+            "source": "SOX15",
+            "target": "PCK1",
+            "weight": 0.02478012946972562
+        },
+        {
+            "source": "SOX15",
+            "target": "AVIL",
+            "weight": 0.06426828736355861
+        },
+        {
+            "source": "SOX15",
+            "target": "CCL18",
+            "weight": 0.04811008382635762
+        },
+        {
+            "source": "SOX15",
+            "target": "TEX33",
+            "weight": 0.017762139619178424
+        },
+        {
+            "source": "SOX15",
+            "target": "POU4F2",
+            "weight": 0.04071064241996158
+        },
+        {
+            "source": "SOX15",
+            "target": "C6",
+            "weight": 0.016048322206010553
+        },
+        {
+            "source": "SOX15",
+            "target": "AOX1",
+            "weight": 0.021510829243377484
+        },
+        {
+            "source": "SOX15",
+            "target": "GBA3",
+            "weight": 0.02713949828911649
+        },
+        {
+            "source": "SOX15",
+            "target": "IFNB1",
+            "weight": 0.017752151007856425
+        },
+        {
+            "source": "SOX15",
+            "target": "HSPB7",
+            "weight": 0.04695540759958882
+        },
+        {
+            "source": "SOX15",
+            "target": "TCF4",
+            "weight": 0.03506266653096763
+        },
+        {
+            "source": "SOX15",
+            "target": "GLYATL1",
+            "weight": 0.07058951186021743
+        },
+        {
+            "source": "SOX15",
+            "target": "HNF1A",
+            "weight": 0.17540863693343903
+        },
+        {
+            "source": "SOX15",
+            "target": "ELF3",
+            "weight": 0.0670447644467424
+        },
+        {
+            "source": "SOX15",
+            "target": "HAB1",
+            "weight": 0.03293493424294957
+        },
+        {
+            "source": "SOX15",
+            "target": "KREMEN1",
+            "weight": 0.09342279448030351
+        },
+        {
+            "source": "SOX15",
+            "target": "NDP",
+            "weight": 0.03374474780596159
+        },
+        {
+            "source": "SOX15",
+            "target": "SNCAIP",
+            "weight": 0.031660551988293144
+        },
+        {
+            "source": "SOX15",
+            "target": "RBP4",
+            "weight": 0.04129522178573909
+        },
+        {
+            "source": "SOX15",
+            "target": "MMP8",
+            "weight": 0.036441705571154906
+        },
+        {
+            "source": "SOX15",
+            "target": "MMP10",
+            "weight": 0.09918194818889972
+        },
+        {
+            "source": "SOX15",
+            "target": "STAT4",
+            "weight": 0.07073887692133163
+        },
+        {
+            "source": "SOX15",
+            "target": "TCF7L1",
+            "weight": 0.2210519630098659
+        },
+        {
+            "source": "FOXP2",
+            "target": "KPNA5",
+            "weight": 0.14076261404814022
+        },
+        {
+            "source": "FOXP2",
+            "target": "HOXA4",
+            "weight": 0.15471238364069684
+        },
+        {
+            "source": "FOXP2",
+            "target": "CSPP1",
+            "weight": 0.18766692206821853
+        },
+        {
+            "source": "FOXP2",
+            "target": "SVEP1",
+            "weight": 0.14473447826993904
+        },
+        {
+            "source": "FOXP2",
+            "target": "RGS1",
+            "weight": 0.1782717999697652
+        },
+        {
+            "source": "FOXP2",
+            "target": "PCDH9",
+            "weight": 0.17193667510372518
+        },
+        {
+            "source": "FOXP2",
+            "target": "PCK1",
+            "weight": 0.12041144231293183
+        },
+        {
+            "source": "FOXP2",
+            "target": "AVIL",
+            "weight": 0.1301583599982038
+        },
+        {
+            "source": "FOXP2",
+            "target": "CCL18",
+            "weight": 0.13490876114890904
+        },
+        {
+            "source": "FOXP2",
+            "target": "TEX33",
+            "weight": 0.13280909413084066
+        },
+        {
+            "source": "FOXP2",
+            "target": "POU4F2",
+            "weight": 0.094795796601578
+        },
+        {
+            "source": "FOXP2",
+            "target": "C6",
+            "weight": 0.11308385194564206
+        },
+        {
+            "source": "FOXP2",
+            "target": "AOX1",
+            "weight": 0.1802341715658452
+        },
+        {
+            "source": "FOXP2",
+            "target": "GBA3",
+            "weight": 0.15631496686234297
+        },
+        {
+            "source": "FOXP2",
+            "target": "IFNB1",
+            "weight": 0.10028223878012682
+        },
+        {
+            "source": "FOXP2",
+            "target": "HSPB7",
+            "weight": 0.14110151522662573
+        },
+        {
+            "source": "FOXP2",
+            "target": "TCF4",
+            "weight": 0.2436241679497655
+        },
+        {
+            "source": "FOXP2",
+            "target": "GLYATL1",
+            "weight": 0.15915927032090393
+        },
+        {
+            "source": "FOXP2",
+            "target": "HNF1A",
+            "weight": 0.1852579211038689
+        },
+        {
+            "source": "FOXP2",
+            "target": "ELF3",
+            "weight": 0.17315724654482628
+        },
+        {
+            "source": "FOXP2",
+            "target": "HAB1",
+            "weight": 0.1384099128886871
+        },
+        {
+            "source": "FOXP2",
+            "target": "KREMEN1",
+            "weight": 0.19530403175987268
+        },
+        {
+            "source": "FOXP2",
+            "target": "NDP",
+            "weight": 0.11085599393155393
+        },
+        {
+            "source": "FOXP2",
+            "target": "SNCAIP",
+            "weight": 0.1250055092214009
+        },
+        {
+            "source": "FOXP2",
+            "target": "RBP4",
+            "weight": 0.13741665341208004
+        },
+        {
+            "source": "FOXP2",
+            "target": "MMP8",
+            "weight": 0.12976431723899523
+        },
+        {
+            "source": "FOXP2",
+            "target": "MMP10",
+            "weight": 0.11807037467609911
+        },
+        {
+            "source": "FOXP2",
+            "target": "STAT4",
+            "weight": 0.14156286888319283
+        },
+        {
+            "source": "FOXP2",
+            "target": "TCF7L1",
+            "weight": 0.15835759869616642
+        },
+        {
+            "source": "KPNA5",
+            "target": "HOXA4",
+            "weight": 0.01917413366590405
+        },
+        {
+            "source": "KPNA5",
+            "target": "CSPP1",
+            "weight": 0.03388135623930598
+        },
+        {
+            "source": "KPNA5",
+            "target": "SVEP1",
+            "weight": 0.011485855060961685
+        },
+        {
+            "source": "KPNA5",
+            "target": "RGS1",
+            "weight": 0.02180941158717108
+        },
+        {
+            "source": "KPNA5",
+            "target": "PCDH9",
+            "weight": 0.0810880679338437
+        },
+        {
+            "source": "KPNA5",
+            "target": "PCK1",
+            "weight": 0.026235462478032292
+        },
+        {
+            "source": "KPNA5",
+            "target": "AVIL",
+            "weight": 0.02204395248506908
+        },
+        {
+            "source": "KPNA5",
+            "target": "CCL18",
+            "weight": 0.024741670822280605
+        },
+        {
+            "source": "KPNA5",
+            "target": "TEX33",
+            "weight": 0.015871892744890537
+        },
+        {
+            "source": "KPNA5",
+            "target": "POU4F2",
+            "weight": 0.005327536455406628
+        },
+        {
+            "source": "KPNA5",
+            "target": "C6",
+            "weight": 0.01318773089382979
+        },
+        {
+            "source": "KPNA5",
+            "target": "AOX1",
+            "weight": 0.024926224883746285
+        },
+        {
+            "source": "KPNA5",
+            "target": "GBA3",
+            "weight": 0.01353129625943
+        },
+        {
+            "source": "KPNA5",
+            "target": "IFNB1",
+            "weight": 0.021126787707299206
+        },
+        {
+            "source": "KPNA5",
+            "target": "HSPB7",
+            "weight": 0.01834343414948473
+        },
+        {
+            "source": "KPNA5",
+            "target": "TCF4",
+            "weight": 0.1128236461891554
+        },
+        {
+            "source": "KPNA5",
+            "target": "GLYATL1",
+            "weight": 0.05282891891921616
+        },
+        {
+            "source": "KPNA5",
+            "target": "HNF1A",
+            "weight": 0.027148035550230588
+        },
+        {
+            "source": "KPNA5",
+            "target": "ELF3",
+            "weight": 0.01925185546207087
+        },
+        {
+            "source": "KPNA5",
+            "target": "HAB1",
+            "weight": 0.014396091450882317
+        },
+        {
+            "source": "KPNA5",
+            "target": "KREMEN1",
+            "weight": 0.0658356113506327
+        },
+        {
+            "source": "KPNA5",
+            "target": "NDP",
+            "weight": 0.008527611856072531
+        },
+        {
+            "source": "KPNA5",
+            "target": "SNCAIP",
+            "weight": 0.048162082542484726
+        },
+        {
+            "source": "KPNA5",
+            "target": "RBP4",
+            "weight": 0.013205797909193847
+        },
+        {
+            "source": "KPNA5",
+            "target": "MMP8",
+            "weight": 0.011432687300123603
+        },
+        {
+            "source": "KPNA5",
+            "target": "MMP10",
+            "weight": 0.033056505126655054
+        },
+        {
+            "source": "KPNA5",
+            "target": "STAT4",
+            "weight": 0.03240661768985928
+        },
+        {
+            "source": "KPNA5",
+            "target": "TCF7L1",
+            "weight": 0.03520196230973181
+        },
+        {
+            "source": "HOXA4",
+            "target": "CSPP1",
+            "weight": 0.0925516643289709
+        },
+        {
+            "source": "HOXA4",
+            "target": "SVEP1",
+            "weight": 0.020680594648972164
+        },
+        {
+            "source": "HOXA4",
+            "target": "RGS1",
+            "weight": 0.012788909099441257
+        },
+        {
+            "source": "HOXA4",
+            "target": "PCDH9",
+            "weight": 0.12226601230854145
+        },
+        {
+            "source": "HOXA4",
+            "target": "PCK1",
+            "weight": 0.030320417587597483
+        },
+        {
+            "source": "HOXA4",
+            "target": "AVIL",
+            "weight": 0.02184816261678733
+        },
+        {
+            "source": "HOXA4",
+            "target": "CCL18",
+            "weight": 0.0073761005500910274
+        },
+        {
+            "source": "HOXA4",
+            "target": "TEX33",
+            "weight": 0.028844037950690116
+        },
+        {
+            "source": "HOXA4",
+            "target": "POU4F2",
+            "weight": 0.027820684194997218
+        },
+        {
+            "source": "HOXA4",
+            "target": "C6",
+            "weight": 0.009242675438156179
+        },
+        {
+            "source": "HOXA4",
+            "target": "AOX1",
+            "weight": 0.026933345054755135
+        },
+        {
+            "source": "HOXA4",
+            "target": "GBA3",
+            "weight": 0.01769842919001803
+        },
+        {
+            "source": "HOXA4",
+            "target": "IFNB1",
+            "weight": 0.017147663970018347
+        },
+        {
+            "source": "HOXA4",
+            "target": "HSPB7",
+            "weight": 0.029547790725096456
+        },
+        {
+            "source": "HOXA4",
+            "target": "TCF4",
+            "weight": 0.056666040379409366
+        },
+        {
+            "source": "HOXA4",
+            "target": "GLYATL1",
+            "weight": 0.02548120914353428
+        },
+        {
+            "source": "HOXA4",
+            "target": "HNF1A",
+            "weight": 0.08996889607159232
+        },
+        {
+            "source": "HOXA4",
+            "target": "ELF3",
+            "weight": 0.018650362903782487
+        },
+        {
+            "source": "HOXA4",
+            "target": "HAB1",
+            "weight": 0.01090689231158562
+        },
+        {
+            "source": "HOXA4",
+            "target": "KREMEN1",
+            "weight": 0.07185802313487173
+        },
+        {
+            "source": "HOXA4",
+            "target": "NDP",
+            "weight": 0.005978957002869573
+        },
+        {
+            "source": "HOXA4",
+            "target": "SNCAIP",
+            "weight": 0.057449703250415964
+        },
+        {
+            "source": "HOXA4",
+            "target": "RBP4",
+            "weight": 0.06181303409147571
+        },
+        {
+            "source": "HOXA4",
+            "target": "MMP8",
+            "weight": 0.008697827362058206
+        },
+        {
+            "source": "HOXA4",
+            "target": "MMP10",
+            "weight": 0.009807592177943752
+        },
+        {
+            "source": "HOXA4",
+            "target": "STAT4",
+            "weight": 0.03502420169417255
+        },
+        {
+            "source": "HOXA4",
+            "target": "TCF7L1",
+            "weight": 0.04634396563915107
+        },
+        {
+            "source": "CSPP1",
+            "target": "SVEP1",
+            "weight": 0.08575207552653785
+        },
+        {
+            "source": "CSPP1",
+            "target": "RGS1",
+            "weight": 0.06832703116092233
+        },
+        {
+            "source": "CSPP1",
+            "target": "PCDH9",
+            "weight": 0.08543746831885761
+        },
+        {
+            "source": "CSPP1",
+            "target": "PCK1",
+            "weight": 0.027089868982098968
+        },
+        {
+            "source": "CSPP1",
+            "target": "AVIL",
+            "weight": 0.11771277870112642
+        },
+        {
+            "source": "CSPP1",
+            "target": "CCL18",
+            "weight": 0.08876057964930437
+        },
+        {
+            "source": "CSPP1",
+            "target": "TEX33",
+            "weight": 0.06735026054903766
+        },
+        {
+            "source": "CSPP1",
+            "target": "POU4F2",
+            "weight": 0.0440725395508667
+        },
+        {
+            "source": "CSPP1",
+            "target": "C6",
+            "weight": 0.03446475515863954
+        },
+        {
+            "source": "CSPP1",
+            "target": "AOX1",
+            "weight": 0.0823101385940835
+        },
+        {
+            "source": "CSPP1",
+            "target": "GBA3",
+            "weight": 0.039418090592771876
+        },
+        {
+            "source": "CSPP1",
+            "target": "IFNB1",
+            "weight": 0.03273224106894253
+        },
+        {
+            "source": "CSPP1",
+            "target": "HSPB7",
+            "weight": 0.10157739364458113
+        },
+        {
+            "source": "CSPP1",
+            "target": "TCF4",
+            "weight": 0.1090129878425794
+        },
+        {
+            "source": "CSPP1",
+            "target": "GLYATL1",
+            "weight": 0.061320636916551936
+        },
+        {
+            "source": "CSPP1",
+            "target": "HNF1A",
+            "weight": 0.07239721328969183
+        },
+        {
+            "source": "CSPP1",
+            "target": "ELF3",
+            "weight": 0.09619461049923918
+        },
+        {
+            "source": "CSPP1",
+            "target": "HAB1",
+            "weight": 0.07540581755976863
+        },
+        {
+            "source": "CSPP1",
+            "target": "KREMEN1",
+            "weight": 0.07502891662401645
+        },
+        {
+            "source": "CSPP1",
+            "target": "NDP",
+            "weight": 0.05146396903137753
+        },
+        {
+            "source": "CSPP1",
+            "target": "SNCAIP",
+            "weight": 0.15394194701568004
+        },
+        {
+            "source": "CSPP1",
+            "target": "RBP4",
+            "weight": 0.08183359935563149
+        },
+        {
+            "source": "CSPP1",
+            "target": "MMP8",
+            "weight": 0.05779898072808588
+        },
+        {
+            "source": "CSPP1",
+            "target": "MMP10",
+            "weight": 0.049810618896029994
+        },
+        {
+            "source": "CSPP1",
+            "target": "STAT4",
+            "weight": 0.044391772517735795
+        },
+        {
+            "source": "CSPP1",
+            "target": "TCF7L1",
+            "weight": 0.05495552917395544
+        },
+        {
+            "source": "SVEP1",
+            "target": "RGS1",
+            "weight": 0.09469335120907575
+        },
+        {
+            "source": "SVEP1",
+            "target": "PCDH9",
+            "weight": 0.06945804417981631
+        },
+        {
+            "source": "SVEP1",
+            "target": "PCK1",
+            "weight": 0.08354794721827687
+        },
+        {
+            "source": "SVEP1",
+            "target": "AVIL",
+            "weight": 0.05316923854576695
+        },
+        {
+            "source": "SVEP1",
+            "target": "CCL18",
+            "weight": 0.07819339310039823
+        },
+        {
+            "source": "SVEP1",
+            "target": "TEX33",
+            "weight": 0.019586924422282975
+        },
+        {
+            "source": "SVEP1",
+            "target": "POU4F2",
+            "weight": 0.005907024440552748
+        },
+        {
+            "source": "SVEP1",
+            "target": "C6",
+            "weight": 0.0699640870564604
+        },
+        {
+            "source": "SVEP1",
+            "target": "AOX1",
+            "weight": 0.16702318485444667
+        },
+        {
+            "source": "SVEP1",
+            "target": "GBA3",
+            "weight": 0.02836117442785158
+        },
+        {
+            "source": "SVEP1",
+            "target": "IFNB1",
+            "weight": 0.009557483421659076
+        },
+        {
+            "source": "SVEP1",
+            "target": "HSPB7",
+            "weight": 0.08535132635015692
+        },
+        {
+            "source": "SVEP1",
+            "target": "TCF4",
+            "weight": 0.042000988381527445
+        },
+        {
+            "source": "SVEP1",
+            "target": "GLYATL1",
+            "weight": 0.056520083848099784
+        },
+        {
+            "source": "SVEP1",
+            "target": "HNF1A",
+            "weight": 0.0922647519537727
+        },
+        {
+            "source": "SVEP1",
+            "target": "ELF3",
+            "weight": 0.09975782292562532
+        },
+        {
+            "source": "SVEP1",
+            "target": "HAB1",
+            "weight": 0.02715166908506967
+        },
+        {
+            "source": "SVEP1",
+            "target": "KREMEN1",
+            "weight": 0.06850284622097483
+        },
+        {
+            "source": "SVEP1",
+            "target": "NDP",
+            "weight": 0.04810333937254903
+        },
+        {
+            "source": "SVEP1",
+            "target": "SNCAIP",
+            "weight": 0.043047741848503296
+        },
+        {
+            "source": "SVEP1",
+            "target": "RBP4",
+            "weight": 0.06645734564340636
+        },
+        {
+            "source": "SVEP1",
+            "target": "MMP8",
+            "weight": 0.010664332465353114
+        },
+        {
+            "source": "SVEP1",
+            "target": "MMP10",
+            "weight": 0.017682842618832476
+        },
+        {
+            "source": "SVEP1",
+            "target": "STAT4",
+            "weight": 0.03468634102465076
+        },
+        {
+            "source": "SVEP1",
+            "target": "TCF7L1",
+            "weight": 0.03896139771036791
+        },
+        {
+            "source": "RGS1",
+            "target": "PCDH9",
+            "weight": 0.13018464001222502
+        },
+        {
+            "source": "RGS1",
+            "target": "PCK1",
+            "weight": 0.027525076784760693
+        },
+        {
+            "source": "RGS1",
+            "target": "AVIL",
+            "weight": 0.08117434219713794
+        },
+        {
+            "source": "RGS1",
+            "target": "CCL18",
+            "weight": 0.16298091015089802
+        },
+        {
+            "source": "RGS1",
+            "target": "TEX33",
+            "weight": 0.06714370176738585
+        },
+        {
+            "source": "RGS1",
+            "target": "POU4F2",
+            "weight": 0.033214894467676594
+        },
+        {
+            "source": "RGS1",
+            "target": "C6",
+            "weight": 0.0649370424731936
+        },
+        {
+            "source": "RGS1",
+            "target": "AOX1",
+            "weight": 0.05985894698228749
+        },
+        {
+            "source": "RGS1",
+            "target": "GBA3",
+            "weight": 0.05085906551431701
+        },
+        {
+            "source": "RGS1",
+            "target": "IFNB1",
+            "weight": 0.02512731207638486
+        },
+        {
+            "source": "RGS1",
+            "target": "HSPB7",
+            "weight": 0.020214986736708955
+        },
+        {
+            "source": "RGS1",
+            "target": "TCF4",
+            "weight": 0.16383071025104612
+        },
+        {
+            "source": "RGS1",
+            "target": "GLYATL1",
+            "weight": 0.05489447891094817
+        },
+        {
+            "source": "RGS1",
+            "target": "HNF1A",
+            "weight": 0.032537830044095314
+        },
+        {
+            "source": "RGS1",
+            "target": "ELF3",
+            "weight": 0.039677835972638874
+        },
+        {
+            "source": "RGS1",
+            "target": "HAB1",
+            "weight": 0.05686146766342778
+        },
+        {
+            "source": "RGS1",
+            "target": "KREMEN1",
+            "weight": 0.10984496102905167
+        },
+        {
+            "source": "RGS1",
+            "target": "NDP",
+            "weight": 0.03813666797663563
+        },
+        {
+            "source": "RGS1",
+            "target": "SNCAIP",
+            "weight": 0.03694968868496648
+        },
+        {
+            "source": "RGS1",
+            "target": "RBP4",
+            "weight": 0.05106881168240224
+        },
+        {
+            "source": "RGS1",
+            "target": "MMP8",
+            "weight": 0.05867474001177302
+        },
+        {
+            "source": "RGS1",
+            "target": "MMP10",
+            "weight": 0.04548017649683152
+        },
+        {
+            "source": "RGS1",
+            "target": "STAT4",
+            "weight": 0.09476391317127979
+        },
+        {
+            "source": "RGS1",
+            "target": "TCF7L1",
+            "weight": 0.04384522861651267
+        },
+        {
+            "source": "PCDH9",
+            "target": "PCK1",
+            "weight": 0.07660683423864419
+        },
+        {
+            "source": "PCDH9",
+            "target": "AVIL",
+            "weight": 0.06988850725390712
+        },
+        {
+            "source": "PCDH9",
+            "target": "CCL18",
+            "weight": 0.05721515968343034
+        },
+        {
+            "source": "PCDH9",
+            "target": "TEX33",
+            "weight": 0.03858451071366254
+        },
+        {
+            "source": "PCDH9",
+            "target": "POU4F2",
+            "weight": 0.039800723503616214
+        },
+        {
+            "source": "PCDH9",
+            "target": "C6",
+            "weight": 0.05847517346748884
+        },
+        {
+            "source": "PCDH9",
+            "target": "AOX1",
+            "weight": 0.11968609840775585
+        },
+        {
+            "source": "PCDH9",
+            "target": "GBA3",
+            "weight": 0.05761948134943711
+        },
+        {
+            "source": "PCDH9",
+            "target": "IFNB1",
+            "weight": 0.025479927410407763
+        },
+        {
+            "source": "PCDH9",
+            "target": "HSPB7",
+            "weight": 0.0582073563358895
+        },
+        {
+            "source": "PCDH9",
+            "target": "TCF4",
+            "weight": 0.3274952400308489
+        },
+        {
+            "source": "PCDH9",
+            "target": "GLYATL1",
+            "weight": 0.06051496177703777
+        },
+        {
+            "source": "PCDH9",
+            "target": "HNF1A",
+            "weight": 0.039112781008788726
+        },
+        {
+            "source": "PCDH9",
+            "target": "ELF3",
+            "weight": 0.04493597016575891
+        },
+        {
+            "source": "PCDH9",
+            "target": "HAB1",
+            "weight": 0.0305180659434361
+        },
+        {
+            "source": "PCDH9",
+            "target": "KREMEN1",
+            "weight": 0.07530586300856765
+        },
+        {
+            "source": "PCDH9",
+            "target": "NDP",
+            "weight": 0.02579961081932719
+        },
+        {
+            "source": "PCDH9",
+            "target": "SNCAIP",
+            "weight": 0.045159456462113855
+        },
+        {
+            "source": "PCDH9",
+            "target": "RBP4",
+            "weight": 0.11574366106066758
+        },
+        {
+            "source": "PCDH9",
+            "target": "MMP8",
+            "weight": 0.033464913917327505
+        },
+        {
+            "source": "PCDH9",
+            "target": "MMP10",
+            "weight": 0.03259229054220337
+        },
+        {
+            "source": "PCDH9",
+            "target": "STAT4",
+            "weight": 0.1969949768579052
+        },
+        {
+            "source": "PCDH9",
+            "target": "TCF7L1",
+            "weight": 0.14727230190268
+        },
+        {
+            "source": "PCK1",
+            "target": "AVIL",
+            "weight": 0.01484498037824601
+        },
+        {
+            "source": "PCK1",
+            "target": "CCL18",
+            "weight": 0.024017676019026428
+        },
+        {
+            "source": "PCK1",
+            "target": "TEX33",
+            "weight": 0.025791309635111635
+        },
+        {
+            "source": "PCK1",
+            "target": "POU4F2",
+            "weight": 0.01159493839352333
+        },
+        {
+            "source": "PCK1",
+            "target": "C6",
+            "weight": 0.01005205824958403
+        },
+        {
+            "source": "PCK1",
+            "target": "AOX1",
+            "weight": 0.11556065563853553
+        },
+        {
+            "source": "PCK1",
+            "target": "GBA3",
+            "weight": 0.04283957718013042
+        },
+        {
+            "source": "PCK1",
+            "target": "IFNB1",
+            "weight": 0.007857461576316843
+        },
+        {
+            "source": "PCK1",
+            "target": "HSPB7",
+            "weight": 0.01588065977778022
+        },
+        {
+            "source": "PCK1",
+            "target": "TCF4",
+            "weight": 0.014123516531255258
+        },
+        {
+            "source": "PCK1",
+            "target": "GLYATL1",
+            "weight": 0.06083784691408758
+        },
+        {
+            "source": "PCK1",
+            "target": "HNF1A",
+            "weight": 0.05641845305237656
+        },
+        {
+            "source": "PCK1",
+            "target": "ELF3",
+            "weight": 0.0352221748575046
+        },
+        {
+            "source": "PCK1",
+            "target": "HAB1",
+            "weight": 0.02826542527858784
+        },
+        {
+            "source": "PCK1",
+            "target": "KREMEN1",
+            "weight": 0.06119402641578794
+        },
+        {
+            "source": "PCK1",
+            "target": "NDP",
+            "weight": 0.006403190486981803
+        },
+        {
+            "source": "PCK1",
+            "target": "SNCAIP",
+            "weight": 0.021790645711941118
+        },
+        {
+            "source": "PCK1",
+            "target": "RBP4",
+            "weight": 0.11688162808053026
+        },
+        {
+            "source": "PCK1",
+            "target": "MMP8",
+            "weight": 0.02025983489592832
+        },
+        {
+            "source": "PCK1",
+            "target": "MMP10",
+            "weight": 0.0069300040955985985
+        },
+        {
+            "source": "PCK1",
+            "target": "STAT4",
+            "weight": 0.015975850986597383
+        },
+        {
+            "source": "PCK1",
+            "target": "TCF7L1",
+            "weight": 0.011612200690476271
+        },
+        {
+            "source": "AVIL",
+            "target": "CCL18",
+            "weight": 0.020888212304654433
+        },
+        {
+            "source": "AVIL",
+            "target": "TEX33",
+            "weight": 0.01625569029486994
+        },
+        {
+            "source": "AVIL",
+            "target": "POU4F2",
+            "weight": 0.012757245283411232
+        },
+        {
+            "source": "AVIL",
+            "target": "C6",
+            "weight": 0.014439795893967265
+        },
+        {
+            "source": "AVIL",
+            "target": "AOX1",
+            "weight": 0.024369145548663117
+        },
+        {
+            "source": "AVIL",
+            "target": "GBA3",
+            "weight": 0.05996692248004136
+        },
+        {
+            "source": "AVIL",
+            "target": "IFNB1",
+            "weight": 0.020659226528498505
+        },
+        {
+            "source": "AVIL",
+            "target": "HSPB7",
+            "weight": 0.009681939260826009
+        },
+        {
+            "source": "AVIL",
+            "target": "TCF4",
+            "weight": 0.11598034699352722
+        },
+        {
+            "source": "AVIL",
+            "target": "GLYATL1",
+            "weight": 0.04347207553926548
+        },
+        {
+            "source": "AVIL",
+            "target": "HNF1A",
+            "weight": 0.03307800241024008
+        },
+        {
+            "source": "AVIL",
+            "target": "ELF3",
+            "weight": 0.04136130739526413
+        },
+        {
+            "source": "AVIL",
+            "target": "HAB1",
+            "weight": 0.025633711104409165
+        },
+        {
+            "source": "AVIL",
+            "target": "KREMEN1",
+            "weight": 0.04605738904088128
+        },
+        {
+            "source": "AVIL",
+            "target": "NDP",
+            "weight": 0.03725879617999927
+        },
+        {
+            "source": "AVIL",
+            "target": "SNCAIP",
+            "weight": 0.019432496665904245
+        },
+        {
+            "source": "AVIL",
+            "target": "RBP4",
+            "weight": 0.03832452755265102
+        },
+        {
+            "source": "AVIL",
+            "target": "MMP8",
+            "weight": 0.022282002195176363
+        },
+        {
+            "source": "AVIL",
+            "target": "MMP10",
+            "weight": 0.05329463933312919
+        },
+        {
+            "source": "AVIL",
+            "target": "STAT4",
+            "weight": 0.011804026086132595
+        },
+        {
+            "source": "AVIL",
+            "target": "TCF7L1",
+            "weight": 0.015090090008263616
+        },
+        {
+            "source": "CCL18",
+            "target": "TEX33",
+            "weight": 0.04138078347918142
+        },
+        {
+            "source": "CCL18",
+            "target": "POU4F2",
+            "weight": 0.008964437430924921
+        },
+        {
+            "source": "CCL18",
+            "target": "C6",
+            "weight": 0.012224169396760702
+        },
+        {
+            "source": "CCL18",
+            "target": "AOX1",
+            "weight": 0.05905629202332506
+        },
+        {
+            "source": "CCL18",
+            "target": "GBA3",
+            "weight": 0.045788523324296546
+        },
+        {
+            "source": "CCL18",
+            "target": "IFNB1",
+            "weight": 0.0689089337356129
+        },
+        {
+            "source": "CCL18",
+            "target": "HSPB7",
+            "weight": 0.0940442516646986
+        },
+        {
+            "source": "CCL18",
+            "target": "TCF4",
+            "weight": 0.02008162773030779
+        },
+        {
+            "source": "CCL18",
+            "target": "GLYATL1",
+            "weight": 0.06550668272355405
+        },
+        {
+            "source": "CCL18",
+            "target": "HNF1A",
+            "weight": 0.05153511512627715
+        },
+        {
+            "source": "CCL18",
+            "target": "ELF3",
+            "weight": 0.055052253638258976
+        },
+        {
+            "source": "CCL18",
+            "target": "HAB1",
+            "weight": 0.027618347664045882
+        },
+        {
+            "source": "CCL18",
+            "target": "KREMEN1",
+            "weight": 0.07046194198691137
+        },
+        {
+            "source": "CCL18",
+            "target": "NDP",
+            "weight": 0.024895473304919084
+        },
+        {
+            "source": "CCL18",
+            "target": "SNCAIP",
+            "weight": 0.033084808884169634
+        },
+        {
+            "source": "CCL18",
+            "target": "RBP4",
+            "weight": 0.035646443480227545
+        },
+        {
+            "source": "CCL18",
+            "target": "MMP8",
+            "weight": 0.06504083157875343
+        },
+        {
+            "source": "CCL18",
+            "target": "MMP10",
+            "weight": 0.014223923949558688
+        },
+        {
+            "source": "CCL18",
+            "target": "STAT4",
+            "weight": 0.08630702838350819
+        },
+        {
+            "source": "CCL18",
+            "target": "TCF7L1",
+            "weight": 0.06836855671421048
+        },
+        {
+            "source": "TEX33",
+            "target": "POU4F2",
+            "weight": 0.02655485863978201
+        },
+        {
+            "source": "TEX33",
+            "target": "C6",
+            "weight": 0.026685887227448246
+        },
+        {
+            "source": "TEX33",
+            "target": "AOX1",
+            "weight": 0.01638064536715793
+        },
+        {
+            "source": "TEX33",
+            "target": "GBA3",
+            "weight": 0.03189175930678362
+        },
+        {
+            "source": "TEX33",
+            "target": "IFNB1",
+            "weight": 0.041524172184658606
+        },
+        {
+            "source": "TEX33",
+            "target": "HSPB7",
+            "weight": 0.05401476135894766
+        },
+        {
+            "source": "TEX33",
+            "target": "TCF4",
+            "weight": 0.03812208714452723
+        },
+        {
+            "source": "TEX33",
+            "target": "GLYATL1",
+            "weight": 0.10618657675048014
+        },
+        {
+            "source": "TEX33",
+            "target": "HNF1A",
+            "weight": 0.039140626239493374
+        },
+        {
+            "source": "TEX33",
+            "target": "ELF3",
+            "weight": 0.06713021438682795
+        },
+        {
+            "source": "TEX33",
+            "target": "HAB1",
+            "weight": 0.05505823213829139
+        },
+        {
+            "source": "TEX33",
+            "target": "KREMEN1",
+            "weight": 0.12235558485097847
+        },
+        {
+            "source": "TEX33",
+            "target": "NDP",
+            "weight": 0.017474913485465926
+        },
+        {
+            "source": "TEX33",
+            "target": "SNCAIP",
+            "weight": 0.011277781273212143
+        },
+        {
+            "source": "TEX33",
+            "target": "RBP4",
+            "weight": 0.021793829866232694
+        },
+        {
+            "source": "TEX33",
+            "target": "MMP8",
+            "weight": 0.028459789512070604
+        },
+        {
+            "source": "TEX33",
+            "target": "MMP10",
+            "weight": 0.014611571380319256
+        },
+        {
+            "source": "TEX33",
+            "target": "STAT4",
+            "weight": 0.04242204909239607
+        },
+        {
+            "source": "TEX33",
+            "target": "TCF7L1",
+            "weight": 0.008591549706966146
+        },
+        {
+            "source": "POU4F2",
+            "target": "C6",
+            "weight": 0.005857825159200802
+        },
+        {
+            "source": "POU4F2",
+            "target": "AOX1",
+            "weight": 0.008277818034803498
+        },
+        {
+            "source": "POU4F2",
+            "target": "GBA3",
+            "weight": 0.0188781380731522
+        },
+        {
+            "source": "POU4F2",
+            "target": "IFNB1",
+            "weight": 0.0110195768584078
+        },
+        {
+            "source": "POU4F2",
+            "target": "HSPB7",
+            "weight": 0.01765757937171183
+        },
+        {
+            "source": "POU4F2",
+            "target": "TCF4",
+            "weight": 0.007796586351110755
+        },
+        {
+            "source": "POU4F2",
+            "target": "GLYATL1",
+            "weight": 0.026414181029131994
+        },
+        {
+            "source": "POU4F2",
+            "target": "HNF1A",
+            "weight": 0.10433116639321462
+        },
+        {
+            "source": "POU4F2",
+            "target": "ELF3",
+            "weight": 0.01471271101737871
+        },
+        {
+            "source": "POU4F2",
+            "target": "HAB1",
+            "weight": 0.01688464497126321
+        },
+        {
+            "source": "POU4F2",
+            "target": "KREMEN1",
+            "weight": 0.03911807251476007
+        },
+        {
+            "source": "POU4F2",
+            "target": "NDP",
+            "weight": 0.016082572735532805
+        },
+        {
+            "source": "POU4F2",
+            "target": "SNCAIP",
+            "weight": 0.013048800812518269
+        },
+        {
+            "source": "POU4F2",
+            "target": "RBP4",
+            "weight": 0.03448084463915008
+        },
+        {
+            "source": "POU4F2",
+            "target": "MMP8",
+            "weight": 0.004424729133170681
+        },
+        {
+            "source": "POU4F2",
+            "target": "MMP10",
+            "weight": 0.004070842477173671
+        },
+        {
+            "source": "POU4F2",
+            "target": "STAT4",
+            "weight": 0.027744471786592183
+        },
+        {
+            "source": "POU4F2",
+            "target": "TCF7L1",
+            "weight": 0.04707372841132135
+        },
+        {
+            "source": "C6",
+            "target": "AOX1",
+            "weight": 0.16623886520829148
+        },
+        {
+            "source": "C6",
+            "target": "GBA3",
+            "weight": 0.0288743107307062
+        },
+        {
+            "source": "C6",
+            "target": "IFNB1",
+            "weight": 0.004006007525330019
+        },
+        {
+            "source": "C6",
+            "target": "HSPB7",
+            "weight": 0.030477894227606824
+        },
+        {
+            "source": "C6",
+            "target": "TCF4",
+            "weight": 0.018943602699701547
+        },
+        {
+            "source": "C6",
+            "target": "GLYATL1",
+            "weight": 0.06722114324667963
+        },
+        {
+            "source": "C6",
+            "target": "HNF1A",
+            "weight": 0.042811938611563974
+        },
+        {
+            "source": "C6",
+            "target": "ELF3",
+            "weight": 0.011408020305899085
+        },
+        {
+            "source": "C6",
+            "target": "HAB1",
+            "weight": 0.017303225218304658
+        },
+        {
+            "source": "C6",
+            "target": "KREMEN1",
+            "weight": 0.04766206276617349
+        },
+        {
+            "source": "C6",
+            "target": "NDP",
+            "weight": 0.004618872534483282
+        },
+        {
+            "source": "C6",
+            "target": "SNCAIP",
+            "weight": 0.008413954525379554
+        },
+        {
+            "source": "C6",
+            "target": "RBP4",
+            "weight": 0.07121608970772239
+        },
+        {
+            "source": "C6",
+            "target": "MMP8",
+            "weight": 0.011421569328976458
+        },
+        {
+            "source": "C6",
+            "target": "MMP10",
+            "weight": 0.010909395193801808
+        },
+        {
+            "source": "C6",
+            "target": "STAT4",
+            "weight": 0.052464394938486085
+        },
+        {
+            "source": "C6",
+            "target": "TCF7L1",
+            "weight": 0.009692863317946745
+        },
+        {
+            "source": "AOX1",
+            "target": "GBA3",
+            "weight": 0.06473732422331208
+        },
+        {
+            "source": "AOX1",
+            "target": "IFNB1",
+            "weight": 0.00925982101669075
+        },
+        {
+            "source": "AOX1",
+            "target": "HSPB7",
+            "weight": 0.04063897538375787
+        },
+        {
+            "source": "AOX1",
+            "target": "TCF4",
+            "weight": 0.13967478478896495
+        },
+        {
+            "source": "AOX1",
+            "target": "GLYATL1",
+            "weight": 0.04248197029435736
+        },
+        {
+            "source": "AOX1",
+            "target": "HNF1A",
+            "weight": 0.06079391239984615
+        },
+        {
+            "source": "AOX1",
+            "target": "ELF3",
+            "weight": 0.10226217716553354
+        },
+        {
+            "source": "AOX1",
+            "target": "HAB1",
+            "weight": 0.01768417618896256
+        },
+        {
+            "source": "AOX1",
+            "target": "KREMEN1",
+            "weight": 0.10858665565578485
+        },
+        {
+            "source": "AOX1",
+            "target": "NDP",
+            "weight": 0.021731094761424923
+        },
+        {
+            "source": "AOX1",
+            "target": "SNCAIP",
+            "weight": 0.09532785778109915
+        },
+        {
+            "source": "AOX1",
+            "target": "RBP4",
+            "weight": 0.2177258836968232
+        },
+        {
+            "source": "AOX1",
+            "target": "MMP8",
+            "weight": 0.03475726809595321
+        },
+        {
+            "source": "AOX1",
+            "target": "MMP10",
+            "weight": 0.017572530757478017
+        },
+        {
+            "source": "AOX1",
+            "target": "STAT4",
+            "weight": 0.04769664798519682
+        },
+        {
+            "source": "AOX1",
+            "target": "TCF7L1",
+            "weight": 0.14638785091549658
+        },
+        {
+            "source": "GBA3",
+            "target": "IFNB1",
+            "weight": 0.047319842694820244
+        },
+        {
+            "source": "GBA3",
+            "target": "HSPB7",
+            "weight": 0.011897315391523368
+        },
+        {
+            "source": "GBA3",
+            "target": "TCF4",
+            "weight": 0.040425033755266154
+        },
+        {
+            "source": "GBA3",
+            "target": "GLYATL1",
+            "weight": 0.05098824839326497
+        },
+        {
+            "source": "GBA3",
+            "target": "HNF1A",
+            "weight": 0.03578022739229441
+        },
+        {
+            "source": "GBA3",
+            "target": "ELF3",
+            "weight": 0.040506904122115696
+        },
+        {
+            "source": "GBA3",
+            "target": "HAB1",
+            "weight": 0.06989945751567377
+        },
+        {
+            "source": "GBA3",
+            "target": "KREMEN1",
+            "weight": 0.09511738303638995
+        },
+        {
+            "source": "GBA3",
+            "target": "NDP",
+            "weight": 0.04430787429284647
+        },
+        {
+            "source": "GBA3",
+            "target": "SNCAIP",
+            "weight": 0.0132776701351946
+        },
+        {
+            "source": "GBA3",
+            "target": "RBP4",
+            "weight": 0.044536366179942465
+        },
+        {
+            "source": "GBA3",
+            "target": "MMP8",
+            "weight": 0.01961760961862812
+        },
+        {
+            "source": "GBA3",
+            "target": "MMP10",
+            "weight": 0.01963513139751813
+        },
+        {
+            "source": "GBA3",
+            "target": "STAT4",
+            "weight": 0.020178620096764938
+        },
+        {
+            "source": "GBA3",
+            "target": "TCF7L1",
+            "weight": 0.01048950988109826
+        },
+        {
+            "source": "IFNB1",
+            "target": "HSPB7",
+            "weight": 0.061730396868723184
+        },
+        {
+            "source": "IFNB1",
+            "target": "TCF4",
+            "weight": 0.0143946301180739
+        },
+        {
+            "source": "IFNB1",
+            "target": "GLYATL1",
+            "weight": 0.037318219694538586
+        },
+        {
+            "source": "IFNB1",
+            "target": "HNF1A",
+            "weight": 0.0384911966967039
+        },
+        {
+            "source": "IFNB1",
+            "target": "ELF3",
+            "weight": 0.023695119426507247
+        },
+        {
+            "source": "IFNB1",
+            "target": "HAB1",
+            "weight": 0.03908839340234941
+        },
+        {
+            "source": "IFNB1",
+            "target": "KREMEN1",
+            "weight": 0.10155110762724234
+        },
+        {
+            "source": "IFNB1",
+            "target": "NDP",
+            "weight": 0.007961889826221813
+        },
+        {
+            "source": "IFNB1",
+            "target": "SNCAIP",
+            "weight": 0.011181890092240071
+        },
+        {
+            "source": "IFNB1",
+            "target": "RBP4",
+            "weight": 0.025139833765579427
+        },
+        {
+            "source": "IFNB1",
+            "target": "MMP8",
+            "weight": 0.007955583756637297
+        },
+        {
+            "source": "IFNB1",
+            "target": "MMP10",
+            "weight": 0.025722009094358053
+        },
+        {
+            "source": "IFNB1",
+            "target": "STAT4",
+            "weight": 0.0511963299503589
+        },
+        {
+            "source": "IFNB1",
+            "target": "TCF7L1",
+            "weight": 0.03323133969545843
+        },
+        {
+            "source": "HSPB7",
+            "target": "TCF4",
+            "weight": 0.009743467835926445
+        },
+        {
+            "source": "HSPB7",
+            "target": "GLYATL1",
+            "weight": 0.08899750092298361
+        },
+        {
+            "source": "HSPB7",
+            "target": "HNF1A",
+            "weight": 0.08279502902492696
+        },
+        {
+            "source": "HSPB7",
+            "target": "ELF3",
+            "weight": 0.100883657056424
+        },
+        {
+            "source": "HSPB7",
+            "target": "HAB1",
+            "weight": 0.06755864970109945
+        },
+        {
+            "source": "HSPB7",
+            "target": "KREMEN1",
+            "weight": 0.11836910006838403
+        },
+        {
+            "source": "HSPB7",
+            "target": "NDP",
+            "weight": 0.019681471906804776
+        },
+        {
+            "source": "HSPB7",
+            "target": "SNCAIP",
+            "weight": 0.021811232580172094
+        },
+        {
+            "source": "HSPB7",
+            "target": "RBP4",
+            "weight": 0.04002492176715432
+        },
+        {
+            "source": "HSPB7",
+            "target": "MMP8",
+            "weight": 0.031879876958257725
+        },
+        {
+            "source": "HSPB7",
+            "target": "MMP10",
+            "weight": 0.018110095437985883
+        },
+        {
+            "source": "HSPB7",
+            "target": "STAT4",
+            "weight": 0.014549359724166972
+        },
+        {
+            "source": "HSPB7",
+            "target": "TCF7L1",
+            "weight": 0.03312435511206954
+        },
+        {
+            "source": "TCF4",
+            "target": "GLYATL1",
+            "weight": 0.03199760837871267
+        },
+        {
+            "source": "TCF4",
+            "target": "HNF1A",
+            "weight": 0.027908155082790348
+        },
+        {
+            "source": "TCF4",
+            "target": "ELF3",
+            "weight": 0.06305211141823011
+        },
+        {
+            "source": "TCF4",
+            "target": "HAB1",
+            "weight": 0.011768007118239233
+        },
+        {
+            "source": "TCF4",
+            "target": "KREMEN1",
+            "weight": 0.08902165581965506
+        },
+        {
+            "source": "TCF4",
+            "target": "NDP",
+            "weight": 0.016116127714300352
+        },
+        {
+            "source": "TCF4",
+            "target": "SNCAIP",
+            "weight": 0.09887095110682352
+        },
+        {
+            "source": "TCF4",
+            "target": "RBP4",
+            "weight": 0.043705267311673075
+        },
+        {
+            "source": "TCF4",
+            "target": "MMP8",
+            "weight": 0.04663597202643444
+        },
+        {
+            "source": "TCF4",
+            "target": "MMP10",
+            "weight": 0.05875944336469474
+        },
+        {
+            "source": "TCF4",
+            "target": "STAT4",
+            "weight": 0.3981115960858688
+        },
+        {
+            "source": "TCF4",
+            "target": "TCF7L1",
+            "weight": 0.4144930150749994
+        },
+        {
+            "source": "GLYATL1",
+            "target": "HNF1A",
+            "weight": 0.05077520133663402
+        },
+        {
+            "source": "GLYATL1",
+            "target": "ELF3",
+            "weight": 0.09595368037473115
+        },
+        {
+            "source": "GLYATL1",
+            "target": "HAB1",
+            "weight": 0.0472768958151455
+        },
+        {
+            "source": "GLYATL1",
+            "target": "KREMEN1",
+            "weight": 0.10636137877318083
+        },
+        {
+            "source": "GLYATL1",
+            "target": "NDP",
+            "weight": 0.06085756836706926
+        },
+        {
+            "source": "GLYATL1",
+            "target": "SNCAIP",
+            "weight": 0.0853967285261278
+        },
+        {
+            "source": "GLYATL1",
+            "target": "RBP4",
+            "weight": 0.041562496344903915
+        },
+        {
+            "source": "GLYATL1",
+            "target": "MMP8",
+            "weight": 0.06424624264656843
+        },
+        {
+            "source": "GLYATL1",
+            "target": "MMP10",
+            "weight": 0.028875367042085844
+        },
+        {
+            "source": "GLYATL1",
+            "target": "STAT4",
+            "weight": 0.0468866433904304
+        },
+        {
+            "source": "GLYATL1",
+            "target": "TCF7L1",
+            "weight": 0.04095763603372738
+        },
+        {
+            "source": "HNF1A",
+            "target": "ELF3",
+            "weight": 0.038996738025156547
+        },
+        {
+            "source": "HNF1A",
+            "target": "HAB1",
+            "weight": 0.048703470026238815
+        },
+        {
+            "source": "HNF1A",
+            "target": "KREMEN1",
+            "weight": 0.07604837712638182
+        },
+        {
+            "source": "HNF1A",
+            "target": "NDP",
+            "weight": 0.026145115335725572
+        },
+        {
+            "source": "HNF1A",
+            "target": "SNCAIP",
+            "weight": 0.0286317359073654
+        },
+        {
+            "source": "HNF1A",
+            "target": "RBP4",
+            "weight": 0.035228948621905745
+        },
+        {
+            "source": "HNF1A",
+            "target": "MMP8",
+            "weight": 0.0317965230538014
+        },
+        {
+            "source": "HNF1A",
+            "target": "MMP10",
+            "weight": 0.031114475557350762
+        },
+        {
+            "source": "HNF1A",
+            "target": "STAT4",
+            "weight": 0.08074229000138583
+        },
+        {
+            "source": "HNF1A",
+            "target": "TCF7L1",
+            "weight": 0.11968350635168105
+        },
+        {
+            "source": "ELF3",
+            "target": "HAB1",
+            "weight": 0.023661927822529634
+        },
+        {
+            "source": "ELF3",
+            "target": "KREMEN1",
+            "weight": 0.1321825268627954
+        },
+        {
+            "source": "ELF3",
+            "target": "NDP",
+            "weight": 0.030958610227437584
+        },
+        {
+            "source": "ELF3",
+            "target": "SNCAIP",
+            "weight": 0.031123015386207903
+        },
+        {
+            "source": "ELF3",
+            "target": "RBP4",
+            "weight": 0.04827372095110127
+        },
+        {
+            "source": "ELF3",
+            "target": "MMP8",
+            "weight": 0.010686221551969818
+        },
+        {
+            "source": "ELF3",
+            "target": "MMP10",
+            "weight": 0.039789961875720946
+        },
+        {
+            "source": "ELF3",
+            "target": "STAT4",
+            "weight": 0.14654548954673988
+        },
+        {
+            "source": "ELF3",
+            "target": "TCF7L1",
+            "weight": 0.02502871552700806
+        },
+        {
+            "source": "HAB1",
+            "target": "KREMEN1",
+            "weight": 0.09118712514339597
+        },
+        {
+            "source": "HAB1",
+            "target": "NDP",
+            "weight": 0.024607700542150782
+        },
+        {
+            "source": "HAB1",
+            "target": "SNCAIP",
+            "weight": 0.02632714928574093
+        },
+        {
+            "source": "HAB1",
+            "target": "RBP4",
+            "weight": 0.021666340286267193
+        },
+        {
+            "source": "HAB1",
+            "target": "MMP8",
+            "weight": 0.023480104124905577
+        },
+        {
+            "source": "HAB1",
+            "target": "MMP10",
+            "weight": 0.018065011720014
+        },
+        {
+            "source": "HAB1",
+            "target": "STAT4",
+            "weight": 0.01618918492982463
+        },
+        {
+            "source": "HAB1",
+            "target": "TCF7L1",
+            "weight": 0.04342342637003451
+        },
+        {
+            "source": "KREMEN1",
+            "target": "NDP",
+            "weight": 0.0835000615797148
+        },
+        {
+            "source": "KREMEN1",
+            "target": "SNCAIP",
+            "weight": 0.06856950013350731
+        },
+        {
+            "source": "KREMEN1",
+            "target": "RBP4",
+            "weight": 0.06528972465459165
+        },
+        {
+            "source": "KREMEN1",
+            "target": "MMP8",
+            "weight": 0.06810249091236725
+        },
+        {
+            "source": "KREMEN1",
+            "target": "MMP10",
+            "weight": 0.09694783981786484
+        },
+        {
+            "source": "KREMEN1",
+            "target": "STAT4",
+            "weight": 0.036566117065891905
+        },
+        {
+            "source": "KREMEN1",
+            "target": "TCF7L1",
+            "weight": 0.056999021782544665
+        },
+        {
+            "source": "NDP",
+            "target": "SNCAIP",
+            "weight": 0.013978593773269076
+        },
+        {
+            "source": "NDP",
+            "target": "RBP4",
+            "weight": 0.043623649252868324
+        },
+        {
+            "source": "NDP",
+            "target": "MMP8",
+            "weight": 0.011654878518501647
+        },
+        {
+            "source": "NDP",
+            "target": "MMP10",
+            "weight": 0.008820724027479023
+        },
+        {
+            "source": "NDP",
+            "target": "STAT4",
+            "weight": 0.024364370318141038
+        },
+        {
+            "source": "NDP",
+            "target": "TCF7L1",
+            "weight": 0.011990386803323363
+        },
+        {
+            "source": "SNCAIP",
+            "target": "RBP4",
+            "weight": 0.06912065487510949
+        },
+        {
+            "source": "SNCAIP",
+            "target": "MMP8",
+            "weight": 0.0214533625584446
+        },
+        {
+            "source": "SNCAIP",
+            "target": "MMP10",
+            "weight": 0.036344542200082645
+        },
+        {
+            "source": "SNCAIP",
+            "target": "STAT4",
+            "weight": 0.026514360503699517
+        },
+        {
+            "source": "SNCAIP",
+            "target": "TCF7L1",
+            "weight": 0.06277551188168679
+        },
+        {
+            "source": "RBP4",
+            "target": "MMP8",
+            "weight": 0.018208626988245196
+        },
+        {
+            "source": "RBP4",
+            "target": "MMP10",
+            "weight": 0.021536502585378873
+        },
+        {
+            "source": "RBP4",
+            "target": "STAT4",
+            "weight": 0.035369808114115706
+        },
+        {
+            "source": "RBP4",
+            "target": "TCF7L1",
+            "weight": 0.05539792294348957
+        },
+        {
+            "source": "MMP8",
+            "target": "MMP10",
+            "weight": 0.009010028151616547
+        },
+        {
+            "source": "MMP8",
+            "target": "STAT4",
+            "weight": 0.02101194982777403
+        },
+        {
+            "source": "MMP8",
+            "target": "TCF7L1",
+            "weight": 0.022312285544126162
+        },
+        {
+            "source": "MMP10",
+            "target": "STAT4",
+            "weight": 0.011039120353558494
+        },
+        {
+            "source": "MMP10",
+            "target": "TCF7L1",
+            "weight": 0.15892882987213602
+        },
+        {
+            "source": "STAT4",
+            "target": "TCF7L1",
+            "weight": 0.08727379698441126
+        }
+    ]
+}
