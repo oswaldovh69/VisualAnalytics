@@ -37,7 +37,7 @@ var simulationZebrafish = d3.forceSimulation()
     })
     .strength(0.025))
     // push nodes apart to space them out
-    .force("charge", d3.forceManyBody().strength(-1000))
+    .force("charge", d3.forceManyBody().strength(-1600))
     // add some collision detection so they don't overlap
     .force("collide", d3.forceCollide().radius(30))
     // and draw them around the centre of the space
