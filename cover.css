@@ -10,13 +10,13 @@ a:hover {
 }
 
 /* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
+.btn-secondary{
   color: #333;
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
   border: .05rem solid #fff;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 
@@ -58,6 +58,10 @@ body {
   padding: 2rem;
 }
 
+#main_text {
+  margin-top: 40px;
+  margin-bottom: 40px; 
+}
 
 /*
  * Header
