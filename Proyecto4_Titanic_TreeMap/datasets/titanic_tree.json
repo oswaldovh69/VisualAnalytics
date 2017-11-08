@@ -11,25 +11,25 @@
               "name": "Children",
               "children": [
                 {
-                  "name": "First class passengers",
+                  "name": "First class",
                   "Age": "Children",
-                  "Class": "First class passengers",
+                  "Class": "First class",
                   "Number": 0,
                   "Sex": "Males",
                   "People": "Died"
                 },
                 {
-                  "name": "Second class passengers",
+                  "name": "Second class",
                   "Age": "Children",
-                  "Class": "Second class passengers",
+                  "Class": "Second class",
                   "Number": 0,
                   "Sex": "Males",
                   "People": "Died"
                 },
                 {
-                  "name": "Third class passengers",
+                  "name": "Third class",
                   "Age": "Children",
-                  "Class": "Third class passengers",
+                  "Class": "Third class",
                   "Number": 35,
                   "Sex": "Males",
                   "People": "Died"
@@ -48,25 +48,25 @@
               "name": "Adults",
               "children": [
                 {
-                  "name": "First class passengers",
+                  "name": "First class",
                   "Age": "Adults",
-                  "Class": "First class passengers",
+                  "Class": "First class",
                   "Number": 118,
                   "Sex": "Males",
                   "People": "Died"
                 },
                 {
-                  "name": "Second class passengers",
+                  "name": "Second class",
                   "Age": "Adults",
-                  "Class": "Second class passengers",
+                  "Class": "Second class",
                   "Number": 154,
                   "Sex": "Males",
                   "People": "Died"
                 },
                 {
-                  "name": "Third class passengers",
+                  "name": "Third class",
                   "Age": "Adults",
-                  "Class": "Third class passengers",
+                  "Class": "Third class",
                   "Number": 387,
                   "Sex": "Males",
                   "People": "Died"
@@ -90,25 +90,25 @@
               "name": "Children",
               "children": [
                 {
-                  "name": "First class passengers",
+                  "name": "First class",
                   "Age": "Children",
-                  "Class": "First class passengers",
+                  "Class": "First class",
                   "Number": 0,
                   "Sex": "Females",
                   "People": "Died"
                 },
                 {
-                  "name": "Second class passengers",
+                  "name": "Second class",
                   "Age": "Children",
-                  "Class": "Second class passengers",
+                  "Class": "Second class",
                   "Number": 0,
                   "Sex": "Females",
                   "People": "Died"
                 },
                 {
-                  "name": "Third class passengers",
+                  "name": "Third class",
                   "Age": "Children",
-                  "Class": "Third class passengers",
+                  "Class": "Third class",
                   "Number": 17,
                   "Sex": "Females",
                   "People": "Died"
@@ -127,25 +127,25 @@
               "name": "Adults",
               "children": [
                 {
-                  "name": "First class passengers",
+                  "name": "First class",
                   "Age": "Adults",
-                  "Class": "First class passengers",
+                  "Class": "First class",
                   "Number": 4,
                   "Sex": "Females",
                   "People": "Died"
                 },
                 {
-                  "name": "Second class passengers",
+                  "name": "Second class",
                   "Age": "Adults",
-                  "Class": "Second class passengers",
+                  "Class": "Second class",
                   "Number": 13,
                   "Sex": "Females",
                   "People": "Died"
                 },
                 {
-                  "name": "Third class passengers",
+                  "name": "Third class",
                   "Age": "Adults",
-                  "Class": "Third class passengers",
+                  "Class": "Third class",
                   "Number": 89,
                   "Sex": "Females",
                   "People": "Died"
@@ -174,25 +174,25 @@
               "name": "Children",
               "children": [
                 {
-                  "name": "First class passengers",
+                  "name": "First class",
                   "Age": "Children",
-                  "Class": "First class passengers",
+                  "Class": "First class",
                   "Number": 5,
                   "Sex": "Males",
                   "People": "Survived"
                 },
                 {
-                  "name": "Second class passengers",
+                  "name": "Second class",
                   "Age": "Children",
-                  "Class": "Second class passengers",
+                  "Class": "Second class",
                   "Number": 11,
                   "Sex": "Males",
                   "People": "Survived"
                 },
                 {
-                  "name": "Third class passengers",
+                  "name": "Third class",
                   "Age": "Children",
-                  "Class": "Third class passengers",
+                  "Class": "Third class",
                   "Number": 13,
                   "Sex": "Males",
                   "People": "Survived"
@@ -211,25 +211,25 @@
               "name": "Adults",
               "children": [
                 {
-                  "name": "First class passengers",
+                  "name": "First class",
                   "Age": "Adults",
-                  "Class": "First class passengers",
+                  "Class": "First class",
                   "Number": 57,
                   "Sex": "Males",
                   "People": "Survived"
                 },
                 {
-                  "name": "Second class passengers",
+                  "name": "Second class",
                   "Age": "Adults",
-                  "Class": "Second class passengers",
+                  "Class": "Second class",
                   "Number": 14,
                   "Sex": "Males",
                   "People": "Survived"
                 },
                 {
-                  "name": "Third class passengers",
+                  "name": "Third class",
                   "Age": "Adults",
-                  "Class": "Third class passengers",
+                  "Class": "Third class",
                   "Number": 75,
                   "Sex": "Males",
                   "People": "Survived"
@@ -253,25 +253,25 @@
               "name": "Children",
               "children": [
                 {
-                  "name": "First class passengers",
+                  "name": "First class",
                   "Age": "Children",
-                  "Class": "First class passengers",
+                  "Class": "First class",
                   "Number": 1,
                   "Sex": "Females",
                   "People": "Survived"
                 },
                 {
-                  "name": "Second class passengers",
+                  "name": "Second class",
                   "Age": "Children",
-                  "Class": "Second class passengers",
+                  "Class": "Second class",
                   "Number": 13,
                   "Sex": "Females",
                   "People": "Survived"
                 },
                 {
-                  "name": "Third class passengers",
+                  "name": "Third class",
                   "Age": "Children",
-                  "Class": "Third class passengers",
+                  "Class": "Third class",
                   "Number": 14,
                   "Sex": "Females",
                   "People": "Survived"
@@ -290,25 +290,25 @@
               "name": "Adults",
               "children": [
                 {
-                  "name": "First class passengers",
+                  "name": "First class",
                   "Age": "Adults",
-                  "Class": "First class passengers",
+                  "Class": "First class",
                   "Number": 140,
                   "Sex": "Females",
                   "People": "Survived"
                 },
                 {
-                  "name": "Second class passengers",
+                  "name": "Second class",
                   "Age": "Adults",
-                  "Class": "Second class passengers",
+                  "Class": "Second class",
                   "Number": 80,
                   "Sex": "Females",
                   "People": "Survived"
                 },
                 {
-                  "name": "Third class passengers",
+                  "name": "Third class",
                   "Age": "Adults",
-                  "Class": "Third class passengers",
+                  "Class": "Third class",
                   "Number": 76,
                   "Sex": "Females",
                   "People": "Survived"
