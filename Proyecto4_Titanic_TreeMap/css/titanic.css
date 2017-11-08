@@ -49,10 +49,6 @@ p, li{
     padding-top: 20px;
 }
 
-svg {
-  width: 100%;
-}
-
 .link {
   fill: none;
   stroke: #ddd;
@@ -63,14 +59,10 @@ text {
   font: 10px sans-serif;
 }
 
-tspan:last-child {
-  font-size: 9px;
-  fill-opacity: 0.8;
-}
-
 .node rect {
   shape-rendering: crispEdges;
 }
 
 .node--hover rect {
-  stroke: #000;
+  stroke: #000000;
+}

@@ -11,25 +11,25 @@
               "name": "Child",
               "children": [
                 {
-                  "name": "First",
+                  "name": "First class",
                   "Age": "Child",
-                  "Class": "First",
+                  "Class": "First class",
                   "Number": 0,
                   "Sex": "Male",
                   "Survived": "No"
                 },
                 {
-                  "name": "Second",
+                  "name": "Second class",
                   "Age": "Child",
-                  "Class": "Second",
+                  "Class": "Second class",
                   "Number": 0,
                   "Sex": "Male",
                   "Survived": "No"
                 },
                 {
-                  "name": "Third",
+                  "name": "Third class",
                   "Age": "Child",
-                  "Class": "Third",
+                  "Class": "Third class",
                   "Number": 35,
                   "Sex": "Male",
                   "Survived": "No"
@@ -48,25 +48,25 @@
               "name": "Adult",
               "children": [
                 {
-                  "name": "First",
+                  "name": "First class",
                   "Age": "Adult",
-                  "Class": "First",
+                  "Class": "First class",
                   "Number": 118,
                   "Sex": "Male",
                   "Survived": "No"
                 },
                 {
-                  "name": "Second",
+                  "name": "Second class",
                   "Age": "Adult",
-                  "Class": "Second",
+                  "Class": "Second class",
                   "Number": 154,
                   "Sex": "Male",
                   "Survived": "No"
                 },
                 {
-                  "name": "Third",
+                  "name": "Third class",
                   "Age": "Adult",
-                  "Class": "Third",
+                  "Class": "Third class",
                   "Number": 387,
                   "Sex": "Male",
                   "Survived": "No"
@@ -90,25 +90,25 @@
               "name": "Child",
               "children": [
                 {
-                  "name": "First",
+                  "name": "First class",
                   "Age": "Child",
-                  "Class": "First",
+                  "Class": "First class",
                   "Number": 0,
                   "Sex": "Female",
                   "Survived": "No"
                 },
                 {
-                  "name": "Second",
+                  "name": "Second class",
                   "Age": "Child",
-                  "Class": "Second",
+                  "Class": "Second class",
                   "Number": 0,
                   "Sex": "Female",
                   "Survived": "No"
                 },
                 {
-                  "name": "Third",
+                  "name": "Third class",
                   "Age": "Child",
-                  "Class": "Third",
+                  "Class": "Third class",
                   "Number": 17,
                   "Sex": "Female",
                   "Survived": "No"
@@ -127,25 +127,25 @@
               "name": "Adult",
               "children": [
                 {
-                  "name": "First",
+                  "name": "First class",
                   "Age": "Adult",
-                  "Class": "First",
+                  "Class": "First class",
                   "Number": 4,
                   "Sex": "Female",
                   "Survived": "No"
                 },
                 {
-                  "name": "Second",
+                  "name": "Second class",
                   "Age": "Adult",
-                  "Class": "Second",
+                  "Class": "Second class",
                   "Number": 13,
                   "Sex": "Female",
                   "Survived": "No"
                 },
                 {
-                  "name": "Third",
+                  "name": "Third class",
                   "Age": "Adult",
-                  "Class": "Third",
+                  "Class": "Third class",
                   "Number": 89,
                   "Sex": "Female",
                   "Survived": "No"
@@ -174,25 +174,25 @@
               "name": "Child",
               "children": [
                 {
-                  "name": "First",
+                  "name": "First class",
                   "Age": "Child",
-                  "Class": "First",
+                  "Class": "First class",
                   "Number": 5,
                   "Sex": "Male",
                   "Survived": "Yes"
                 },
                 {
-                  "name": "Second",
+                  "name": "Second class",
                   "Age": "Child",
-                  "Class": "Second",
+                  "Class": "Second class",
                   "Number": 11,
                   "Sex": "Male",
                   "Survived": "Yes"
                 },
                 {
-                  "name": "Third",
+                  "name": "Third class",
                   "Age": "Child",
-                  "Class": "Third",
+                  "Class": "Third class",
                   "Number": 13,
                   "Sex": "Male",
                   "Survived": "Yes"
@@ -211,25 +211,25 @@
               "name": "Adult",
               "children": [
                 {
-                  "name": "First",
+                  "name": "First class",
                   "Age": "Adult",
-                  "Class": "First",
+                  "Class": "First class",
                   "Number": 57,
                   "Sex": "Male",
                   "Survived": "Yes"
                 },
                 {
-                  "name": "Second",
+                  "name": "Second class",
                   "Age": "Adult",
-                  "Class": "Second",
+                  "Class": "Second class",
                   "Number": 14,
                   "Sex": "Male",
                   "Survived": "Yes"
                 },
                 {
-                  "name": "Third",
+                  "name": "Third class",
                   "Age": "Adult",
-                  "Class": "Third",
+                  "Class": "Third class",
                   "Number": 75,
                   "Sex": "Male",
                   "Survived": "Yes"
@@ -253,25 +253,25 @@
               "name": "Child",
               "children": [
                 {
-                  "name": "First",
+                  "name": "First class",
                   "Age": "Child",
-                  "Class": "First",
+                  "Class": "First class",
                   "Number": 1,
                   "Sex": "Female",
                   "Survived": "Yes"
                 },
                 {
-                  "name": "Second",
+                  "name": "Second class",
                   "Age": "Child",
-                  "Class": "Second",
+                  "Class": "Second class",
                   "Number": 13,
                   "Sex": "Female",
                   "Survived": "Yes"
                 },
                 {
-                  "name": "Third",
+                  "name": "Third class",
                   "Age": "Child",
-                  "Class": "Third",
+                  "Class": "Third class",
                   "Number": 14,
                   "Sex": "Female",
                   "Survived": "Yes"
@@ -290,25 +290,25 @@
               "name": "Adult",
               "children": [
                 {
-                  "name": "First",
+                  "name": "First class",
                   "Age": "Adult",
-                  "Class": "First",
+                  "Class": "First class",
                   "Number": 140,
                   "Sex": "Female",
                   "Survived": "Yes"
                 },
                 {
-                  "name": "Second",
+                  "name": "Second class",
                   "Age": "Adult",
-                  "Class": "Second",
+                  "Class": "Second class",
                   "Number": 80,
                   "Sex": "Female",
                   "Survived": "Yes"
                 },
                 {
-                  "name": "Third",
+                  "name": "Third class",
                   "Age": "Adult",
-                  "Class": "Third",
+                  "Class": "Third class",
                   "Number": 76,
                   "Sex": "Female",
                   "Survived": "Yes"

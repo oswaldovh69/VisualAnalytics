@@ -1,8 +1,7 @@
 //Establishing the margins and dimensions of the plot
 var margin = {top: 20, right: 90, bottom: 30, left: 90},
     width = 1300 - margin.left - margin.right,
-    height = 800 - margin.top - margin.bottom,
-    padding = 5;
+    height = 800 - margin.top - margin.bottom;
 
 //Establishing the numeric format of the numbers inside the TreeMap
 var numberFormat = d3.format(",d");
@@ -16,6 +15,8 @@ var svgCanvas = d3.select("#vis")
 				  .attr("width", width)
 				  .attr("height", height);
 
+var textScale = d3.scaleLinear().domain([1, 2300]).range([5, 12])
+
 //Reading the data
 d3.json("datasets/titanic_tree.json", function(error, data){
 	if(error) throw error;
@@ -26,7 +27,9 @@ d3.json("datasets/titanic_tree.json", function(error, data){
 	//Setting up the treemap layout
 	var treeMapLayout = d3.treemap()
 						  .size([width, height])
-						  .padding(padding)
+						  .paddingOuter(3)
+    					  .paddingTop(16)
+    					  .paddingInner(3)
 						  .round(true);
 
 	//Summing and sorting data array for data binding in further steps, and obtaining descendants of the root node
@@ -43,29 +46,30 @@ d3.json("datasets/titanic_tree.json", function(error, data){
 						 .attr("class", "node")
 						 .each(function(d){d.node = this})
 						 .on("mouseover", hovered(true))
-						 .on("mouseout", hovered(false))
-						 ;
+						 .on("mouseout", hovered(false));						 ;
 	
+	//Add rectangles to the groups
 	treeMapCells.append("rect")
 				.attr("id", function(d, i){return "rect-" + d.data.name + "-" + i; })
 				.attr("width", function(d) {return d.x1 - d.x0;})
 				.attr("height", function(d) {return d.y1 - d.y0;})
-				.style("fill", function(d) {return colorScale(d.depth)});
+				.style("fill", function(d) {return colorScale(d.depth)});				
 
-  	treeMapCells.append("clipPath")
-      			.attr("id", function(d, i) { return "clip-" + d.data.name + "-" + i; })
-    			.append("use")
-      			.attr("xlink:href", function(d, i) {return "#rect-" + d.data.name + "-" + i; });				
+	//Add the text to the tiles			
+  	treeMapCells.append("text")
+    			.attr("class", "plotText")
+  				.attr("dx", 1)
+    			.attr("dy", 9)
+    			.attr("font-size", 10)
+    			.text(function(d) {if(d.value == 0) {return null} else {return d.data.name + " " + numberFormat(d.value); }});
 
-  	var label = treeMapCells.append("text")
-      .attr("clip-path", function(d, i) { return "url(#clip-" + d.data.name + "-"+ i + ")"; });
-
+    //Add the tooltips to the tiles
     treeMapCells.append("title")
-      .text(function(d) {return d.data.name + "\n" + numberFormat(d.value); });  
+      			.text(function(d) {return d.data.name + "\n" + numberFormat(d.value); });  
 
 })
 
-
+//Function to establish the actions to be performed on mouse hover
 function hovered(hover) {
   return function(d) {
     d3.selectAll(d.ancestors().map(function(d) { return d.node; }))
