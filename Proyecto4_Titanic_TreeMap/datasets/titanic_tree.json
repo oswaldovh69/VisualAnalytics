@@ -1,162 +1,162 @@
 {
-  "name": "Survived",
+  "name": "People",
   "children": [
     {
-      "name": "No",
+      "name": "Died",
       "children": [
         {
-          "name": "Male",
+          "name": "Males",
           "children": [
             {
-              "name": "Child",
+              "name": "Children",
               "children": [
                 {
-                  "name": "First class",
-                  "Age": "Child",
-                  "Class": "First class",
+                  "name": "First class passengers",
+                  "Age": "Children",
+                  "Class": "First class passengers",
                   "Number": 0,
-                  "Sex": "Male",
-                  "Survived": "No"
+                  "Sex": "Males",
+                  "People": "Died"
                 },
                 {
-                  "name": "Second class",
-                  "Age": "Child",
-                  "Class": "Second class",
+                  "name": "Second class passengers",
+                  "Age": "Children",
+                  "Class": "Second class passengers",
                   "Number": 0,
-                  "Sex": "Male",
-                  "Survived": "No"
+                  "Sex": "Males",
+                  "People": "Died"
                 },
                 {
-                  "name": "Third class",
-                  "Age": "Child",
-                  "Class": "Third class",
+                  "name": "Third class passengers",
+                  "Age": "Children",
+                  "Class": "Third class passengers",
                   "Number": 35,
-                  "Sex": "Male",
-                  "Survived": "No"
+                  "Sex": "Males",
+                  "People": "Died"
                 },
                 {
                   "name": "Crew",
-                  "Age": "Child",
+                  "Age": "Children",
                   "Class": "Crew",
                   "Number": 0,
-                  "Sex": "Male",
-                  "Survived": "No"
+                  "Sex": "Males",
+                  "People": "Died"
                 }
               ]
             },
             {
-              "name": "Adult",
+              "name": "Adults",
               "children": [
                 {
-                  "name": "First class",
-                  "Age": "Adult",
-                  "Class": "First class",
+                  "name": "First class passengers",
+                  "Age": "Adults",
+                  "Class": "First class passengers",
                   "Number": 118,
-                  "Sex": "Male",
-                  "Survived": "No"
+                  "Sex": "Males",
+                  "People": "Died"
                 },
                 {
-                  "name": "Second class",
-                  "Age": "Adult",
-                  "Class": "Second class",
+                  "name": "Second class passengers",
+                  "Age": "Adults",
+                  "Class": "Second class passengers",
                   "Number": 154,
-                  "Sex": "Male",
-                  "Survived": "No"
+                  "Sex": "Males",
+                  "People": "Died"
                 },
                 {
-                  "name": "Third class",
-                  "Age": "Adult",
-                  "Class": "Third class",
+                  "name": "Third class passengers",
+                  "Age": "Adults",
+                  "Class": "Third class passengers",
                   "Number": 387,
-                  "Sex": "Male",
-                  "Survived": "No"
+                  "Sex": "Males",
+                  "People": "Died"
                 },
                 {
                   "name": "Crew",
-                  "Age": "Adult",
+                  "Age": "Adults",
                   "Class": "Crew",
                   "Number": 670,
-                  "Sex": "Male",
-                  "Survived": "No"
+                  "Sex": "Males",
+                  "People": "Died"
                 }
               ]
             }
           ]
         },
         {
-          "name": "Female",
+          "name": "Females",
           "children": [
             {
-              "name": "Child",
+              "name": "Children",
               "children": [
                 {
-                  "name": "First class",
-                  "Age": "Child",
-                  "Class": "First class",
+                  "name": "First class passengers",
+                  "Age": "Children",
+                  "Class": "First class passengers",
                   "Number": 0,
-                  "Sex": "Female",
-                  "Survived": "No"
+                  "Sex": "Females",
+                  "People": "Died"
                 },
                 {
-                  "name": "Second class",
-                  "Age": "Child",
-                  "Class": "Second class",
+                  "name": "Second class passengers",
+                  "Age": "Children",
+                  "Class": "Second class passengers",
                   "Number": 0,
-                  "Sex": "Female",
-                  "Survived": "No"
+                  "Sex": "Females",
+                  "People": "Died"
                 },
                 {
-                  "name": "Third class",
-                  "Age": "Child",
-                  "Class": "Third class",
+                  "name": "Third class passengers",
+                  "Age": "Children",
+                  "Class": "Third class passengers",
                   "Number": 17,
-                  "Sex": "Female",
-                  "Survived": "No"
+                  "Sex": "Females",
+                  "People": "Died"
                 },
                 {
                   "name": "Crew",
-                  "Age": "Child",
+                  "Age": "Children",
                   "Class": "Crew",
                   "Number": 0,
-                  "Sex": "Female",
-                  "Survived": "No"
+                  "Sex": "Females",
+                  "People": "Died"
                 }
               ]
             },
             {
-              "name": "Adult",
+              "name": "Adults",
               "children": [
                 {
-                  "name": "First class",
-                  "Age": "Adult",
-                  "Class": "First class",
+                  "name": "First class passengers",
+                  "Age": "Adults",
+                  "Class": "First class passengers",
                   "Number": 4,
-                  "Sex": "Female",
-                  "Survived": "No"
+                  "Sex": "Females",
+                  "People": "Died"
                 },
                 {
-                  "name": "Second class",
-                  "Age": "Adult",
-                  "Class": "Second class",
+                  "name": "Second class passengers",
+                  "Age": "Adults",
+                  "Class": "Second class passengers",
                   "Number": 13,
-                  "Sex": "Female",
-                  "Survived": "No"
+                  "Sex": "Females",
+                  "People": "Died"
                 },
                 {
-                  "name": "Third class",
-                  "Age": "Adult",
-                  "Class": "Third class",
+                  "name": "Third class passengers",
+                  "Age": "Adults",
+                  "Class": "Third class passengers",
                   "Number": 89,
-                  "Sex": "Female",
-                  "Survived": "No"
+                  "Sex": "Females",
+                  "People": "Died"
                 },
                 {
                   "name": "Crew",
-                  "Age": "Adult",
+                  "Age": "Adults",
                   "Class": "Crew",
                   "Number": 3,
-                  "Sex": "Female",
-                  "Survived": "No"
+                  "Sex": "Females",
+                  "People": "Died"
                 }
               ]
             }
@@ -165,161 +165,161 @@
       ]
     },
     {
-      "name": "Yes",
+      "name": "Survived",
       "children": [
         {
-          "name": "Male",
+          "name": "Males",
           "children": [
             {
-              "name": "Child",
+              "name": "Children",
               "children": [
                 {
-                  "name": "First class",
-                  "Age": "Child",
-                  "Class": "First class",
+                  "name": "First class passengers",
+                  "Age": "Children",
+                  "Class": "First class passengers",
                   "Number": 5,
-                  "Sex": "Male",
-                  "Survived": "Yes"
+                  "Sex": "Males",
+                  "People": "Survived"
                 },
                 {
-                  "name": "Second class",
-                  "Age": "Child",
-                  "Class": "Second class",
+                  "name": "Second class passengers",
+                  "Age": "Children",
+                  "Class": "Second class passengers",
                   "Number": 11,
-                  "Sex": "Male",
-                  "Survived": "Yes"
+                  "Sex": "Males",
+                  "People": "Survived"
                 },
                 {
-                  "name": "Third class",
-                  "Age": "Child",
-                  "Class": "Third class",
+                  "name": "Third class passengers",
+                  "Age": "Children",
+                  "Class": "Third class passengers",
                   "Number": 13,
-                  "Sex": "Male",
-                  "Survived": "Yes"
+                  "Sex": "Males",
+                  "People": "Survived"
                 },
                 {
                   "name": "Crew",
-                  "Age": "Child",
+                  "Age": "Children",
                   "Class": "Crew",
                   "Number": 0,
-                  "Sex": "Male",
-                  "Survived": "Yes"
+                  "Sex": "Males",
+                  "People": "Survived"
                 }
               ]
             },
             {
-              "name": "Adult",
+              "name": "Adults",
               "children": [
                 {
-                  "name": "First class",
-                  "Age": "Adult",
-                  "Class": "First class",
+                  "name": "First class passengers",
+                  "Age": "Adults",
+                  "Class": "First class passengers",
                   "Number": 57,
-                  "Sex": "Male",
-                  "Survived": "Yes"
+                  "Sex": "Males",
+                  "People": "Survived"
                 },
                 {
-                  "name": "Second class",
-                  "Age": "Adult",
-                  "Class": "Second class",
+                  "name": "Second class passengers",
+                  "Age": "Adults",
+                  "Class": "Second class passengers",
                   "Number": 14,
-                  "Sex": "Male",
-                  "Survived": "Yes"
+                  "Sex": "Males",
+                  "People": "Survived"
                 },
                 {
-                  "name": "Third class",
-                  "Age": "Adult",
-                  "Class": "Third class",
+                  "name": "Third class passengers",
+                  "Age": "Adults",
+                  "Class": "Third class passengers",
                   "Number": 75,
-                  "Sex": "Male",
-                  "Survived": "Yes"
+                  "Sex": "Males",
+                  "People": "Survived"
                 },
                 {
                   "name": "Crew",
-                  "Age": "Adult",
+                  "Age": "Adults",
                   "Class": "Crew",
                   "Number": 192,
-                  "Sex": "Male",
-                  "Survived": "Yes"
+                  "Sex": "Males",
+                  "People": "Survived"
                 }
               ]
             }
           ]
         },
         {
-          "name": "Female",
+          "name": "Females",
           "children": [
             {
-              "name": "Child",
+              "name": "Children",
               "children": [
                 {
-                  "name": "First class",
-                  "Age": "Child",
-                  "Class": "First class",
+                  "name": "First class passengers",
+                  "Age": "Children",
+                  "Class": "First class passengers",
                   "Number": 1,
-                  "Sex": "Female",
-                  "Survived": "Yes"
+                  "Sex": "Females",
+                  "People": "Survived"
                 },
                 {
-                  "name": "Second class",
-                  "Age": "Child",
-                  "Class": "Second class",
+                  "name": "Second class passengers",
+                  "Age": "Children",
+                  "Class": "Second class passengers",
                   "Number": 13,
-                  "Sex": "Female",
-                  "Survived": "Yes"
+                  "Sex": "Females",
+                  "People": "Survived"
                 },
                 {
-                  "name": "Third class",
-                  "Age": "Child",
-                  "Class": "Third class",
+                  "name": "Third class passengers",
+                  "Age": "Children",
+                  "Class": "Third class passengers",
                   "Number": 14,
-                  "Sex": "Female",
-                  "Survived": "Yes"
+                  "Sex": "Females",
+                  "People": "Survived"
                 },
                 {
                   "name": "Crew",
-                  "Age": "Child",
+                  "Age": "Children",
                   "Class": "Crew",
                   "Number": 0,
-                  "Sex": "Female",
-                  "Survived": "Yes"
+                  "Sex": "Females",
+                  "People": "Survived"
                 }
               ]
             },
             {
-              "name": "Adult",
+              "name": "Adults",
               "children": [
                 {
-                  "name": "First class",
-                  "Age": "Adult",
-                  "Class": "First class",
+                  "name": "First class passengers",
+                  "Age": "Adults",
+                  "Class": "First class passengers",
                   "Number": 140,
-                  "Sex": "Female",
-                  "Survived": "Yes"
+                  "Sex": "Females",
+                  "People": "Survived"
                 },
                 {
-                  "name": "Second class",
-                  "Age": "Adult",
-                  "Class": "Second class",
+                  "name": "Second class passengers",
+                  "Age": "Adults",
+                  "Class": "Second class passengers",
                   "Number": 80,
-                  "Sex": "Female",
-                  "Survived": "Yes"
+                  "Sex": "Females",
+                  "People": "Survived"
                 },
                 {
-                  "name": "Third class",
-                  "Age": "Adult",
-                  "Class": "Third class",
+                  "name": "Third class passengers",
+                  "Age": "Adults",
+                  "Class": "Third class passengers",
                   "Number": 76,
-                  "Sex": "Female",
-                  "Survived": "Yes"
+                  "Sex": "Females",
+                  "People": "Survived"
                 },
                 {
                   "name": "Crew",
-                  "Age": "Adult",
+                  "Age": "Adults",
                   "Class": "Crew",
                   "Number": 20,
-                  "Sex": "Female",
-                  "Survived": "Yes"
+                  "Sex": "Females",
+                  "People": "Survived"
                 }
               ]
             }
