@@ -257,5 +257,6 @@ legendHuman.append('rect')
   .attr('y', legendRectSize - legendSpacing)
   .attr ("font-size", "14px")
   .text(function(d, i) { return d;});
-  
+
 });
+

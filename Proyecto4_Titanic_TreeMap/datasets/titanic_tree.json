@@ -1,0 +1,331 @@
+{
+  "name": "Survived",
+  "children": [
+    {
+      "name": "No",
+      "children": [
+        {
+          "name": "Male",
+          "children": [
+            {
+              "name": "Child",
+              "children": [
+                {
+                  "name": "First",
+                  "Age": "Child",
+                  "Class": "First",
+                  "Number": 0,
+                  "Sex": "Male",
+                  "Survived": "No"
+                },
+                {
+                  "name": "Second",
+                  "Age": "Child",
+                  "Class": "Second",
+                  "Number": 0,
+                  "Sex": "Male",
+                  "Survived": "No"
+                },
+                {
+                  "name": "Third",
+                  "Age": "Child",
+                  "Class": "Third",
+                  "Number": 35,
+                  "Sex": "Male",
+                  "Survived": "No"
+                },
+                {
+                  "name": "Crew",
+                  "Age": "Child",
+                  "Class": "Crew",
+                  "Number": 0,
+                  "Sex": "Male",
+                  "Survived": "No"
+                }
+              ]
+            },
+            {
+              "name": "Adult",
+              "children": [
+                {
+                  "name": "First",
+                  "Age": "Adult",
+                  "Class": "First",
+                  "Number": 118,
+                  "Sex": "Male",
+                  "Survived": "No"
+                },
+                {
+                  "name": "Second",
+                  "Age": "Adult",
+                  "Class": "Second",
+                  "Number": 154,
+                  "Sex": "Male",
+                  "Survived": "No"
+                },
+                {
+                  "name": "Third",
+                  "Age": "Adult",
+                  "Class": "Third",
+                  "Number": 387,
+                  "Sex": "Male",
+                  "Survived": "No"
+                },
+                {
+                  "name": "Crew",
+                  "Age": "Adult",
+                  "Class": "Crew",
+                  "Number": 670,
+                  "Sex": "Male",
+                  "Survived": "No"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Female",
+          "children": [
+            {
+              "name": "Child",
+              "children": [
+                {
+                  "name": "First",
+                  "Age": "Child",
+                  "Class": "First",
+                  "Number": 0,
+                  "Sex": "Female",
+                  "Survived": "No"
+                },
+                {
+                  "name": "Second",
+                  "Age": "Child",
+                  "Class": "Second",
+                  "Number": 0,
+                  "Sex": "Female",
+                  "Survived": "No"
+                },
+                {
+                  "name": "Third",
+                  "Age": "Child",
+                  "Class": "Third",
+                  "Number": 17,
+                  "Sex": "Female",
+                  "Survived": "No"
+                },
+                {
+                  "name": "Crew",
+                  "Age": "Child",
+                  "Class": "Crew",
+                  "Number": 0,
+                  "Sex": "Female",
+                  "Survived": "No"
+                }
+              ]
+            },
+            {
+              "name": "Adult",
+              "children": [
+                {
+                  "name": "First",
+                  "Age": "Adult",
+                  "Class": "First",
+                  "Number": 4,
+                  "Sex": "Female",
+                  "Survived": "No"
+                },
+                {
+                  "name": "Second",
+                  "Age": "Adult",
+                  "Class": "Second",
+                  "Number": 13,
+                  "Sex": "Female",
+                  "Survived": "No"
+                },
+                {
+                  "name": "Third",
+                  "Age": "Adult",
+                  "Class": "Third",
+                  "Number": 89,
+                  "Sex": "Female",
+                  "Survived": "No"
+                },
+                {
+                  "name": "Crew",
+                  "Age": "Adult",
+                  "Class": "Crew",
+                  "Number": 3,
+                  "Sex": "Female",
+                  "Survived": "No"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Yes",
+      "children": [
+        {
+          "name": "Male",
+          "children": [
+            {
+              "name": "Child",
+              "children": [
+                {
+                  "name": "First",
+                  "Age": "Child",
+                  "Class": "First",
+                  "Number": 5,
+                  "Sex": "Male",
+                  "Survived": "Yes"
+                },
+                {
+                  "name": "Second",
+                  "Age": "Child",
+                  "Class": "Second",
+                  "Number": 11,
+                  "Sex": "Male",
+                  "Survived": "Yes"
+                },
+                {
+                  "name": "Third",
+                  "Age": "Child",
+                  "Class": "Third",
+                  "Number": 13,
+                  "Sex": "Male",
+                  "Survived": "Yes"
+                },
+                {
+                  "name": "Crew",
+                  "Age": "Child",
+                  "Class": "Crew",
+                  "Number": 0,
+                  "Sex": "Male",
+                  "Survived": "Yes"
+                }
+              ]
+            },
+            {
+              "name": "Adult",
+              "children": [
+                {
+                  "name": "First",
+                  "Age": "Adult",
+                  "Class": "First",
+                  "Number": 57,
+                  "Sex": "Male",
+                  "Survived": "Yes"
+                },
+                {
+                  "name": "Second",
+                  "Age": "Adult",
+                  "Class": "Second",
+                  "Number": 14,
+                  "Sex": "Male",
+                  "Survived": "Yes"
+                },
+                {
+                  "name": "Third",
+                  "Age": "Adult",
+                  "Class": "Third",
+                  "Number": 75,
+                  "Sex": "Male",
+                  "Survived": "Yes"
+                },
+                {
+                  "name": "Crew",
+                  "Age": "Adult",
+                  "Class": "Crew",
+                  "Number": 192,
+                  "Sex": "Male",
+                  "Survived": "Yes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Female",
+          "children": [
+            {
+              "name": "Child",
+              "children": [
+                {
+                  "name": "First",
+                  "Age": "Child",
+                  "Class": "First",
+                  "Number": 1,
+                  "Sex": "Female",
+                  "Survived": "Yes"
+                },
+                {
+                  "name": "Second",
+                  "Age": "Child",
+                  "Class": "Second",
+                  "Number": 13,
+                  "Sex": "Female",
+                  "Survived": "Yes"
+                },
+                {
+                  "name": "Third",
+                  "Age": "Child",
+                  "Class": "Third",
+                  "Number": 14,
+                  "Sex": "Female",
+                  "Survived": "Yes"
+                },
+                {
+                  "name": "Crew",
+                  "Age": "Child",
+                  "Class": "Crew",
+                  "Number": 0,
+                  "Sex": "Female",
+                  "Survived": "Yes"
+                }
+              ]
+            },
+            {
+              "name": "Adult",
+              "children": [
+                {
+                  "name": "First",
+                  "Age": "Adult",
+                  "Class": "First",
+                  "Number": 140,
+                  "Sex": "Female",
+                  "Survived": "Yes"
+                },
+                {
+                  "name": "Second",
+                  "Age": "Adult",
+                  "Class": "Second",
+                  "Number": 80,
+                  "Sex": "Female",
+                  "Survived": "Yes"
+                },
+                {
+                  "name": "Third",
+                  "Age": "Adult",
+                  "Class": "Third",
+                  "Number": 76,
+                  "Sex": "Female",
+                  "Survived": "Yes"
+                },
+                {
+                  "name": "Crew",
+                  "Age": "Adult",
+                  "Class": "Crew",
+                  "Number": 20,
+                  "Sex": "Female",
+                  "Survived": "Yes"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

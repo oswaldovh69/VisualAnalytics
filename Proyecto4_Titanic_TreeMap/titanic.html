@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FOXP2 Interactome | Language evolution</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="css/titanic.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Average|Oxygen:400,700" rel="stylesheet">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="https://ayala-usma.github.io/VisualAnalytics/">David Ayala-Usma's Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://github.com/ayala-usma/VisualAnalytics/tree/master/Proyecto4_Titanic_TreeMap">Project repository <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+<div class="jumbotron jumbotron-fluid" style="background-color: #b3c2bf">
+	<div class="container-fluid" id="headertitle">
+		  	<h1 class="pagetitle">Titanic sinks with (more or less) 1,800 on board: Mostly women and children saved</h1>
+	</div>
+</div>
+  
+
+<div class="container-fluid" id="textbody">
+
+<div class="container">
+
+ <div class="row textsection">
+      <h3>Historical context</h3>
+ </div>
+ <div class="row">
+    <div class="col">
+      <p>In 2001, a Britain-based team led by <a href="http://www.researchgate.net/profile/Anthony_Monaco/"> Dr. Anthony Monaco </a> found that mutations in a single gene called <a href="https://www.nature.com/nature/journal/v413/n6855/full/413519a0.html">FOXP2</a> underlie a rare inherited speech and language disorder inherited as an autosomal-dominant monogenic trait in three generations of a family. The gene encodes a transcription factor protein that is believed to play a central role in the evolution of language in mammals by facilitating the mechanical aspects of sound articulation as suggested by a study published in <a href="https://www.nature.com/nature/journal/v462/n7270/full/nature08549.html">Nature on 2009</a> by a team of researchers under supervision of <a href="http://neuroscience.onair.cc/geschwind-lab-ucla/"> Dr. Daniel Geschwind</a>. In the study Geschwind and collaborators showed that 61 genes increased and 51 genes decreased their expression rate when human FOXP2 was overexpressed in human brains as compared to the same treatment with the homologous protein found in chimps, <a href="http://www.nature.com/news/2009/091111/full/news.2009.1079.html">revealing an interesting role in the regulation of the soft-tissue development-related molecular targets</a> of the affected genes. Since homologous of this transcription factor can be found across the animal kingdom I wanted to <strong>visually explore</strong> the known interactions of the FOXP2 across vertebrate species in order to find molecular cues of the protein interaction networks that might explain the ability of humans to produce speech.</p>
+      </div>
+      <div class="col">
+        <img src="http://sciencenordic.com/sites/default/files/imagecache/300x/Titanic-New_York_Herald_front_page_None_0.jpeg">
+      </div>
+  </div>
+
+   <div class="row textsection">
+      <h3>Data characterization</h3>
+ </div>
+
+  <div class="row">
+    <div class="col">
+      <p>The dataset was obtained from the <a href="https://academic.oup.com/nar/article-lookup/doi/10.1093/nar/gkw289">GIANT API</a>, an initiative hosted by <a href="http://function.princeton.edu/">Dr. Olga Troyanskaya's Laboratory</a> for Functional Genomics and Gene Network Analysis, by querying the database to get known protein interactions of FOXP2 in the human embryo, mice (<i>Mus musculus</i>), and zebrafish (<i>Danio rerio</i>) animal developmental models. The information about molecular function of all the recovered proteins was manually curated using <a href="http://www.uniprot.org/uniprot/">UniProtKB database</a> and six main categories were recovered: Cell signaling, Immunity, Metabolism, Molecular traffic, Structural, Transcription factor, and Unknown. The datasets have the genes as their nodes and place a link between two nodes if there is any line of evidence of interaction, the weight of the link is a metric of the level of evidence of such interaction. Due to the density of the connections in the networks, only the top 2% of links sorted by weight was drawn. In the case of zebrafish the top 5% of the links were drawn due to the sparsity of the network.</p>
+
+      <p>To interact with the following visualization please hover with the mouse over the nodes of interest. The <strong>color of the nodes</strong> indicate their <strong>molecular function</strong>. The <strong>nodes with direct interaction</strong> with the selected node appear with their <strong>links highlighted</strong>, the <strong>thickness of the highlighted link</strong> is correlated with the <strong>level of support of such molecular interaction</strong>, the <strong>color of the highlighted link</strong> indicates the <strong>direction of the interaction</strong>, and the <strong>nodes that do not interact</strong> with the selected node (i.e. not any registered interaction at any support level) <strong>fade on mouse over</strong>.</p>
+      </div>
+  </div>
+      
+ <div class="row textsection">
+      <h3>FOXP2 in humans interacts with master regulator TCF4 and proapoptotic KREMEN1</h3>
+ </div>
+
+ <div class="row">
+    <div class="col">
+      <ul>
+      	<li>FOXP2 interacts with TCF4 transcription factor, KREMEN1 protein, and NFYC transcription factor.</li>
+        <li>TCF4 is heavily involved in central nervous system development and mutations in that gene correlate with autism spectrum disorders, and it seems to be a master regulator of the network since it regulates several nodes with different biological functions.</li>
+      	<li>NFYC is involved in gliomas (cancers of nervous system) .</li>
+      	<li>KREMEN1 signaling proteins are involved in Wnt/Beta-catenin signaling pathway, crucial in general developmental processes.</li>
+
+      </ul>
+      </div>
+  </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="figurecontainer">
+	<div class="row">
+		<div class="span6 well">
+		<div id="vis"></div>
+		<script src="js/titanic_vis.js"></script>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+  .axisLabels
+  {
+		font-family: 'Oxygen', sans-serif;    
+    font-size: 15px;
+  }
+  
+  .chartTitle
+  {
+    font-size: 17px;
+    font-family: 'Oxygen';
+  }
+
+.nav-link
+{
+   font-family: 'Oxygen', sans-serif;
+   font-size: 14px;
+}
+
+.pagetitle
+{
+  padding-top: 70px;
+  color: white;
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+
+.span6
+{
+  float: none;
+  margin: 0 auto;
+}
+
+p, li{
+  font-family: 'Average', serif;
+  font-size: 18px;
+  text-align: justify;
+}
+
+#textbody, #figurecontainer
+{
+  padding-bottom: 40px;
+}
+
+.textsection
+{
+    padding-top: 20px;
+}
+
+text {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+svg {
+  width: 100%;
+}
+
+.link {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 1px;
+}
+
+.node {
+  stroke: #e8e8e8;
+  stroke-width: 0px;
+}
+
+circle {
+  cursor: pointer;
+}
