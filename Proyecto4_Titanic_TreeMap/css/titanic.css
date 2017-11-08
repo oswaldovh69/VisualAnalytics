@@ -49,10 +49,6 @@ p, li{
     padding-top: 20px;
 }
 
-text {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-}
-
 svg {
   width: 100%;
 }
@@ -63,11 +59,18 @@ svg {
   stroke-width: 1px;
 }
 
-.node {
-  stroke: #e8e8e8;
-  stroke-width: 0px;
+text {
+  font: 10px sans-serif;
 }
 
-circle {
-  cursor: pointer;
+tspan:last-child {
+  font-size: 9px;
+  fill-opacity: 0.8;
 }
+
+.node rect {
+  shape-rendering: crispEdges;
+}
+
+.node--hover rect {
+  stroke: #000;
