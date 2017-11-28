@@ -84,7 +84,7 @@ d3.json("datasets/red_contratistas.json", function(error, data) {
   //Ticked function to establish the simulation behavior
 	function ticked() {
 		drawingNodes.attr("transform", positionNode);
-        drawingLinks.attr("d", positionLink);
+        //drawingLinks.attr("d", positionLink);
 
 	}
   
@@ -187,15 +187,6 @@ d3.json("datasets/red_contratistas.json", function(error, data) {
             //drawingLinks.style("stroke-width", function(o){return scale_converter(o.weight)});          
         };
     }
-
-    //Restore original colors and opacity after mouse out
-        function mouseOut() {
-            drawingNode.style("stroke-opacity", 1);
-            drawingNode.style("fill-opacity", 1);
-            drawingLinks.style("stroke-opacity", 1);
-            drawingLinks.style("stroke", "#ddd");
-          	drawingLinks.style("stroke-width", 1);
-        }
       
 
 
